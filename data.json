@@ -1,0 +1,4581 @@
+{
+  "version": "2.0.0",
+  "exportedAt": "2026-09-18T19:19:58.482457Z",
+  "languages": [
+    {
+      "code": "en",
+      "name": "English"
+    },
+    {
+      "code": "hi",
+      "name": "Hindi"
+    },
+    {
+      "code": "hng",
+      "name": "Hinglish"
+    },
+    {
+      "code": "bn",
+      "name": "Bengali"
+    }
+  ],
+  "categories": [
+    {
+      "id": "cat-greetings",
+      "name": "Greetings & First Response",
+      "icon": "headset",
+      "color": "#f59e0b"
+    },
+    {
+      "id": "cat-orders",
+      "name": "Orders & Delivery",
+      "icon": "truck",
+      "color": "#10b981"
+    },
+    {
+      "id": "cat-products",
+      "name": "Products & Inventory",
+      "icon": "package",
+      "color": "#06b6d4"
+    },
+    {
+      "id": "cat-payments",
+      "name": "Payments & Billing",
+      "icon": "credit-card",
+      "color": "#8b5cf6"
+    },
+    {
+      "id": "cat-support",
+      "name": "Customer Support",
+      "icon": "life-buoy",
+      "color": "#ec4899"
+    },
+    {
+      "id": "cat-marketing",
+      "name": "Marketing & Promotions",
+      "icon": "megaphone",
+      "color": "#f43f5e"
+    },
+    {
+      "id": "cat-account",
+      "name": "Account & Technical",
+      "icon": "user-cog",
+      "color": "#3b82f6"
+    },
+    {
+      "id": "cart-recovery",
+      "name": "Cart Recovery",
+      "icon": "shopping-cart",
+      "color": "#14b8a6"
+    },
+    {
+      "id": "cat-reviews",
+      "name": "Reviews & Feedback",
+      "icon": "star",
+      "color": "#eab308"
+    },
+    {
+      "id": "cat-returns",
+      "name": "Returns & Refunds",
+      "icon": "rotate-ccw",
+      "color": "#a855f7"
+    },
+    {
+      "id": "cat-whatsapp",
+      "name": "WhatsApp & Chat",
+      "icon": "message-circle",
+      "color": "#22c55e"
+    },
+    {
+      "id": "cat-vendor",
+      "name": "Vendor & Multi-branch",
+      "icon": "store",
+      "color": "#64748b"
+    }
+  ],
+  "subcategories": [
+    {
+      "id": "sub-welcome",
+      "name": "Welcome",
+      "categoryId": "cat-greetings"
+    },
+    {
+      "id": "sub-first-reply",
+      "name": "First Reply",
+      "categoryId": "cat-greetings"
+    },
+    {
+      "id": "sub-away",
+      "name": "Away & Availability",
+      "categoryId": "cat-greetings"
+    },
+    {
+      "id": "sub-thanks",
+      "name": "Thank You",
+      "categoryId": "cat-greetings"
+    },
+    {
+      "id": "sub-holiday",
+      "name": "Holiday Greetings",
+      "categoryId": "cat-greetings"
+    },
+    {
+      "id": "sub-order-confirm",
+      "name": "Order Confirmation",
+      "categoryId": "cat-orders"
+    },
+    {
+      "id": "sub-order-status",
+      "name": "Order Status",
+      "categoryId": "cat-orders"
+    },
+    {
+      "id": "sub-dispatch",
+      "name": "Dispatch & Tracking",
+      "categoryId": "cat-orders"
+    },
+    {
+      "id": "sub-delivery",
+      "name": "Out for Delivery",
+      "categoryId": "cat-orders"
+    },
+    {
+      "id": "sub-delay",
+      "name": "Delay Apology",
+      "categoryId": "cat-orders"
+    },
+    {
+      "id": "sub-cod",
+      "name": "Cash on Delivery",
+      "categoryId": "cat-orders"
+    },
+    {
+      "id": "sub-stock",
+      "name": "Stock Inquiry",
+      "categoryId": "cat-products"
+    },
+    {
+      "id": "sub-product-info",
+      "name": "Product Info",
+      "categoryId": "cat-products"
+    },
+    {
+      "id": "sub-variants",
+      "name": "Variants & Add-ons",
+      "categoryId": "cat-products"
+    },
+    {
+      "id": "sub-out-of-stock",
+      "name": "Out of Stock",
+      "categoryId": "cat-products"
+    },
+    {
+      "id": "sub-customization",
+      "name": "Customization",
+      "categoryId": "cat-products"
+    },
+    {
+      "id": "sub-payment-fail",
+      "name": "Payment Failed",
+      "categoryId": "cat-payments"
+    },
+    {
+      "id": "sub-refund-status",
+      "name": "Refund Status",
+      "categoryId": "cat-payments"
+    },
+    {
+      "id": "sub-invoice",
+      "name": "Invoice & GST",
+      "categoryId": "cat-payments"
+    },
+    {
+      "id": "sub-upi",
+      "name": "UPI & Wallets",
+      "categoryId": "cat-payments"
+    },
+    {
+      "id": "sub-coupons",
+      "name": "Coupons & Discounts",
+      "categoryId": "cat-payments"
+    },
+    {
+      "id": "sub-escalation",
+      "name": "Escalation",
+      "categoryId": "cat-support"
+    },
+    {
+      "id": "sub-complaint",
+      "name": "Complaint Handling",
+      "categoryId": "cat-support"
+    },
+    {
+      "id": "sub-satisfaction",
+      "name": "Satisfaction Check",
+      "categoryId": "cat-support"
+    },
+    {
+      "id": "sub-followup",
+      "name": "Follow-up",
+      "categoryId": "cat-support"
+    },
+    {
+      "id": "sub-faq",
+      "name": "FAQ Answers",
+      "categoryId": "cat-support"
+    },
+    {
+      "id": "sub-offers",
+      "name": "Offers & Sales",
+      "categoryId": "cat-marketing"
+    },
+    {
+      "id": "sub-launch",
+      "name": "Product Launch",
+      "categoryId": "cat-marketing"
+    },
+    {
+      "id": "sub-festive",
+      "name": "Festive Campaigns",
+      "categoryId": "cat-marketing"
+    },
+    {
+      "id": "sub-loyalty",
+      "name": "Loyalty & Rewards",
+      "categoryId": "cat-marketing"
+    },
+    {
+      "id": "sub-login",
+      "name": "Login Issues",
+      "categoryId": "cat-account"
+    },
+    {
+      "id": "sub-password",
+      "name": "Password Reset",
+      "categoryId": "cat-account"
+    },
+    {
+      "id": "sub-store-setup",
+      "name": "Store Setup",
+      "categoryId": "cat-account"
+    },
+    {
+      "id": "sub-plugin",
+      "name": "Plugin Help",
+      "categoryId": "cat-account"
+    },
+    {
+      "id": "sub-domain",
+      "name": "Domain & DNS",
+      "categoryId": "cat-account"
+    },
+    {
+      "id": "sub-abandoned",
+      "name": "Abandoned Cart",
+      "categoryId": "cart-recovery"
+    },
+    {
+      "id": "sub-reminder",
+      "name": "Reminder Nudge",
+      "categoryId": "cart-recovery"
+    },
+    {
+      "id": "sub-incentive",
+      "name": "Incentive Offer",
+      "categoryId": "cart-recovery"
+    },
+    {
+      "id": "sub-wishlist",
+      "name": "Wishlist Reminder",
+      "categoryId": "cart-recovery"
+    },
+    {
+      "id": "sub-review-request",
+      "name": "Review Request",
+      "categoryId": "cat-reviews"
+    },
+    {
+      "id": "sub-review-reply",
+      "name": "Reply to Review",
+      "categoryId": "cat-reviews"
+    },
+    {
+      "id": "sub-feedback",
+      "name": "Feedback Collection",
+      "categoryId": "cat-reviews"
+    },
+    {
+      "id": "sub-return-init",
+      "name": "Return Initiation",
+      "categoryId": "cat-returns"
+    },
+    {
+      "id": "sub-return-status",
+      "name": "Return Status",
+      "categoryId": "cat-returns"
+    },
+    {
+      "id": "sub-damage",
+      "name": "Damaged Product",
+      "categoryId": "cat-returns"
+    },
+    {
+      "id": "sub-wrong-item",
+      "name": "Wrong Item Received",
+      "categoryId": "cat-returns"
+    },
+    {
+      "id": "sub-wa-welcome",
+      "name": "WhatsApp Welcome",
+      "categoryId": "cat-whatsapp"
+    },
+    {
+      "id": "sub-wa-order",
+      "name": "WhatsApp Order Update",
+      "categoryId": "cat-whatsapp"
+    },
+    {
+      "id": "sub-wa-support",
+      "name": "WhatsApp Support",
+      "categoryId": "cat-whatsapp"
+    },
+    {
+      "id": "sub-vendor-onb",
+      "name": "Vendor Onboarding",
+      "categoryId": "cat-vendor"
+    },
+    {
+      "id": "sub-branch",
+      "name": "Branch Management",
+      "categoryId": "cat-vendor"
+    },
+    {
+      "id": "sub-payout",
+      "name": "Payout & Settlement",
+      "categoryId": "cat-vendor"
+    }
+  ],
+  "responses": [
+    {
+      "id": "resp-001",
+      "title": "Welcome New Customer",
+      "category": "Greetings & First Response",
+      "subcategory": "Welcome",
+      "translations": {
+        "en": "Hi {customer_name}, welcome to {store_name}! We're delighted to have you. Browse our catalogue and use code WELCOME10 for 10% off your first order. Happy shopping!",
+        "hi": "नमस्ते {customer_name}, {store_name} में आपका स्वागत है! हमें खुशी है कि आप हमारे साथ जुड़े। पहले ऑर्डर पर 10% छूट के लिए WELCOME10 कोड लागू करें।",
+        "hng": "Hi {customer_name}, {store_name} mein aapka swagat hai! Pehle order par 10% off ke liye WELCOME10 code use karein. Koi help chahiye toh bataiye.",
+        "bn": "নমস্কার {customer_name}, {store_name}-এ আপনাকে স্বাগতম! প্রথম অর্ডারে ১০% ছাড় পেতে WELCOME10 কোড ব্যবহার করুন।"
+      },
+      "tags": [
+        "welcome",
+        "new-customer",
+        "greeting"
+      ],
+      "favorite": true,
+      "usageCount": 107,
+      "createdAt": "2024-08-06T12:00:00Z",
+      "updatedAt": "2024-08-06T12:00:00Z"
+    },
+    {
+      "id": "resp-002",
+      "title": "Returning Customer Welcome",
+      "category": "Greetings & First Response",
+      "subcategory": "Welcome",
+      "translations": {
+        "en": "Hi {customer_name}, welcome back to {store_name}! We've added new products since your last visit. Your wishlist is saved and ready for checkout.",
+        "hi": "नमस्ते {customer_name}, {store_name} में वापसी पर स्वागत है! पिछली बार के बाद हमने कई नए प्रोडक्ट जोड़े हैं। आपकी विशलिस्ट सेव है।",
+        "hng": "Hi {customer_name}, wapas swagat hai! Naye products add hue hain. Aapki wishlist save hai, checkout kar sakte ho.",
+        "bn": "নমস্কার {customer_name}, {store_name}-এ ফিরে আসায় স্বাগতম! আপনার উইশলিস্ট সেভ করা আছে।"
+      },
+      "tags": [
+        "welcome",
+        "returning",
+        "greeting"
+      ],
+      "favorite": false,
+      "usageCount": 75,
+      "createdAt": "2024-07-30T12:00:00Z",
+      "updatedAt": "2024-07-31T12:00:00Z"
+    },
+    {
+      "id": "resp-003",
+      "title": "First-Time Buyer Welcome",
+      "category": "Greetings & First Response",
+      "subcategory": "Welcome",
+      "translations": {
+        "en": "Hi {customer_name}, thanks for choosing {store_name} for your first order! We'll make sure your experience is smooth. Track your order anytime from your account dashboard.",
+        "hi": "नमस्ते {customer_name}, पहला ऑर्डर {store_name} से चुनने के लिए धन्यवाद! ऑर्डर की ट्रैकिंग आप अपने अकाउंट से कभी भी कर सकते हैं।",
+        "hng": "Hi {customer_name}, pehla order ke liye dhanyawad! Tracking aap apne account dashboard se kabhi bhi kar sakte ho.",
+        "bn": "নমস্কার {customer_name}, প্রথম অর্ডারের জন্য ধন্যবাদ! অর্ডার ট্র্যাকিং আপনার অ্যাকাউন্ট থেকে করতে পারবেন।"
+      },
+      "tags": [
+        "welcome",
+        "first-order",
+        "greeting"
+      ],
+      "favorite": false,
+      "usageCount": 40,
+      "createdAt": "2024-09-01T12:00:00Z",
+      "updatedAt": "2024-09-06T12:00:00Z"
+    },
+    {
+      "id": "resp-004",
+      "title": "Vendor Partner Welcome",
+      "category": "Greetings & First Response",
+      "subcategory": "Welcome",
+      "translations": {
+        "en": "Hi {vendor_name}, welcome to the {store_name} vendor family! Your dashboard is ready. Add your first product to start selling across India. Our team is one message away for any help.",
+        "hi": "नमस्ते {vendor_name}, {store_name} वेंडर परिवार में आपका स्वागत है! आपका डैशबोर्ड तैयार है। पहला प्रोडक्ट जोड़कर भारत भर में बिक्री शुरू करें।",
+        "hng": "Hi {vendor_name}, vendor parivar mein swagat hai! Dashboard ready hai. Pehla product add karo aur selling start karo.",
+        "bn": "নমস্কার {vendor_name}, {store_name} ভেন্ডর পরিবারে স্বাগতম! আপনার ড্যাশবোর্ড প্রস্তুত।"
+      },
+      "tags": [
+        "welcome",
+        "vendor",
+        "partner"
+      ],
+      "favorite": false,
+      "usageCount": 178,
+      "createdAt": "2024-09-09T12:00:00Z",
+      "updatedAt": "2024-09-14T12:00:00Z"
+    },
+    {
+      "id": "resp-005",
+      "title": "App Download Welcome",
+      "category": "Greetings & First Response",
+      "subcategory": "Welcome",
+      "translations": {
+        "en": "Hi {customer_name}, thanks for downloading the {store_name} app! Use code APP15 for 15% off your first in-app order. Enjoy a faster shopping experience!",
+        "hi": "नमस्ते {customer_name}, {store_name} ऐप डाउनलोड करने के लिए धन्यवाद! ऐप में पहले ऑर्डर पर 15% छूट के लिए APP15 कोड लागू करें।",
+        "hng": "Hi {customer_name}, app ke liye dhanyawad! Pehle in-app order par 15% off ke liye APP15 use karein.",
+        "bn": "নমস্কার {customer_name}, অ্যাপ ডাউনলোডের জন্য ধন্যবাদ! APP15 কোড দিয়ে ১৫% ছাড় পান।"
+      },
+      "tags": [
+        "welcome",
+        "app",
+        "greeting"
+      ],
+      "favorite": false,
+      "usageCount": 144,
+      "createdAt": "2024-07-20T12:00:00Z",
+      "updatedAt": "2024-07-20T12:00:00Z"
+    },
+    {
+      "id": "resp-006",
+      "title": "WhatsApp Opt-in Welcome",
+      "category": "Greetings & First Response",
+      "subcategory": "Welcome",
+      "translations": {
+        "en": "Hi {customer_name}, thanks for opting into WhatsApp updates from {store_name}! You'll now receive order confirmations, offers, and delivery alerts here. Reply STOP to unsubscribe.",
+        "hi": "नमस्ते {customer_name}, {store_name} से WhatsApp अपडेट के लिए धन्यवाद! अब ऑर्डर, ऑफर और डिलीवरी अलर्ट यहीं मिलेंगे। अनसब्सक्राइब करने के लिए STOP लिखें।",
+        "hng": "Hi {customer_name}, WhatsApp updates ke liye dhanyawad! Order, offer aur delivery alerts yahin milenge. Unsubscribe karne ke liye STOP type karein.",
+        "bn": "নমস্কার {customer_name}, WhatsApp আপডেটের জন্য ধন্যবাদ! STOP লিখে আনসাবস্ক্রাইব করুন।"
+      },
+      "tags": [
+        "welcome",
+        "whatsapp",
+        "opt-in"
+      ],
+      "favorite": false,
+      "usageCount": 113,
+      "createdAt": "2024-08-09T12:00:00Z",
+      "updatedAt": "2024-08-09T12:00:00Z"
+    },
+    {
+      "id": "resp-007",
+      "title": "First Reply - General",
+      "category": "Greetings & First Response",
+      "subcategory": "First Reply",
+      "translations": {
+        "en": "Hi {customer_name}, thanks for reaching out to {store_name}. I've received your message and will get back with a complete answer within {response_time}. Your ticket reference is #{ticket_id}.",
+        "hi": "नमस्ते {customer_name}, {store_name} तक पहुँचने के लिए धन्यवाद। आपका संदेश मिल गया है, मैं {response_time} में पूरा उत्तर दूँगा। टिकट संख्या #{ticket_id}।",
+        "hng": "Hi {customer_name}, message mil gaya hai. {response_time} mein poora jawab dunga. Ticket number #{ticket_id}.",
+        "bn": "নমস্কার {customer_name}, আপনার বার্তা পেয়েছি। টিকিট নম্বর #{ticket_id}।"
+      },
+      "tags": [
+        "first-reply",
+        "general",
+        "acknowledgment"
+      ],
+      "favorite": true,
+      "usageCount": 97,
+      "createdAt": "2024-09-14T12:00:00Z",
+      "updatedAt": "2024-09-15T12:00:00Z"
+    },
+    {
+      "id": "resp-008",
+      "title": "First Reply - Order Query",
+      "category": "Greetings & First Response",
+      "subcategory": "First Reply",
+      "translations": {
+        "en": "Hi {customer_name}, I see you've asked about order #{order_id}. Let me pull up the details and revert in a few minutes. Your patience is appreciated.",
+        "hi": "नमस्ते {customer_name}, ऑर्डर #{order_id} के बारे में आपने पूछा है। मैं विवरण देखकर कुछ ही मिनटों में जवाब दूँगा।",
+        "hng": "Hi {customer_name}, order #{order_id} ke baare mein poocha hai. Details check karke few minutes mein reply dunga.",
+        "bn": "নমস্কার {customer_name}, অর্ডার #{order_id} সম্পর্কে বিস্তারিত জানিয়ে কয়েক মিনিটে উত্তর দিচ্ছি।"
+      },
+      "tags": [
+        "first-reply",
+        "order",
+        "acknowledgment"
+      ],
+      "favorite": false,
+      "usageCount": 134,
+      "createdAt": "2024-09-01T12:00:00Z",
+      "updatedAt": "2024-09-05T12:00:00Z"
+    },
+    {
+      "id": "resp-009",
+      "title": "First Reply - Product Query",
+      "category": "Greetings & First Response",
+      "subcategory": "First Reply",
+      "translations": {
+        "en": "Hi {customer_name}, thanks for asking about {product_name}. I'll share the complete details including pricing, availability, and shipping within {response_time}.",
+        "hi": "नमस्ते {customer_name}, {product_name} के बारे में पूछने के लिए धन्यवाद। मैं कीमत, उपलब्धता और शिपिंग के साथ {response_time} में जवाब दूँगा।",
+        "hng": "Hi {customer_name}, {product_name} ke liye dhanyawad. Price, stock aur shipping ke saath {response_time} mein reply dunga.",
+        "bn": "নমস্কার {customer_name}, {product_name} সম্পর্কে মূল্য, স্টক ও শিপিং সহ উত্তর দিচ্ছি।"
+      },
+      "tags": [
+        "first-reply",
+        "product",
+        "acknowledgment"
+      ],
+      "favorite": false,
+      "usageCount": 148,
+      "createdAt": "2024-09-14T12:00:00Z",
+      "updatedAt": "2024-09-15T12:00:00Z"
+    },
+    {
+      "id": "resp-010",
+      "title": "First Reply - Complaint",
+      "category": "Greetings & First Response",
+      "subcategory": "First Reply",
+      "translations": {
+        "en": "Hi {customer_name}, I'm sorry to hear about the issue you've raised. I take this seriously and will personally look into it. You'll hear from me within {response_time} with a clear next step.",
+        "hi": "नमस्ते {customer_name}, आपकी समस्या सुनकर दुख हुआ। मैं इसे गंभीरता से लेता हूँ और {response_time} में समाधान के साथ जवाब दूँगा।",
+        "hng": "Hi {customer_name}, sun ke dukh hua. Main personally isko dekhunga aur {response_time} mein solution ke saath reply dunga.",
+        "bn": "নমস্কার {customer_name}, আপনার সমস্যা শুনে আমি {response_time}-এ সমাধান সহ উত্তর দিচ্ছি।"
+      },
+      "tags": [
+        "first-reply",
+        "complaint",
+        "acknowledgment"
+      ],
+      "favorite": true,
+      "usageCount": 329,
+      "createdAt": "2024-08-01T12:00:00Z",
+      "updatedAt": "2024-08-04T12:00:00Z"
+    },
+    {
+      "id": "resp-011",
+      "title": "First Reply - Technical",
+      "category": "Greetings & First Response",
+      "subcategory": "First Reply",
+      "translations": {
+        "en": "Hi {customer_name}, thanks for the technical query. I've logged this as ticket #{ticket_id} and our team is investigating. We'll share an update in {response_time}.",
+        "hi": "नमस्ते {customer_name}, तकनीकी सवाल के लिए धन्यवाद। टिकट #{ticket_id} बनाया गया है, हमारी टीम जाँच कर रही है। {response_time} में अपडेट मिलेगा।",
+        "hng": "Hi {customer_name}, technical query ke liye dhanyawad. Ticket #{ticket_id} ban gaya hai, {response_time} mein update milega.",
+        "bn": "নমস্কার {customer_name}, টেকনিক্যাল টিকিট #{ticket_id} তৈরি হয়েছে।"
+      },
+      "tags": [
+        "first-reply",
+        "technical",
+        "ticket"
+      ],
+      "favorite": false,
+      "usageCount": 119,
+      "createdAt": "2024-09-01T12:00:00Z",
+      "updatedAt": "2024-09-05T12:00:00Z"
+    },
+    {
+      "id": "resp-012",
+      "title": "First Reply - VIP Customer",
+      "category": "Greetings & First Response",
+      "subcategory": "First Reply",
+      "translations": {
+        "en": "Hi {customer_name}, thanks for reaching out. As a valued {store_name} customer, your query is now priority #1. I'll personally make sure you get a complete answer in {response_time}.",
+        "hi": "नमस्ते {customer_name}, {store_name} के मूल्यवान ग्राहक के रूप में आपकी सवाल को प्राथमिकता दी जा रही है। {response_time} में पूरा जवाब मिलेगा।",
+        "hng": "Hi {customer_name}, valued customer ho, isliye priority mil gayi hai. {response_time} mein poora jawab dunga.",
+        "bn": "নমস্কার {customer_name}, ভিআইপি কাস্টমার হিসেবে আপনার প্রশ্ন অগ্রাধিকার পাচ্ছে।"
+      },
+      "tags": [
+        "first-reply",
+        "vip",
+        "priority"
+      ],
+      "favorite": false,
+      "usageCount": 212,
+      "createdAt": "2024-08-29T12:00:00Z",
+      "updatedAt": "2024-08-29T12:00:00Z"
+    },
+    {
+      "id": "resp-013",
+      "title": "Away - Business Hours",
+      "category": "Greetings & First Response",
+      "subcategory": "Away & Availability",
+      "translations": {
+        "en": "Hi! {store_name} support is currently away. Our working hours are {working_hours}. We'll respond to your message as soon as we're back. For urgent issues, WhatsApp us at {whatsapp_number}.",
+        "hi": "नमस्ते! {store_name} सपोर्ट अभी उपलब्ध नहीं है। कार्य समय: {working_hours}। हम वापस आते ही जवाब देंगे। जरूरी मामलों के लिए WhatsApp: {whatsapp_number}।",
+        "hng": "Hi! {store_name} support abhi nahi hai. Working hours: {working_hours}. Wapas aate hi reply karenge. Urgent ke liye WhatsApp: {whatsapp_number}.",
+        "bn": "নমস্কার! {store_name} সাপোর্ট এখন অনুপস্থিত। কার্য সময়: {working_hours}। জরুরির জন্য WhatsApp: {whatsapp_number}।"
+      },
+      "tags": [
+        "away",
+        "hours",
+        "availability"
+      ],
+      "favorite": true,
+      "usageCount": 131,
+      "createdAt": "2024-07-29T12:00:00Z",
+      "updatedAt": "2024-08-03T12:00:00Z"
+    },
+    {
+      "id": "resp-014",
+      "title": "Away - Weekend",
+      "category": "Greetings & First Response",
+      "subcategory": "Away & Availability",
+      "translations": {
+        "en": "Hi! We're closed for the weekend but will reply to all messages on Monday morning. For urgent orders, use self-service in the app. Thanks for your patience!",
+        "hi": "नमस्ते! सप्ताहांत के लिए बंद हैं, सोमवार सुबह सभी संदेशों के जवाब देंगे। जरूरी ऑर्डर के लिए ऐप का सेल्फ-सर्विस इस्तेमाल करें।",
+        "hng": "Hi! Weekend ke liye band hain, Monday subah sab messages ka reply karenge. Urgent ke liye app self-service use karein.",
+        "bn": "নমস্কার! উইকেন্ডের জন্য বন্ধ, সোমবার সকালে উত্তর দেব।"
+      },
+      "tags": [
+        "away",
+        "weekend",
+        "availability"
+      ],
+      "favorite": false,
+      "usageCount": 92,
+      "createdAt": "2024-08-19T12:00:00Z",
+      "updatedAt": "2024-08-21T12:00:00Z"
+    },
+    {
+      "id": "resp-015",
+      "title": "Away - Holiday",
+      "category": "Greetings & First Response",
+      "subcategory": "Away & Availability",
+      "translations": {
+        "en": "Hi! {store_name} is closed today for {holiday_name}. We'll be back on {reopen_date}. Wishing you and your family a wonderful day!",
+        "hi": "नमस्ते! {store_name} आज {holiday_name} के लिए बंद है। हम {reopen_date} को वापस आएँगे। आपको और परिवार को शुभकामनाएँ!",
+        "hng": "Hi! {store_name} aaj {holiday_name} ke liye band hai. {reopen_date} ko wapas aayenge. Aapko aur parivar ko shubhkamna!",
+        "bn": "নমস্কার! {store_name} আজ {holiday_name}-এর জন্য বন্ধ। {reopen_date}-এ ফিরব।"
+      },
+      "tags": [
+        "away",
+        "holiday",
+        "availability"
+      ],
+      "favorite": false,
+      "usageCount": 60,
+      "createdAt": "2024-09-06T12:00:00Z",
+      "updatedAt": "2024-09-08T12:00:00Z"
+    },
+    {
+      "id": "resp-016",
+      "title": "Away - Lunch Break",
+      "category": "Greetings & First Response",
+      "subcategory": "Away & Availability",
+      "translations": {
+        "en": "Hi! Our team is on a quick break and will be back at {return_time}. For urgent order updates, please check the app or your email. Thanks!",
+        "hi": "नमस्ते! हमारी टीम थोड़ी देर के लिए ब्रेक पर है, {return_time} पर वापस आएगी। जरूरी ऑर्डर अपडेट के लिए ऐप देखें।",
+        "hng": "Hi! Team break pe hai, {return_time} pe wapas aayegi. Urgent order ke liye app check karein.",
+        "bn": "নমস্কার! টিম ব্রেকে, {return_time}-এ ফিরব।"
+      },
+      "tags": [
+        "away",
+        "break",
+        "availability"
+      ],
+      "favorite": false,
+      "usageCount": 28,
+      "createdAt": "2024-09-09T12:00:00Z",
+      "updatedAt": "2024-09-12T12:00:00Z"
+    },
+    {
+      "id": "resp-017",
+      "title": "Away - Night",
+      "category": "Greetings & First Response",
+      "subcategory": "Away & Availability",
+      "translations": {
+        "en": "Hi! Our support team is offline for the night. We'll respond to your message tomorrow morning at {return_time}. For urgent issues, drop a WhatsApp message at {whatsapp_number}.",
+        "hi": "नमस्ते! सपोर्ट टीम रात के लिए ऑफलाइन है। कल सुबह {return_time} पर जवाब देंगे। जरूरी मामलों के लिए WhatsApp: {whatsapp_number}।",
+        "hng": "Hi! Support raat ke liye offline hai. Kal subah {return_time} pe reply karenge. WhatsApp: {whatsapp_number}.",
+        "bn": "নমস্কার! রাতের জন্য সাপোর্ট অফলাইন। সকালে {return_time}-এ উত্তর দেব।"
+      },
+      "tags": [
+        "away",
+        "night",
+        "availability"
+      ],
+      "favorite": false,
+      "usageCount": 96,
+      "createdAt": "2024-09-09T12:00:00Z",
+      "updatedAt": "2024-09-11T12:00:00Z"
+    },
+    {
+      "id": "resp-018",
+      "title": "Thanks for Purchase",
+      "category": "Greetings & First Response",
+      "subcategory": "Thank You",
+      "translations": {
+        "en": "Thank you, {customer_name}, for shopping with {store_name}! Your order #{order_id} is confirmed. We hope you love your purchase. Tag us on socials at @{social_handle}!",
+        "hi": "धन्यवाद {customer_name}, {store_name} से खरीदने के लिए! ऑर्डर #{order_id} कन्फर्म हो गया है। सोशल मीडिया पर हमें @{social_handle} टैग करें!",
+        "hng": "Dhanyawad {customer_name}, shopping ke liye! Order #{order_id} confirm ho gaya. Social media pe @{social_handle} tag karein!",
+        "bn": "ধন্যবাদ {customer_name}, অর্ডার #{order_id} কনফার্ম। সোশ্যালে @{social_handle} ট্যাগ করুন!"
+      },
+      "tags": [
+        "thanks",
+        "purchase",
+        "order"
+      ],
+      "favorite": true,
+      "usageCount": 185,
+      "createdAt": "2024-08-08T12:00:00Z",
+      "updatedAt": "2024-08-08T12:00:00Z"
+    },
+    {
+      "id": "resp-019",
+      "title": "Thanks for Review",
+      "category": "Greetings & First Response",
+      "subcategory": "Thank You",
+      "translations": {
+        "en": "Thank you for taking the time to leave a review, {customer_name}! Your feedback helps us improve and helps other shoppers decide. We look forward to serving you again.",
+        "hi": "समय निकालकर समीक्षा देने के लिए धन्यवाद, {customer_name}! आपकी फीडबैक हमें सुधारने में मदद करती है।",
+        "hng": "Review dene ke liye dhanyawad, {customer_name}! Aapki feedback humein improve karne mein madad karti hai.",
+        "bn": "রিভিউ দেওয়ার জন্য ধন্যবাদ, {customer_name}!"
+      },
+      "tags": [
+        "thanks",
+        "review",
+        "feedback"
+      ],
+      "favorite": false,
+      "usageCount": 122,
+      "createdAt": "2024-07-31T12:00:00Z",
+      "updatedAt": "2024-08-04T12:00:00Z"
+    },
+    {
+      "id": "resp-020",
+      "title": "Thanks for Referral",
+      "category": "Greetings & First Response",
+      "subcategory": "Thank You",
+      "translations": {
+        "en": "Thank you for referring {friend_name} to {store_name}! You've earned {referral_reward} in your wallet. Keep spreading the word — every successful referral earns more.",
+        "hi": "{friend_name} को {store_name} रेफर करने के लिए धन्यवाद! आपके वॉलेट में {referral_reward} जमा हो गए हैं। और रेफर करते रहें!",
+        "hng": "{friend_name} ko refer karne ke liye dhanyawad! Wallet mein {referral_reward} add ho gaye. Refer karte raho!",
+        "bn": "{friend_name}-কে রেফার করার জন্য ধন্যবাদ! ওয়ালেটে {referral_reward} যোগ হয়েছে।"
+      },
+      "tags": [
+        "thanks",
+        "referral",
+        "reward"
+      ],
+      "favorite": true,
+      "usageCount": 243,
+      "createdAt": "2024-09-08T12:00:00Z",
+      "updatedAt": "2024-09-08T12:00:00Z"
+    },
+    {
+      "id": "resp-021",
+      "title": "Thanks for Feedback",
+      "category": "Greetings & First Response",
+      "subcategory": "Thank You",
+      "translations": {
+        "en": "Thanks for sharing your feedback, {customer_name}. We read every single message and use it to improve. Expect to see your suggestions reflected in upcoming updates.",
+        "hi": "अपनी फीडबैक साझा करने के लिए धन्यवाद, {customer_name}। हम हर संदेश पढ़ते हैं और सुधार के लिए उपयोग करते हैं।",
+        "hng": "Feedback share karne ke liye dhanyawad, {customer_name}. Hum har message padhte hain aur improve karte hain.",
+        "bn": "ফিডব্যাক শেয়ার করার জন্য ধন্যবাদ, {customer_name}।"
+      },
+      "tags": [
+        "thanks",
+        "feedback",
+        "suggestion"
+      ],
+      "favorite": false,
+      "usageCount": 80,
+      "createdAt": "2024-08-11T12:00:00Z",
+      "updatedAt": "2024-08-16T12:00:00Z"
+    },
+    {
+      "id": "resp-022",
+      "title": "Thanks for Patience",
+      "category": "Greetings & First Response",
+      "subcategory": "Thank You",
+      "translations": {
+        "en": "Thank you for your patience, {customer_name}. We know waiting isn't fun, and we appreciate you sticking with us. Your issue has now been resolved — please confirm if all looks good.",
+        "hi": "धैर्य रखने के लिए धन्यवाद, {customer_name}। आपकी समस्या अब हल हो गई है — कृपया कन्फर्म करें कि सब कुछ ठीक है।",
+        "hng": "Patience ke liye dhanyawad, {customer_name}. Aapki problem ab solve ho gayi — confirm karein ki sab theek hai.",
+        "bn": "ধৈর্যের জন্য ধন্যবাদ, {customer_name}। সমস্যা সমাধান হয়েছে — কনফার্ম করুন।"
+      },
+      "tags": [
+        "thanks",
+        "patience",
+        "resolution"
+      ],
+      "favorite": false,
+      "usageCount": 231,
+      "createdAt": "2024-08-07T12:00:00Z",
+      "updatedAt": "2024-08-09T12:00:00Z"
+    },
+    {
+      "id": "resp-023",
+      "title": "Diwali Greeting",
+      "category": "Greetings & First Response",
+      "subcategory": "Holiday Greetings",
+      "translations": {
+        "en": "Happy Diwali from the {store_name} family! May this festival of lights bring prosperity, joy, and endless orders to your business. Use code FESTIVE25 for 25% off site-wide.",
+        "hi": "{store_name} परिवार की ओर से दीपावली की शुभकामनाएँ! उपहार कोड FESTIVE25 से साइट भर में 25% छूट पाएँ।",
+        "hng": "{store_name} parivar ki taraf se Diwali ki shubhkamna! FESTIVE25 code se 25% off pao.",
+        "bn": "{store_name} পরিবারের তরফ থেকে দীপাবলির শুভেচ্ছা! FESTIVE25 কোডে ২৫% ছাড়।"
+      },
+      "tags": [
+        "holiday",
+        "diwali",
+        "festive"
+      ],
+      "favorite": true,
+      "usageCount": 148,
+      "createdAt": "2024-08-10T12:00:00Z",
+      "updatedAt": "2024-08-15T12:00:00Z"
+    },
+    {
+      "id": "resp-024",
+      "title": "New Year Greeting",
+      "category": "Greetings & First Response",
+      "subcategory": "Holiday Greetings",
+      "translations": {
+        "en": "Happy New Year, {customer_name}! Wishing you and your loved ones a fantastic year ahead. As a thank-you, here's a special 20% off code: NEWYEAR20, valid for the first week of January.",
+        "hi": "नया साल मुबारक, {customer_name}! विशेष 20% छूट कोड: NEWYEAR20, जनवरी के पहले सप्ताह तक वैध।",
+        "hng": "Naya saal mubarak, {customer_name}! 20% off code: NEWYEAR20, January ke pehle week tak valid.",
+        "bn": "নববর্ষের শুভেচ্ছা, {customer_name}! NEWYEAR20 কোডে ২০% ছাড়।"
+      },
+      "tags": [
+        "holiday",
+        "new-year",
+        "festive"
+      ],
+      "favorite": false,
+      "usageCount": 16,
+      "createdAt": "2024-09-11T12:00:00Z",
+      "updatedAt": "2024-09-15T12:00:00Z"
+    },
+    {
+      "id": "resp-025",
+      "title": "Eid Greeting",
+      "category": "Greetings & First Response",
+      "subcategory": "Holiday Greetings",
+      "translations": {
+        "en": "Eid Mubarak from {store_name}! May this special day bring joy and togetherness to you and your family. Celebrate with our festive collection and special offers.",
+        "hi": "{store_name} की ओर से ईद मुबारक! इस खास दिन पर आपको और परिवार को खुशियाँ मिलें। हमारे फेस्टिव कलेक्शन के साथ जश्न मनाएँ।",
+        "hng": "{store_name} ki taraf se Eid Mubarak! Festive collection ke saath jashn manayein.",
+        "bn": "{store_name}-এর তরফ থেকে ঈদ মুবারক! ফেস্টিভ কালেকশন দেখুন।"
+      },
+      "tags": [
+        "holiday",
+        "eid",
+        "festive"
+      ],
+      "favorite": false,
+      "usageCount": 202,
+      "createdAt": "2024-09-01T12:00:00Z",
+      "updatedAt": "2024-09-03T12:00:00Z"
+    },
+    {
+      "id": "resp-026",
+      "title": "Christmas Greeting",
+      "category": "Greetings & First Response",
+      "subcategory": "Holiday Greetings",
+      "translations": {
+        "en": "Merry Christmas from {store_name}! May your home be filled with warmth and joy. Our Christmas sale is live — enjoy up to 40% off on selected categories.",
+        "hi": "{store_name} की ओर से क्रिसमस की शुभकामनाएँ! क्रिसमस सेल लाइव है — चुने हुए कैटेगरी पर 40% तक छूट।",
+        "hng": "{store_name} ki taraf se Christmas ki shubhkamna! Christmas sale live hai — 40% tak off.",
+        "bn": "{store_name}-এর তরফ থেকে বড়দিনের শুভেচ্ছা! ৪০% পর্যন্ত ছাড়।"
+      },
+      "tags": [
+        "holiday",
+        "christmas",
+        "festive"
+      ],
+      "favorite": false,
+      "usageCount": 223,
+      "createdAt": "2024-09-10T12:00:00Z",
+      "updatedAt": "2024-09-11T12:00:00Z"
+    },
+    {
+      "id": "resp-027",
+      "title": "Order Confirmed",
+      "category": "Orders & Delivery",
+      "subcategory": "Order Confirmation",
+      "translations": {
+        "en": "Great news, {customer_name}! Your order #{order_id} for ₹{amount} is confirmed. We're getting it ready and will share tracking details shortly. Expected delivery: {delivery_date}.",
+        "hi": "बढ़िया खबर, {customer_name}! ऑर्डर #{order_id} (₹{amount}) कन्फर्म हो गया। ट्रैकिंग जल्दी शेयर करेंगे। अनुमानित डिलीवरी: {delivery_date}।",
+        "hng": "Badhiya khabar, {customer_name}! Order #{order_id} (₹{amount}) confirm ho gaya. Tracking jaldi share karenge. Delivery: {delivery_date}.",
+        "bn": "চমৎকার খবর, {customer_name}! অর্ডার #{order_id} (₹{amount}) কনফার্ম। ডেলিভারি: {delivery_date}।"
+      },
+      "tags": [
+        "order",
+        "confirmation",
+        "status"
+      ],
+      "favorite": true,
+      "usageCount": 101,
+      "createdAt": "2024-07-22T12:00:00Z",
+      "updatedAt": "2024-07-25T12:00:00Z"
+    },
+    {
+      "id": "resp-028",
+      "title": "COD Order Confirmed",
+      "category": "Orders & Delivery",
+      "subcategory": "Order Confirmation",
+      "translations": {
+        "en": "Your Cash on Delivery order #{order_id} is confirmed, {customer_name}. Please keep ₹{amount} ready for the delivery agent. We'll reach out before delivery to confirm.",
+        "hi": "आपका COD ऑर्डर #{order_id} कन्फर्म हो गया, {customer_name}। डिलीवरी एजेंट के लिए ₹{amount} तैयार रखें। हम डिलीवरी से पहले कन्फर्म करेंगे।",
+        "hng": "COD order #{order_id} confirm ho gaya, {customer_name}. ₹{amount} ready rakhein. Delivery se pehle confirm karenge.",
+        "bn": "আপনার COD অর্ডার #{order_id} কনফার্ম। ₹{amount} প্রস্তুত রাখুন।"
+      },
+      "tags": [
+        "order",
+        "cod",
+        "confirmation"
+      ],
+      "favorite": false,
+      "usageCount": 121,
+      "createdAt": "2024-08-29T12:00:00Z",
+      "updatedAt": "2024-09-03T12:00:00Z"
+    },
+    {
+      "id": "resp-029",
+      "title": "Prepaid Order Confirmed",
+      "category": "Orders & Delivery",
+      "subcategory": "Order Confirmation",
+      "translations": {
+        "en": "Your prepaid order #{order_id} is confirmed, {customer_name}. Payment of ₹{amount} received successfully. We'll dispatch your order within {dispatch_time}.",
+        "hi": "प्रीपेड ऑर्डर #{order_id} कन्फर्म, {customer_name}। ₹{amount} पेमेंट मिल गई। ऑर्डर {dispatch_time} में डिस्पैच करेंगे।",
+        "hng": "Prepaid order #{order_id} confirm, {customer_name}. ₹{amount} payment mil gaya. {dispatch_time} mein dispatch karenge.",
+        "bn": "প্রিপেইড অর্ডার #{order_id} কনফার্ম। ₹{amount} পেমেন্ট পেয়েছি।"
+      },
+      "tags": [
+        "order",
+        "prepaid",
+        "confirmation"
+      ],
+      "favorite": false,
+      "usageCount": 98,
+      "createdAt": "2024-07-24T12:00:00Z",
+      "updatedAt": "2024-07-25T12:00:00Z"
+    },
+    {
+      "id": "resp-030",
+      "title": "Multi-item Order Confirmation",
+      "category": "Orders & Delivery",
+      "subcategory": "Order Confirmation",
+      "translations": {
+        "en": "Your order #{order_id} with {item_count} items (₹{amount}) is confirmed, {customer_name}. Some items may arrive in separate packages — we'll share tracking for each.",
+        "hi": "ऑर्डर #{order_id} में {item_count} आइटम (₹{amount}) कन्फर्म, {customer_name}। कुछ आइटम अलग-अलग पैकेज में आ सकते हैं — हम हर एक की ट्रैकिंग शेयर करेंगे।",
+        "hng": "Order #{order_id} mein {item_count} items (₹{amount}) confirm. Kuch items alag package mein aa sakte hain — har ek ki tracking share karenge.",
+        "bn": "অর্ডার #{order_id} এ {item_count} আইটেম কনফার্ম। আলাদা প্যাকেজে আসতে পারে।"
+      },
+      "tags": [
+        "order",
+        "multi-item",
+        "confirmation"
+      ],
+      "favorite": false,
+      "usageCount": 95,
+      "createdAt": "2024-08-23T12:00:00Z",
+      "updatedAt": "2024-08-24T12:00:00Z"
+    },
+    {
+      "id": "resp-031",
+      "title": "Bulk Order Confirmation",
+      "category": "Orders & Delivery",
+      "subcategory": "Order Confirmation",
+      "translations": {
+        "en": "Your bulk order #{order_id} ({item_count} units, ₹{amount}) is confirmed. Our team is preparing it for dispatch and you'll receive tracking in {dispatch_time}.",
+        "hi": "आपका बल्क ऑर्डर #{order_id} ({item_count} यूनिट, ₹{amount}) कन्फर्म हो गया। टीम तैयारी कर रही है, {dispatch_time} में ट्रैकिंग मिलेगी।",
+        "hng": "Bulk order #{order_id} ({item_count} units, ₹{amount}) confirm. Team tayari kar rahi hai, {dispatch_time} mein tracking milega.",
+        "bn": "বাল্ক অর্ডার #{order_id} কনফার্ম। টিম প্রস্তুত করছে।"
+      },
+      "tags": [
+        "order",
+        "bulk",
+        "confirmation"
+      ],
+      "favorite": false,
+      "usageCount": 73,
+      "createdAt": "2024-08-04T12:00:00Z",
+      "updatedAt": "2024-08-09T12:00:00Z"
+    },
+    {
+      "id": "resp-032",
+      "title": "Digital Order Confirmation",
+      "category": "Orders & Delivery",
+      "subcategory": "Order Confirmation",
+      "translations": {
+        "en": "Your digital order #{order_id} is confirmed, {customer_name}. Download links have been sent to your email {email}. The links are valid for 1 year.",
+        "hi": "डिजिटल ऑर्डर #{order_id} कन्फर्म, {customer_name}। डाउनलोड लिंक आपके ईमेल {email} पर भेज दिए गए हैं। लिंक 1 साल तक वैध हैं।",
+        "hng": "Digital order #{order_id} confirm. Download links email {email} pe bhej diye hain. 1 saal tak valid.",
+        "bn": "ডিজিটাল অর্ডার #{order_id} কনফার্ম। ডাউনলোড লিংক ইমেলে পাঠানো হয়েছে।"
+      },
+      "tags": [
+        "order",
+        "digital",
+        "confirmation"
+      ],
+      "favorite": false,
+      "usageCount": 179,
+      "createdAt": "2024-07-18T12:00:00Z",
+      "updatedAt": "2024-07-23T12:00:00Z"
+    },
+    {
+      "id": "resp-033",
+      "title": "Order Status - Processing",
+      "category": "Orders & Delivery",
+      "subcategory": "Order Status",
+      "translations": {
+        "en": "Hi {customer_name}, your order #{order_id} is currently being processed and packed with care. We'll dispatch it soon and share tracking details within {time_estimate}.",
+        "hi": "नमस्ते {customer_name}, ऑर्डर #{order_id} प्रोसेस और पैक हो रहा है। जल्दी डिस्पैच करेंगे, {time_estimate} में ट्रैकिंग शेयर करेंगे।",
+        "hng": "Hi {customer_name}, order #{order_id} process ho raha hai. Jaldi dispatch karenge, {time_estimate} mein tracking share karenge.",
+        "bn": "নমস্কার {customer_name}, অর্ডার #{order_id} প্রসেস হচ্ছে। শীঘ্র ট্র্যাকিং পাঠাব।"
+      },
+      "tags": [
+        "order",
+        "status",
+        "processing"
+      ],
+      "favorite": false,
+      "usageCount": 160,
+      "createdAt": "2024-09-11T12:00:00Z",
+      "updatedAt": "2024-09-15T12:00:00Z"
+    },
+    {
+      "id": "resp-034",
+      "title": "Order Status - Shipped",
+      "category": "Orders & Delivery",
+      "subcategory": "Order Status",
+      "translations": {
+        "en": "Good news, {customer_name}! Your order #{order_id} has been shipped via {courier_name}. Track it here: {tracking_link}. Expected delivery: {delivery_date}.",
+        "hi": "अच्छी खबर, {customer_name}! ऑर्डर #{order_id} {courier_name} से शिप हो गया। ट्रैकिंग: {tracking_link}। अनुमानित डिलीवरी: {delivery_date}।",
+        "hng": "Achhi khabar, {customer_name}! Order #{order_id} {courier_name} se ship ho gaya. Tracking: {tracking_link}. Delivery: {delivery_date}.",
+        "bn": "ভাল খবর, {customer_name}! অর্ডার #{order_id} শিপ হয়েছে। ট্র্যাকিং: {tracking_link}।"
+      },
+      "tags": [
+        "order",
+        "status",
+        "shipped"
+      ],
+      "favorite": true,
+      "usageCount": 323,
+      "createdAt": "2024-09-05T12:00:00Z",
+      "updatedAt": "2024-09-10T12:00:00Z"
+    },
+    {
+      "id": "resp-035",
+      "title": "Order Status - Out for Delivery",
+      "category": "Orders & Delivery",
+      "subcategory": "Order Status",
+      "translations": {
+        "en": "Your order #{order_id} is out for delivery, {customer_name}! The delivery agent {agent_name} will reach you by {delivery_time}. Phone: {agent_phone}.",
+        "hi": "ऑर्डर #{order_id} डिलीवरी के लिए निकल गया, {customer_name}! एजेंट {agent_name} {delivery_time} तक आप तक पहुँगा। फोन: {agent_phone}।",
+        "hng": "Order #{order_id} delivery ke liye nikal gaya! Agent {agent_name} {delivery_time} tak pahunchega. Phone: {agent_phone}.",
+        "bn": "অর্ডার #{order_id} ডেলিভারির জন্য বেরিয়েছে! এজেন্ট {delivery_time}-এ পৌঁছাবে।"
+      },
+      "tags": [
+        "order",
+        "status",
+        "delivery"
+      ],
+      "favorite": false,
+      "usageCount": 46,
+      "createdAt": "2024-08-31T12:00:00Z",
+      "updatedAt": "2024-09-03T12:00:00Z"
+    },
+    {
+      "id": "resp-036",
+      "title": "Order Status - Delivered",
+      "category": "Orders & Delivery",
+      "subcategory": "Order Status",
+      "translations": {
+        "en": "Your order #{order_id} has been delivered, {customer_name}. We hope you love it! If anything isn't right, please let us know within 48 hours. Would you mind leaving a quick review?",
+        "hi": "ऑर्डर #{order_id} डिलीवर हो गया, {customer_name}। उम्मीद है पसंद आएगा! अगर कोई समस्या हो तो 48 घंटे में बताएँ। थोड़ी सी समीक्षा देंगे?",
+        "hng": "Order #{order_id} deliver ho gaya, {customer_name}. Koi problem ho toh 48 ghante mein bataiye. Review denge?",
+        "bn": "অর্ডার #{order_id} ডেলিভার হয়েছে। সমস্যা হলে ৪৮ ঘণ্টায় জানান।"
+      },
+      "tags": [
+        "order",
+        "status",
+        "delivered"
+      ],
+      "favorite": true,
+      "usageCount": 188,
+      "createdAt": "2024-08-22T12:00:00Z",
+      "updatedAt": "2024-08-27T12:00:00Z"
+    },
+    {
+      "id": "resp-037",
+      "title": "Order Status - Cancelled",
+      "category": "Orders & Delivery",
+      "subcategory": "Order Status",
+      "translations": {
+        "en": "Hi {customer_name}, your order #{order_id} has been cancelled as per your request. Refund of ₹{amount} (if applicable) will be processed to your original payment method in {refund_days} business days.",
+        "hi": "नमस्ते {customer_name}, ऑर्डर #{order_id} आपकी विनती पर कैंसिल हो गया। रिफंड ₹{amount} (यदि लागू हो) {refund_days} दिनों में मूल पेमेंट मेथड में मिलेगा।",
+        "hng": "Hi {customer_name}, order #{order_id} cancel ho gaya. Refund ₹{amount} (if applicable) {refund_days} din mein original payment mein milega.",
+        "bn": "নমস্কার {customer_name}, অর্ডার #{order_id} বাতিল হয়েছে। রিফান্ড {refund_days} দিনে আসবে।"
+      },
+      "tags": [
+        "order",
+        "status",
+        "cancelled"
+      ],
+      "favorite": false,
+      "usageCount": 147,
+      "createdAt": "2024-08-02T12:00:00Z",
+      "updatedAt": "2024-08-03T12:00:00Z"
+    },
+    {
+      "id": "resp-038",
+      "title": "Order Status - On Hold",
+      "category": "Orders & Delivery",
+      "subcategory": "Order Status",
+      "translations": {
+        "en": "Hi {customer_name}, your order #{order_id} is on hold pending verification. Please check your email for the next steps or reply here with the required info so we can proceed.",
+        "hi": "नमस्ते {customer_name}, ऑर्डर #{order_id} वेरिफिकेशन के लिए रुका हुआ है। ईमेल देखें या जवाब में ज़रूरी जानकारी दें ताकि आगे बढ़ सकें।",
+        "hng": "Order #{order_id} verification ke liye ruka hai. Email dekhein ya reply mein info dein.",
+        "bn": "অর্ডার #{order_id} ভেরিফিকেশনের জন্য আটকে আছে। ইমেল দেখুন।"
+      },
+      "tags": [
+        "order",
+        "status",
+        "hold"
+      ],
+      "favorite": false,
+      "usageCount": 88,
+      "createdAt": "2024-08-03T12:00:00Z",
+      "updatedAt": "2024-08-03T12:00:00Z"
+    },
+    {
+      "id": "resp-039",
+      "title": "Tracking Link Shared",
+      "category": "Orders & Delivery",
+      "subcategory": "Dispatch & Tracking",
+      "translations": {
+        "en": "Hi {customer_name}, here's the tracking link for order #{order_id}: {tracking_link}. You can also track it from your account dashboard. Expected delivery: {delivery_date}.",
+        "hi": "नमस्ते {customer_name}, ऑर्डर #{order_id} की ट्रैकिंग लिंक: {tracking_link}। अकाउंट डैशबोर्ड से भी देख सकते हैं। डिलीवरी: {delivery_date}।",
+        "hng": "Hi {customer_name}, order #{order_id} ki tracking: {tracking_link}. Dashboard se bhi dekho. Delivery: {delivery_date}.",
+        "bn": "নমস্কার {customer_name}, অর্ডার #{order_id} ট্র্যাকিং: {tracking_link}।"
+      },
+      "tags": [
+        "tracking",
+        "link",
+        "dispatch"
+      ],
+      "favorite": true,
+      "usageCount": 66,
+      "createdAt": "2024-09-01T12:00:00Z",
+      "updatedAt": "2024-09-03T12:00:00Z"
+    },
+    {
+      "id": "resp-040",
+      "title": "Multi-package Tracking",
+      "category": "Orders & Delivery",
+      "subcategory": "Dispatch & Tracking",
+      "translations": {
+        "en": "Hi {customer_name}, your order #{order_id} has been split into {package_count} packages for faster delivery. Each has its own tracking:\n{tracking_list}",
+        "hi": "नमस्ते {customer_name}, ऑर्डर #{order_id} को तेज़ डिलीवरी के लिए {package_count} पैकेज में बाँटा गया है। हर एक की अपनी ट्रैकिंग है:\n{tracking_list}",
+        "hng": "Order #{order_id} ko {package_count} packages mein baanta gaya hai. Har ek ki tracking:\n{tracking_list}",
+        "bn": "অর্ডার #{order_id}-কে {package_count} প্যাকেজে ভাগ করা হয়েছে।"
+      },
+      "tags": [
+        "tracking",
+        "multi-package",
+        "dispatch"
+      ],
+      "favorite": false,
+      "usageCount": 73,
+      "createdAt": "2024-08-21T12:00:00Z",
+      "updatedAt": "2024-08-21T12:00:00Z"
+    },
+    {
+      "id": "resp-041",
+      "title": "Dispatch Delay Notice",
+      "category": "Orders & Delivery",
+      "subcategory": "Dispatch & Tracking",
+      "translations": {
+        "en": "Hi {customer_name}, due to high order volume, dispatch of order #{order_id} is delayed by {delay_hours} hours. New dispatch expected by {new_dispatch_time}. We apologize for the inconvenience.",
+        "hi": "नमस्ते {customer_name}, ज़्यादा ऑर्डर वॉल्यूम के कारण ऑर्डर #{order_id} का डिस्पैच {delay_hours} घंटे देरी से होगा। नया डिस्पैच: {new_dispatch_time}। क्षमा चाहते हैं।",
+        "hng": "Order #{order_id} ka dispatch {delay_hours} ghante late hoga. Naya dispatch: {new_dispatch_time}. Sorry!",
+        "bn": "বেশি অর্ডারের কারণে ডিসপ্যাচ {delay_hours} ঘণ্টা দেরি হবে।"
+      },
+      "tags": [
+        "tracking",
+        "delay",
+        "dispatch"
+      ],
+      "favorite": false,
+      "usageCount": 238,
+      "createdAt": "2024-09-02T12:00:00Z",
+      "updatedAt": "2024-09-06T12:00:00Z"
+    },
+    {
+      "id": "resp-042",
+      "title": "Courier Handoff Confirmed",
+      "category": "Orders & Delivery",
+      "subcategory": "Dispatch & Tracking",
+      "translations": {
+        "en": "Hi {customer_name}, order #{order_id} has been handed over to {courier_name}. They'll update tracking within a few hours. Expected delivery: {delivery_date}.",
+        "hi": "ऑर्डर #{order_id} {courier_name} को सौंप दिया गया। कुछ घंटों में ट्रैकिंग अपडेट होगा। अनुमानित डिलीवरी: {delivery_date}।",
+        "hng": "Order #{order_id} {courier_name} ko de diya. Tracking kuch ghanto mein update hoga. Delivery: {delivery_date}.",
+        "bn": "অর্ডার #{order_id} {courier_name}-কে দেওয়া হয়েছে।"
+      },
+      "tags": [
+        "tracking",
+        "courier",
+        "dispatch"
+      ],
+      "favorite": false,
+      "usageCount": 188,
+      "createdAt": "2024-07-21T12:00:00Z",
+      "updatedAt": "2024-07-23T12:00:00Z"
+    },
+    {
+      "id": "resp-043",
+      "title": "Local Delivery Tracking",
+      "category": "Orders & Delivery",
+      "subcategory": "Dispatch & Tracking",
+      "translations": {
+        "en": "Hi {customer_name}, your order #{order_id} is being delivered by our own delivery fleet. Track the agent live here: {tracking_link}. ETA: {delivery_time}.",
+        "hi": "ऑर्डर #{order_id} हमारी अपनी डिलीवरी टीम ले जा रही है। एजेंट को लाइव ट्रैक करें: {tracking_link}। ETA: {delivery_time}।",
+        "hng": "Order #{order_id} humari delivery team le ja rahi hai. Live track: {tracking_link}. ETA: {delivery_time}.",
+        "bn": "অর্ডার #{order_id} আমাদের ডেলিভারি টিম নিয়ে যাচ্ছে।"
+      },
+      "tags": [
+        "tracking",
+        "local",
+        "delivery"
+      ],
+      "favorite": false,
+      "usageCount": 172,
+      "createdAt": "2024-09-02T12:00:00Z",
+      "updatedAt": "2024-09-05T12:00:00Z"
+    },
+    {
+      "id": "resp-044",
+      "title": "Out for Delivery Confirmation",
+      "category": "Orders & Delivery",
+      "subcategory": "Out for Delivery",
+      "translations": {
+        "en": "Hi {customer_name}, your order #{order_id} is out for delivery and will reach you by {delivery_time}. Please ensure someone is available to receive it.",
+        "hi": "नमस्ते {customer_name}, ऑर्डर #{order_id} डिलीवरी के लिए निकल गया, {delivery_time} तक पहुँगा। कृपया कोई घर पर उपस्थित रहे।",
+        "hng": "Order #{order_id} delivery ke liye nikal gaya, {delivery_time} tak pahunchega. Koi ghar pe ho.",
+        "bn": "অর্ডার #{order_id} ডেলিভারির জন্য বেরিয়েছে, {delivery_time}-এ পৌঁছাবে। কেউ বাড়িতে থাকুন।"
+      },
+      "tags": [
+        "delivery",
+        "out",
+        "confirmation"
+      ],
+      "favorite": false,
+      "usageCount": 231,
+      "createdAt": "2024-08-21T12:00:00Z",
+      "updatedAt": "2024-08-26T12:00:00Z"
+    },
+    {
+      "id": "resp-045",
+      "title": "Delivery Attempt Failed",
+      "category": "Orders & Delivery",
+      "subcategory": "Out for Delivery",
+      "translations": {
+        "en": "Hi {customer_name}, we attempted to deliver your order #{order_id} but couldn't reach you. The agent will retry tomorrow between {retry_window}. Please ensure availability or share an alternate address.",
+        "hi": "ऑर्डर #{order_id} डिलीवर करने की कोशिश की लेकिन आपसे संपर्क नहीं हो सका। कल {retry_window} के बीच फिर कोशिश करेंगे। कृपया उपलब्ध रहें।",
+        "hng": "Order #{order_id} deliver nahi ho saka. Kal {retry_window} mein retry karenge. Available raho ya alternate address do.",
+        "bn": "অর্ডার #{order_id} ডেলিভারি করতে পারিনি। কাল আবার চেষ্টা করব।"
+      },
+      "tags": [
+        "delivery",
+        "failed",
+        "attempt"
+      ],
+      "favorite": false,
+      "usageCount": 41,
+      "createdAt": "2024-08-17T12:00:00Z",
+      "updatedAt": "2024-08-19T12:00:00Z"
+    },
+    {
+      "id": "resp-046",
+      "title": "Delivery Reschedule",
+      "category": "Orders & Delivery",
+      "subcategory": "Out for Delivery",
+      "translations": {
+        "en": "Hi {customer_name}, please share a convenient time slot for delivery of order #{order_id}. Available slots: {slot_options}. We'll reschedule right away.",
+        "hi": "नमस्ते {customer_name}, ऑर्डर #{order_id} की डिलीवरी के लिए सुविधाजनक समय बताएँ। स्लॉट: {slot_options}। तुरंत रीशेड्यूल करेंगे।",
+        "hng": "Order #{order_id} delivery ke liye convenient time do. Slots: {slot_options}. Reschedule karenge.",
+        "bn": "অর্ডার #{order_id} ডেলিভারির সময় দিন। স্লট: {slot_options}।"
+      },
+      "tags": [
+        "delivery",
+        "reschedule",
+        "slot"
+      ],
+      "favorite": false,
+      "usageCount": 68,
+      "createdAt": "2024-09-07T12:00:00Z",
+      "updatedAt": "2024-09-12T12:00:00Z"
+    },
+    {
+      "id": "resp-047",
+      "title": "Delivery Address Verification",
+      "category": "Orders & Delivery",
+      "subcategory": "Out for Delivery",
+      "translations": {
+        "en": "Hi {customer_name}, please confirm your delivery address for order #{order_id}: {address}. If any change is needed, please share the updated address before {cutoff_time}.",
+        "hi": "नमस्ते {customer_name}, ऑर्डर #{order_id} के लिए पता कन्फर्म करें: {address}। बदलाव के लिए {cutoff_time} से पहले नया पता दें।",
+        "hng": "Order #{order_id} ka address confirm karein: {address}. Change ke liye {cutoff_time} se pehle naya address dein.",
+        "bn": "অর্ডার #{order_id}-এর ঠিকানা কনফার্ম করুন: {address}।"
+      },
+      "tags": [
+        "delivery",
+        "address",
+        "verification"
+      ],
+      "favorite": false,
+      "usageCount": 142,
+      "createdAt": "2024-08-11T12:00:00Z",
+      "updatedAt": "2024-08-13T12:00:00Z"
+    },
+    {
+      "id": "resp-048",
+      "title": "Delay Apology - General",
+      "category": "Orders & Delivery",
+      "subcategory": "Delay Apology",
+      "translations": {
+        "en": "Hi {customer_name}, I'm sorry your order #{order_id} is delayed by {delay_days} days due to {delay_reason}. We're working to dispatch it ASAP. New ETA: {new_eta}.",
+        "hi": "नमस्ते {customer_name}, ऑर्डर #{order_id} {delay_reason} के कारण {delay_days} दिन देरी से आ रहा है। जल्दी डिस्पैच कर रहे हैं। नया ETA: {new_eta}।",
+        "hng": "Hi {customer_name}, order #{order_id} {delay_days} din late ho raha hai, reason: {delay_reason}. Jaldi dispatch karenge. Naya ETA: {new_eta}.",
+        "bn": "নমস্কার {customer_name}, অর্ডার #{order_id} {delay_days} দিন দেরি হচ্ছে। নতুন ETA: {new_eta}।"
+      },
+      "tags": [
+        "delay",
+        "apology",
+        "order"
+      ],
+      "favorite": true,
+      "usageCount": 349,
+      "createdAt": "2024-07-30T12:00:00Z",
+      "updatedAt": "2024-08-02T12:00:00Z"
+    },
+    {
+      "id": "resp-049",
+      "title": "Delay Apology - Weather",
+      "category": "Orders & Delivery",
+      "subcategory": "Delay Apology",
+      "translations": {
+        "en": "Hi {customer_name}, severe weather at our dispatch hub has delayed your order #{order_id} by {delay_days} days. We're monitoring closely and will expedite shipping once conditions improve. New ETA: {new_eta}.",
+        "hi": "नमस्ते {customer_name}, डिस्पैच हब पर खराब मौसम के कारण ऑर्डर #{order_id} {delay_days} दिन देरी से आ रहा है। नया ETA: {new_eta}।",
+        "hng": "Order #{order_id} {delay_days} din late, weather reason. Naya ETA: {new_eta}.",
+        "bn": "খারাপ আবহাওয়ার কারণে অর্ডার #{order_id} {delay_days} দিন দেরি হচ্ছে।"
+      },
+      "tags": [
+        "delay",
+        "weather",
+        "apology"
+      ],
+      "favorite": false,
+      "usageCount": 154,
+      "createdAt": "2024-07-20T12:00:00Z",
+      "updatedAt": "2024-07-23T12:00:00Z"
+    },
+    {
+      "id": "resp-050",
+      "title": "Delay Apology - Stock",
+      "category": "Orders & Delivery",
+      "subcategory": "Delay Apology",
+      "translations": {
+        "en": "Hi {customer_name}, one item in your order #{order_id} is unexpectedly out of stock. We can ship the rest now and the remaining item later, or wait — please let us know your preference.",
+        "hi": "नमस्ते {customer_name}, ऑर्डर #{order_id} में एक आइटम अचानक स्टॉक से बाहर है। बाकी अभी और बाकी बाद में भेजें, या रुकें — बताएँ।",
+        "hng": "Order #{order_id} mein ek item out of stock hai. Baaki abhi, baad mein, ya wait — bataiye.",
+        "bn": "অর্ডার #{order_id}-এ একটি আইটেম স্টক নেই। বাকিগুলো এখন, বা অপেক্ষা — জানান।"
+      },
+      "tags": [
+        "delay",
+        "stock",
+        "apology"
+      ],
+      "favorite": false,
+      "usageCount": 61,
+      "createdAt": "2024-08-23T12:00:00Z",
+      "updatedAt": "2024-08-24T12:00:00Z"
+    },
+    {
+      "id": "resp-051",
+      "title": "Delay Apology with Compensation",
+      "category": "Orders & Delivery",
+      "subcategory": "Delay Apology",
+      "translations": {
+        "en": "Hi {customer_name}, I'm sorry for the delay on order #{order_id}. As a goodwill gesture, I've added ₹{compensation_amount} to your wallet, usable on your next order. New ETA: {new_eta}.",
+        "hi": "नमस्ते {customer_name}, ऑर्डर #{order_id} में देरी के लिए क्षमा। संकेत स्वरूप ₹{compensation_amount} वॉलेट में जोड़ दिए, अगले ऑर्डर पर उपयोग करें। नया ETA: {new_eta}।",
+        "hng": "Sorry for delay on order #{order_id}. Wallet mein ₹{compensation_amount} add kiya, next order pe use karo. Naya ETA: {new_eta}.",
+        "bn": "অর্ডার #{order_id} দেরির জন্য ক্ষমা। ওয়ালেটে ₹{compensation_amount} যোগ করেছি।"
+      },
+      "tags": [
+        "delay",
+        "compensation",
+        "apology"
+      ],
+      "favorite": true,
+      "usageCount": 302,
+      "createdAt": "2024-08-14T12:00:00Z",
+      "updatedAt": "2024-08-14T12:00:00Z"
+    },
+    {
+      "id": "resp-052",
+      "title": "COD Ready Reminder",
+      "category": "Orders & Delivery",
+      "subcategory": "Cash on Delivery",
+      "translations": {
+        "en": "Hi {customer_name}, your COD order #{order_id} is out for delivery. Please keep ₹{amount} in exact change ready for the delivery agent arriving between {delivery_window}.",
+        "hi": "नमस्ते {customer_name}, COD ऑर्डर #{order_id} डिलीवरी के लिए निकल गया। एजेंट के लिए ₹{amount} एग्ज़ैक्ट चेंज तैयार रखें, समय: {delivery_window}।",
+        "hng": "COD order #{order_id} out for delivery. ₹{amount} exact change ready rakho, time: {delivery_window}.",
+        "bn": "COD অর্ডার #{order_id} ডেলিভারির জন্য বেরিয়েছে। ₹{amount} প্রস্তুত রাখুন।"
+      },
+      "tags": [
+        "cod",
+        "ready",
+        "delivery"
+      ],
+      "favorite": false,
+      "usageCount": 17,
+      "createdAt": "2024-07-29T12:00:00Z",
+      "updatedAt": "2024-07-29T12:00:00Z"
+    },
+    {
+      "id": "resp-053",
+      "title": "COD Verification Call",
+      "category": "Orders & Delivery",
+      "subcategory": "Cash on Delivery",
+      "translations": {
+        "en": "Hi {customer_name}, we're calling to confirm your COD order #{order_id} of ₹{amount}. Please confirm so we can dispatch. If unreachable, the order may be auto-cancelled.",
+        "hi": "नमस्ते {customer_name}, COD ऑर्डर #{order_id} (₹{amount}) कन्फर्म करने के लिए कॉल कर रहे हैं। कन्फर्म करें ताकि डिस्पैच कर सकें।",
+        "hng": "COD order #{order_id} (₹{amount}) confirm karne ke liye call kar rahe hain. Confirm karo.",
+        "bn": "COD অর্ডার #{order_id} (₹{amount}) কনফার্ম করুন।"
+      },
+      "tags": [
+        "cod",
+        "verification",
+        "call"
+      ],
+      "favorite": false,
+      "usageCount": 165,
+      "createdAt": "2024-09-06T12:00:00Z",
+      "updatedAt": "2024-09-07T12:00:00Z"
+    },
+    {
+      "id": "resp-054",
+      "title": "COD Payment Received",
+      "category": "Orders & Delivery",
+      "subcategory": "Cash on Delivery",
+      "translations": {
+        "en": "Hi {customer_name}, we've received ₹{amount} for COD order #{order_id} from the delivery agent. Thank you for shopping with {store_name}!",
+        "hi": "नमस्ते {customer_name}, COD ऑर्डर #{order_id} के लिए ₹{amount} डिलीवरी एजेंट से मिल गए। {store_name} से खरीदने के लिए धन्यवाद!",
+        "hng": "COD order #{order_id} ke liye ₹{amount} mil gaye. {store_name} se khareedne ke liye dhanyawad!",
+        "bn": "COD অর্ডার #{order_id}-এর ₹{amount} পেয়েছি। ধন্যবাদ!"
+      },
+      "tags": [
+        "cod",
+        "payment",
+        "received"
+      ],
+      "favorite": false,
+      "usageCount": 179,
+      "createdAt": "2024-07-27T12:00:00Z",
+      "updatedAt": "2024-07-30T12:00:00Z"
+    },
+    {
+      "id": "resp-055",
+      "title": "COD Refused by Customer",
+      "category": "Orders & Delivery",
+      "subcategory": "Cash on Delivery",
+      "translations": {
+        "en": "Hi {customer_name}, our records show that order #{order_id} was refused at delivery. Could you share what went wrong? We'd love to make this right for you.",
+        "hi": "नमस्ते {customer_name}, ऑर्डर #{order_id} डिलीवरी पर अस्वीकृत कर दिया गया। क्या बात गलत हुई? हमें बताएँ, ठीक करना चाहेंगे।",
+        "hng": "Order #{order_id} delivery pe refuse ho gaya. Kya galat hua? Batao, theek karna chahte hain.",
+        "bn": "অর্ডার #{order_id} ডেলিভারিতে অস্বীকৃত। কী ভুল হলো জানান।"
+      },
+      "tags": [
+        "cod",
+        "refused",
+        "followup"
+      ],
+      "favorite": false,
+      "usageCount": 21,
+      "createdAt": "2024-08-08T12:00:00Z",
+      "updatedAt": "2024-08-11T12:00:00Z"
+    },
+    {
+      "id": "resp-056",
+      "title": "Stock Available",
+      "category": "Products & Inventory",
+      "subcategory": "Stock Inquiry",
+      "translations": {
+        "en": "Hi {customer_name}, good news — {product_name} is in stock! Price: ₹{price}. We have {stock_count} units available. Would you like to place an order now?",
+        "hi": "नमस्ते {customer_name}, अच्छी खबर — {product_name} स्टॉक में है! कीमत: ₹{price}। {stock_count} यूनिट उपलब्ध। ऑर्डर करें?",
+        "hng": "Hi {customer_name}, {product_name} stock mein hai! Price: ₹{price}. {stock_count} units available. Order karein?",
+        "bn": "নমস্কার {customer_name}, {product_name} স্টকে আছে! মূল্য: ₹{price}।"
+      },
+      "tags": [
+        "stock",
+        "available",
+        "inquiry"
+      ],
+      "favorite": false,
+      "usageCount": 157,
+      "createdAt": "2024-08-22T12:00:00Z",
+      "updatedAt": "2024-08-25T12:00:00Z"
+    },
+    {
+      "id": "resp-057",
+      "title": "Stock Low Alert",
+      "category": "Products & Inventory",
+      "subcategory": "Stock Inquiry",
+      "translations": {
+        "en": "Hi {customer_name}, {product_name} is running low — only {stock_count} units left! Grab yours before it's gone. Price: ₹{price}.",
+        "hi": "नमस्ते {customer_name}, {product_name} लुप्त हो रहा है — सिर्फ़ {stock_count} यूनिट बचे! खत्म होने से पहले ले लें। कीमत: ₹{price}।",
+        "hng": "{product_name} low stock — only {stock_count} units! Le lo before gone. Price: ₹{price}.",
+        "bn": "{product_name} কম স্টক — শুধু {stock_count} ইউনিট বাকি!"
+      },
+      "tags": [
+        "stock",
+        "low",
+        "alert"
+      ],
+      "favorite": true,
+      "usageCount": 178,
+      "createdAt": "2024-08-13T12:00:00Z",
+      "updatedAt": "2024-08-17T12:00:00Z"
+    },
+    {
+      "id": "resp-058",
+      "title": "Stock Replenishment Notice",
+      "category": "Products & Inventory",
+      "subcategory": "Stock Inquiry",
+      "translations": {
+        "en": "Hi {customer_name}, {product_name} is currently out of stock but we expect a fresh batch by {restock_date}. Shall I notify you when it's back, or pre-book it for you?",
+        "hi": "नमस्ते {customer_name}, {product_name} अभी स्टॉक से बाहर है, लेकिन {restock_date} तक नया बैच आ जाएगा। वापस आने पर सूचित करूँ या प्री-बुक करूँ?",
+        "hng": "{product_name} abhi out of stock hai, par {restock_date} tak fresh batch aayega. Notify karu ya pre-book karu?",
+        "bn": "{product_name} এখন স্টক নেই, {restock_date}-এ নতুন ব্যাচ আসবে।"
+      },
+      "tags": [
+        "stock",
+        "replenishment",
+        "notice"
+      ],
+      "favorite": false,
+      "usageCount": 246,
+      "createdAt": "2024-07-22T12:00:00Z",
+      "updatedAt": "2024-07-22T12:00:00Z"
+    },
+    {
+      "id": "resp-059",
+      "title": "Stock Variant Inquiry",
+      "category": "Products & Inventory",
+      "subcategory": "Stock Inquiry",
+      "translations": {
+        "en": "Hi {customer_name}, here's the stock availability for {product_name} variants:\n{variant_list}\nLet me know which one you'd like to order.",
+        "hi": "नमस्ते {customer_name}, {product_name} वेरिएंट का स्टॉक:\n{variant_list}\nजो चाहिए बताएँ।",
+        "hng": "{product_name} variants ka stock:\n{variant_list}\nJo chahiye batao.",
+        "bn": "{product_name} ভ্যারিয়েন্ট স্টক:\n{variant_list}"
+      },
+      "tags": [
+        "stock",
+        "variant",
+        "inquiry"
+      ],
+      "favorite": false,
+      "usageCount": 189,
+      "createdAt": "2024-08-03T12:00:00Z",
+      "updatedAt": "2024-08-03T12:00:00Z"
+    },
+    {
+      "id": "resp-060",
+      "title": "Bulk Stock Quote",
+      "category": "Products & Inventory",
+      "subcategory": "Stock Inquiry",
+      "translations": {
+        "en": "Hi {customer_name}, for bulk orders of {product_name} ({quantity} units), we can offer ₹{bulk_price}/unit. Estimated dispatch: {dispatch_time}. Shall I hold this quote for 48 hours?",
+        "hi": "नमस्ते {customer_name}, {product_name} के बल्क ऑर्डर ({quantity} यूनिट) के लिए ₹{bulk_price}/यूनिट दे सकते हैं। डिस्पैच: {dispatch_time}। 48 घंटे के लिए रखूँ?",
+        "hng": "{product_name} bulk ({quantity} units) ke liye ₹{bulk_price}/unit. Dispatch: {dispatch_time}. 48 ghante hold karu?",
+        "bn": "{product_name} বাল্ক ({quantity} ইউনিট) মূল্য ₹{bulk_price}/ইউনিট।"
+      },
+      "tags": [
+        "stock",
+        "bulk",
+        "quote"
+      ],
+      "favorite": false,
+      "usageCount": 231,
+      "createdAt": "2024-08-03T12:00:00Z",
+      "updatedAt": "2024-08-07T12:00:00Z"
+    },
+    {
+      "id": "resp-061",
+      "title": "Product Specs",
+      "category": "Products & Inventory",
+      "subcategory": "Product Info",
+      "translations": {
+        "en": "Hi {customer_name}, here are the specifications for {product_name}:\n• {spec_1}\n• {spec_2}\n• {spec_3}\nPrice: ₹{price}. Any other questions?",
+        "hi": "नमस्ते {customer_name}, {product_name} के विशेषताएँ:\n• {spec_1}\n• {spec_2}\n• {spec_3}\nकीमत: ₹{price}। और कुछ पूछें?",
+        "hng": "{product_name} specs:\n• {spec_1}\n• {spec_2}\n• {spec_3}\nPrice: ₹{price}.",
+        "bn": "{product_name} স্পেকস:\n• {spec_1}\n• {spec_2}\nমূল্য: ₹price}।"
+      },
+      "tags": [
+        "product",
+        "specs",
+        "info"
+      ],
+      "favorite": false,
+      "usageCount": 73,
+      "createdAt": "2024-07-29T12:00:00Z",
+      "updatedAt": "2024-08-03T12:00:00Z"
+    },
+    {
+      "id": "resp-062",
+      "title": "Product Pricing",
+      "category": "Products & Inventory",
+      "subcategory": "Product Info",
+      "translations": {
+        "en": "Hi {customer_name}, {product_name} is priced at ₹{price}. We offer quantity discounts: 5+ units get 5% off, 10+ units get 10% off. Cash on Delivery is available.",
+        "hi": "नमस्ते {customer_name}, {product_name} की कीमत ₹{price} है। 5+ पर 5%, 10+ पर 10% छूट। COD भी उपलब्ध।",
+        "hng": "{product_name} price ₹{price}. 5+ par 5%, 10+ par 10% off. COD bhi available.",
+        "bn": "{product_name} মূল্য ₹{price}। 5+ এ 5%, 10+ এ 10% ছাড়।"
+      },
+      "tags": [
+        "product",
+        "pricing",
+        "info"
+      ],
+      "favorite": false,
+      "usageCount": 33,
+      "createdAt": "2024-08-25T12:00:00Z",
+      "updatedAt": "2024-08-27T12:00:00Z"
+    },
+    {
+      "id": "resp-063",
+      "title": "Product Care Instructions",
+      "category": "Products & Inventory",
+      "subcategory": "Product Info",
+      "translations": {
+        "en": "Hi {customer_name}, to keep your {product_name} looking new:\n• {care_tip_1}\n• {care_tip_2}\n• {care_tip_3}\nLet us know if you have any questions.",
+        "hi": "नमस्ते {customer_name}, {product_name} को नया रखने के लिए:\n• {care_tip_1}\n• {care_tip_2}\n• {care_tip_3}",
+        "hng": "{product_name} ko naya rakhne ke liye:\n• {care_tip_1}\n• {care_tip_2}\n• {care_tip_3}",
+        "bn": "{product_name} নতুন রাখতে:\n• {care_tip_1}\n• {care_tip_2}"
+      },
+      "tags": [
+        "product",
+        "care",
+        "info"
+      ],
+      "favorite": false,
+      "usageCount": 45,
+      "createdAt": "2024-08-19T12:00:00Z",
+      "updatedAt": "2024-08-22T12:00:00Z"
+    },
+    {
+      "id": "resp-064",
+      "title": "Product Sizing Guide",
+      "category": "Products & Inventory",
+      "subcategory": "Product Info",
+      "translations": {
+        "en": "Hi {customer_name}, here's the sizing guide for {product_name}:\n{size_chart}\nIf you're between sizes, we recommend going up. Free exchange within 7 days if it doesn't fit.",
+        "hi": "नमस्ते {customer_name}, {product_name} की साइज़ गाइड:\n{size_chart}\nसाइज़ के बीच हो तो बड़ा चुनें। 7 दिन में मुफ़्त एक्सचेंज।",
+        "hng": "{product_name} size guide:\n{size_chart}\nBetween size ho toh bada chunein. 7 din free exchange.",
+        "bn": "{product_name} সাইজ গাইড:\n{size_chart}"
+      },
+      "tags": [
+        "product",
+        "sizing",
+        "guide"
+      ],
+      "favorite": false,
+      "usageCount": 249,
+      "createdAt": "2024-09-15T12:00:00Z",
+      "updatedAt": "2024-09-15T12:00:00Z"
+    },
+    {
+      "id": "resp-065",
+      "title": "Product Comparison",
+      "category": "Products & Inventory",
+      "subcategory": "Product Info",
+      "translations": {
+        "en": "Hi {customer_name}, here's a quick comparison of {product_a} vs {product_b}:\n• Price: ₹{price_a} vs ₹{price_b}\n• {compare_point_1}\n• {compare_point_2}\nLet me know which fits your need.",
+        "hi": "नमस्ते {customer_name}, {product_a} vs {product_b} तुलना:\n• कीमत: ₹{price_a} vs ₹{price_b}\n• {compare_point_1}\n• {compare_point_2}\nकौन सा चाहिए?",
+        "hng": "{product_a} vs {product_b}:\n• Price: ₹{price_a} vs ₹{price_b}\n• {compare_point_1}\nKaun sa chahiye?",
+        "bn": "{product_a} vs {product_b} তুলনা:\n• মূল্য: ₹{price_a} vs ₹{price_b}"
+      },
+      "tags": [
+        "product",
+        "comparison",
+        "info"
+      ],
+      "favorite": false,
+      "usageCount": 189,
+      "createdAt": "2024-07-21T12:00:00Z",
+      "updatedAt": "2024-07-23T12:00:00Z"
+    },
+    {
+      "id": "resp-066",
+      "title": "Product Warranty Info",
+      "category": "Products & Inventory",
+      "subcategory": "Product Info",
+      "translations": {
+        "en": "Hi {customer_name}, {product_name} comes with a {warranty_period} warranty covering manufacturing defects. Wear and tear isn't covered. Keep your invoice for claims.",
+        "hi": "नमस्ते {customer_name}, {product_name} को {warranty_period} वारंटी मिलती है, जो निर्माण दोष कवर करती है। इनवॉइस सुरक्षित रखें।",
+        "hng": "{product_name} ko {warranty_period} warranty, manufacturing defects cover. Invoice safe rakho.",
+        "bn": "{product_name} {warranty_period} ওয়ারেন্টি। ইনভয়েস সংরক্ষণ করুন।"
+      },
+      "tags": [
+        "product",
+        "warranty",
+        "info"
+      ],
+      "favorite": false,
+      "usageCount": 200,
+      "createdAt": "2024-08-14T12:00:00Z",
+      "updatedAt": "2024-08-15T12:00:00Z"
+    },
+    {
+      "id": "resp-067",
+      "title": "Variant Options",
+      "category": "Products & Inventory",
+      "subcategory": "Variants & Add-ons",
+      "translations": {
+        "en": "Hi {customer_name}, {product_name} is available in {variant_count} variants:\n{variant_list}\nWould you like to order a specific one?",
+        "hi": "नमस्ते {customer_name}, {product_name} {variant_count} वेरिएंट में उपलब्ध:\n{variant_list}\nकोई खास ऑर्डर करें?",
+        "hng": "{product_name} {variant_count} variants mein:\n{variant_list}\nKoi khaas order?",
+        "bn": "{product_name} {variant_count} ভ্যারিয়েন্টে:\n{variant_list}"
+      },
+      "tags": [
+        "variant",
+        "options",
+        "info"
+      ],
+      "favorite": false,
+      "usageCount": 238,
+      "createdAt": "2024-08-14T12:00:00Z",
+      "updatedAt": "2024-08-14T12:00:00Z"
+    },
+    {
+      "id": "resp-068",
+      "title": "Add-on Suggestion",
+      "category": "Products & Inventory",
+      "subcategory": "Variants & Add-ons",
+      "translations": {
+        "en": "Hi {customer_name}, many customers buying {product_name} also pick up {addon_name} (₹{addon_price}). Want to add it to your order before checkout?",
+        "hi": "नमस्ते {customer_name}, {product_name} के साथ {addon_name} (₹{addon_price}) भी लेने वाले खरीदार। ऑर्डर में जोड़ना चाहें?",
+        "hng": "{product_name} ke saath {addon_name} (₹{addon_price}) bhi lete hain. Add karein?",
+        "bn": "{product_name}-এর সাথে {addon_name} (₹{addon_price}) নিন।"
+      },
+      "tags": [
+        "addon",
+        "suggestion",
+        "upsell"
+      ],
+      "favorite": false,
+      "usageCount": 165,
+      "createdAt": "2024-07-22T12:00:00Z",
+      "updatedAt": "2024-07-24T12:00:00Z"
+    },
+    {
+      "id": "resp-069",
+      "title": "Custom Variant Available",
+      "category": "Products & Inventory",
+      "subcategory": "Variants & Add-ons",
+      "translations": {
+        "en": "Hi {customer_name}, we can customize {product_name} in {custom_options}. Lead time: {lead_time}. Custom orders are non-returnable. Shall I share a quote?",
+        "hi": "नमस्ते {customer_name}, {product_name} को {custom_options} में कस्टमाइज़ कर सकते हैं। समय: {lead_time}। कस्टम ऑर्डर वापसी योग्य नहीं। बताएँ?",
+        "hng": "{product_name} ko {custom_options} mein customize kar sakte hain. Time: {lead_time}. Quote doon?",
+        "bn": "{product_name} {custom_options}-এ কাস্টমাইজ করতে পারি।"
+      },
+      "tags": [
+        "variant",
+        "custom",
+        "info"
+      ],
+      "favorite": false,
+      "usageCount": 168,
+      "createdAt": "2024-07-24T12:00:00Z",
+      "updatedAt": "2024-07-28T12:00:00Z"
+    },
+    {
+      "id": "resp-070",
+      "title": "Bundle Offer",
+      "category": "Products & Inventory",
+      "subcategory": "Variants & Add-ons",
+      "translations": {
+        "en": "Hi {customer_name}, we've created a bundle: {product_name} + {bundle_items} for ₹{bundle_price} (save ₹{savings}!). Shall I add it to your cart?",
+        "hi": "नमस्ते {customer_name}, बंडल: {product_name} + {bundle_items} सिर्फ़ ₹{bundle_price} (₹{savings} बचत!)। कार्ट में जोड़ूँ?",
+        "hng": "Bundle: {product_name} + {bundle_items} sirf ₹{bundle_price} (₹{savings} bachat!). Cart mein add karu?",
+        "bn": "বান্ডল: {product_name} + {bundle_items} মাত্র ₹{bundle_price} (₹{savings} সাশ্রয়!)।"
+      },
+      "tags": [
+        "variant",
+        "bundle",
+        "offer"
+      ],
+      "favorite": true,
+      "usageCount": 151,
+      "createdAt": "2024-08-08T12:00:00Z",
+      "updatedAt": "2024-08-09T12:00:00Z"
+    },
+    {
+      "id": "resp-071",
+      "title": "Out of Stock - Notify",
+      "category": "Products & Inventory",
+      "subcategory": "Out of Stock",
+      "translations": {
+        "en": "Hi {customer_name}, {product_name} is currently out of stock. We can add you to our priority notify list — you'll get a message the moment it's back. Want me to?",
+        "hi": "नमस्ते {customer_name}, {product_name} अभी स्टॉक में नहीं है। प्राथमिकता सूचनी सूची में जोड़ सकते हैं — वापस आते ही संदेश मिलेगा। करूँ?",
+        "hng": "{product_name} abhi out of stock. Notify list mein add karu? Wapas aate hi message milega.",
+        "bn": "{product_name} এখন স্টক নেই। নোটিফাই লিস্টে যোগ করি?"
+      },
+      "tags": [
+        "stock",
+        "out",
+        "notify"
+      ],
+      "favorite": false,
+      "usageCount": 200,
+      "createdAt": "2024-08-23T12:00:00Z",
+      "updatedAt": "2024-08-24T12:00:00Z"
+    },
+    {
+      "id": "resp-072",
+      "title": "Out of Stock - Alternate",
+      "category": "Products & Inventory",
+      "subcategory": "Out of Stock",
+      "translations": {
+        "en": "Hi {customer_name}, {product_name} is out of stock, but I found a similar option: {alternate_name} at ₹{alternate_price}. Want me to share more details or hold your order?",
+        "hi": "नमस्ते {customer_name}, {product_name} स्टॉक में नहीं, लेकिन एक समान विकल्प मिला: {alternate_name} (₹{alternate_price})। विवरण भेजूँ या ऑर्डर रोकूँ?",
+        "hng": "{product_name} nahi hai, similar option: {alternate_name} (₹{alternate_price}). Details bheju ya order rodu?",
+        "bn": "{product_name} স্টক নেই, সমজাতীয়: {alternate_name} (₹{alternate_price})।"
+      },
+      "tags": [
+        "stock",
+        "out",
+        "alternate"
+      ],
+      "favorite": false,
+      "usageCount": 249,
+      "createdAt": "2024-08-12T12:00:00Z",
+      "updatedAt": "2024-08-16T12:00:00Z"
+    },
+    {
+      "id": "resp-073",
+      "title": "Out of Stock - Pre-order",
+      "category": "Products & Inventory",
+      "subcategory": "Out of Stock",
+      "translations": {
+        "en": "Hi {customer_name}, {product_name} is available for pre-order. Estimated restock: {restock_date}. Pre-order now at ₹{price} and we'll ship the moment stock arrives.",
+        "hi": "नमस्ते {customer_name}, {product_name} प्री-ऑर्डर के लिए उपलब्ध। अनुमानित रीस्टॉक: {restock_date}। अभी ₹{price} में प्री-ऑर्डर करें।",
+        "hng": "{product_name} pre-order ke liye. Restock: {restock_date}. Abhi ₹{price} mein pre-order karo.",
+        "bn": "{product_name} প্রি-অর্ডার। রিস্টক: {restock_date}।"
+      },
+      "tags": [
+        "stock",
+        "out",
+        "preorder"
+      ],
+      "favorite": false,
+      "usageCount": 5,
+      "createdAt": "2024-07-19T12:00:00Z",
+      "updatedAt": "2024-07-23T12:00:00Z"
+    },
+    {
+      "id": "resp-074",
+      "title": "Customization Quote",
+      "category": "Products & Inventory",
+      "subcategory": "Customization",
+      "translations": {
+        "en": "Hi {customer_name}, we can customize {product_name} with your requirements ({custom_specs}). Quote: ₹{quote_amount}. Lead time: {lead_time}. Shall I proceed?",
+        "hi": "नमस्ते {customer_name}, {product_name} को आपकी ज़रूरत ({custom_specs}) के अनुसार कस्टमाइज़ कर सकते हैं। कोट: ₹{quote_amount}। समय: {lead_time}।",
+        "hng": "{product_name} ko customize kar sakte hain ({custom_specs}). Quote: ₹{quote_amount}. Time: {lead_time}.",
+        "bn": "{product_name} কাস্টমাইজ ({custom_specs})। কোট: ₹{quote_amount}।"
+      },
+      "tags": [
+        "custom",
+        "quote",
+        "info"
+      ],
+      "favorite": false,
+      "usageCount": 130,
+      "createdAt": "2024-08-26T12:00:00Z",
+      "updatedAt": "2024-08-26T12:00:00Z"
+    },
+    {
+      "id": "resp-075",
+      "title": "Custom Order Confirmation",
+      "category": "Products & Inventory",
+      "subcategory": "Customization",
+      "translations": {
+        "en": "Hi {customer_name}, your custom order for {product_name} ({custom_specs}) is confirmed at ₹{quote_amount}. Lead time: {lead_time}. We'll share progress photos as we go.",
+        "hi": "नमस्ते {customer_name}, {product_name} कस्टम ऑर्डर ({custom_specs}) ₹{quote_amount} में कन्फर्म। समय: {lead_time}। प्रोग्रेस फोटो शेयर करेंगे।",
+        "hng": "Custom order {product_name} ({custom_specs}) ₹{quote_amount} confirm. Time: {lead_time}.",
+        "bn": "কাস্টম অর্ডার {product_name} কনফার্ম। সময়: {lead_time}।"
+      },
+      "tags": [
+        "custom",
+        "order",
+        "confirmation"
+      ],
+      "favorite": false,
+      "usageCount": 242,
+      "createdAt": "2024-09-08T12:00:00Z",
+      "updatedAt": "2024-09-10T12:00:00Z"
+    },
+    {
+      "id": "resp-076",
+      "title": "Custom Design Help",
+      "category": "Products & Inventory",
+      "subcategory": "Customization",
+      "translations": {
+        "en": "Hi {customer_name}, I'd love to help with customizing {product_name}. Please share your design references or describe what you have in mind, and I'll get our design team to revert.",
+        "hi": "नमस्ते {customer_name}, {product_name} को कस्टमाइज़ करने में मदद करूँगा। डिज़ाइन रेफरेंस या विचार शेयर करें, टीम जवाब देगी।",
+        "hng": "{product_name} customize karne mein madad karunga. Design reference share karo.",
+        "bn": "{product_name} কাস্টমাইজ করতে সাহায্য করব। ডিজাইন শেয়ার করুন।"
+      },
+      "tags": [
+        "custom",
+        "design",
+        "help"
+      ],
+      "favorite": false,
+      "usageCount": 217,
+      "createdAt": "2024-07-21T12:00:00Z",
+      "updatedAt": "2024-07-23T12:00:00Z"
+    },
+    {
+      "id": "resp-077",
+      "title": "Payment Failed - Retry",
+      "category": "Payments & Billing",
+      "subcategory": "Payment Failed",
+      "translations": {
+        "en": "Hi {customer_name}, your payment for order #{order_id} of ₹{amount} didn't go through. Reason: {failure_reason}. Please retry with another payment method: {payment_link}",
+        "hi": "नमस्ते {customer_name}, ऑर्डर #{order_id} के लिए ₹{amount} पेमेंट नहीं हुआ। कारण: {failure_reason}। दूसरा मेथड आज़माएँ: {payment_link}",
+        "hng": "Payment ₹{amount} fail ho gaya, reason: {failure_reason}. Doosra method try karein: {payment_link}",
+        "bn": "পেমেন্ট ₹{amount} ব্যর্থ, কারণ: {failure_reason}। অন্য মাধ্যমে চেষ্টা করুন: {payment_link}"
+      },
+      "tags": [
+        "payment",
+        "failed",
+        "retry"
+      ],
+      "favorite": true,
+      "usageCount": 79,
+      "createdAt": "2024-08-31T12:00:00Z",
+      "updatedAt": "2024-09-01T12:00:00Z"
+    },
+    {
+      "id": "resp-078",
+      "title": "Payment Failed - Bank Decline",
+      "category": "Payments & Billing",
+      "subcategory": "Payment Failed",
+      "translations": {
+        "en": "Hi {customer_name}, your bank declined the payment for order #{order_id}. Please check with your bank or try a different card/UPI ID: {payment_link}",
+        "hi": "नमस्ते {customer_name}, बैंक ने ऑर्डर #{order_id} का पेमेंट अस्वीकार कर दिया। बैंक से जाँचें या दूसरा कार्ड/UPI आज़माएँ: {payment_link}",
+        "hng": "Bank ne payment decline ki. Bank se check karo ya doosra card/UPI try karo: {payment_link}",
+        "bn": "ব্যাংক পেমেন্ট প্রত্যাখ্যান করেছে। অন্য কার্ড/UPI চেষ্টা করুন।"
+      },
+      "tags": [
+        "payment",
+        "failed",
+        "bank"
+      ],
+      "favorite": false,
+      "usageCount": 150,
+      "createdAt": "2024-07-21T12:00:00Z",
+      "updatedAt": "2024-07-21T12:00:00Z"
+    },
+    {
+      "id": "resp-079",
+      "title": "Payment Failed - Insufficient Funds",
+      "category": "Payments & Billing",
+      "subcategory": "Payment Failed",
+      "translations": {
+        "en": "Hi {customer_name}, your payment for order #{order_id} was declined due to insufficient funds. Please top up and retry: {payment_link}",
+        "hi": "नमस्ते {customer_name}, ऑर्डर #{order_id} का पेमेंट अपर्याप्त राशि के कारण अस्वीकृत। बैलेंस रिचार्ज करके पुनः आज़माएँ: {payment_link}",
+        "hng": "Payment insufficient funds ki wajah se decline. Balance recharge karke retry karo: {payment_link}",
+        "bn": "পেমেন্ট অপর্যাপ্ত ব্যালেন্সে ব্যর্থ। রিচার্জ করে আবার চেষ্টা করুন।"
+      },
+      "tags": [
+        "payment",
+        "failed",
+        "funds"
+      ],
+      "favorite": false,
+      "usageCount": 192,
+      "createdAt": "2024-09-10T12:00:00Z",
+      "updatedAt": "2024-09-13T12:00:00Z"
+    },
+    {
+      "id": "resp-080",
+      "title": "Payment Failed - Technical",
+      "category": "Payments & Billing",
+      "subcategory": "Payment Failed",
+      "translations": {
+        "en": "Hi {customer_name}, a technical issue interrupted your payment for order #{order_id}. Don't worry — your card wasn't charged. Please retry: {payment_link}",
+        "hi": "नमस्ते {customer_name}, ऑर्डर #{order_id} का पेमेंट तकनीकी समस्या से बाधित। चिंता न करें — कार्ड से पैसे नहीं कटे। पुनः आज़माएँ: {payment_link}",
+        "hng": "Payment technical issue se fail. Card charge nahi hua. Retry karein: {payment_link}",
+        "bn": "টেকনিক্যাল সমস্যায় পেমেন্ট ব্যর্থ। কার্ড চার্জ হয়নি।"
+      },
+      "tags": [
+        "payment",
+        "failed",
+        "technical"
+      ],
+      "favorite": false,
+      "usageCount": 22,
+      "createdAt": "2024-07-25T12:00:00Z",
+      "updatedAt": "2024-07-29T12:00:00Z"
+    },
+    {
+      "id": "resp-081",
+      "title": "Payment Failed - Follow-up",
+      "category": "Payments & Billing",
+      "subcategory": "Payment Failed",
+      "translations": {
+        "en": "Hi {customer_name}, I see your payment for order #{order_id} failed {hours_ago} hours ago. The order is on hold — would you like help completing the payment? Link: {payment_link}",
+        "hi": "नमस्ते {customer_name}, ऑर्डर #{order_id} का पेमेंट {hours_ago} घंटे पहले असफल था। ऑर्डर होल्ड पर है। पेमेंट पूरा करने में मदद चाहिए? लिंक: {payment_link}",
+        "hng": "Payment {hours_ago} ghante pehle fail tha. Order hold pe hai. Help chahiye? Link: {payment_link}",
+        "bn": "পেমেন্ট {hours_ago} ঘণ্টা আগে ব্যর্থ। অর্ডার হোল্ডে।"
+      },
+      "tags": [
+        "payment",
+        "failed",
+        "followup"
+      ],
+      "favorite": false,
+      "usageCount": 37,
+      "createdAt": "2024-07-28T12:00:00Z",
+      "updatedAt": "2024-07-29T12:00:00Z"
+    },
+    {
+      "id": "resp-082",
+      "title": "Refund Initiated",
+      "category": "Payments & Billing",
+      "subcategory": "Refund Status",
+      "translations": {
+        "en": "Hi {customer_name}, refund of ₹{amount} for order #{order_id} has been initiated. It will reflect in your source account within {refund_days} business days. Reference: {refund_ref}",
+        "hi": "नमस्ते {customer_name}, ऑर्डर #{order_id} के ₹{amount} रिफंड शुरू हो गया। {refund_days} कार्य दिवसों में खाते में आएगा। रेफरेंस: {refund_ref}",
+        "hng": "Refund ₹{amount} start ho gaya. {refund_days} working days mein account mein aayega. Ref: {refund_ref}",
+        "bn": "রিফান্ড ₹{amount} শুরু। {refund_days} কর্মদিবসে আসবে।"
+      },
+      "tags": [
+        "refund",
+        "initiated",
+        "status"
+      ],
+      "favorite": true,
+      "usageCount": 293,
+      "createdAt": "2024-08-04T12:00:00Z",
+      "updatedAt": "2024-08-08T12:00:00Z"
+    },
+    {
+      "id": "resp-083",
+      "title": "Refund Processed",
+      "category": "Payments & Billing",
+      "subcategory": "Refund Status",
+      "translations": {
+        "en": "Hi {customer_name}, good news! Your refund of ₹{amount} for order #{order_id} has been processed from our end. It should appear in your account in 1-3 business days.",
+        "hi": "नमस्ते {customer_name}, ऑर्डर #{order_id} के ₹{amount} रिफंड हमारी तरफ से प्रोसेस हो गया। 1-3 दिनों में खाते में आएगा।",
+        "hng": "Refund ₹{amount} process ho gaya. 1-3 din mein account mein aayega.",
+        "bn": "রিফান্ড ₹{amount} প্রসেসড। ১-৩ দিনে আসবে।"
+      },
+      "tags": [
+        "refund",
+        "processed",
+        "status"
+      ],
+      "favorite": false,
+      "usageCount": 72,
+      "createdAt": "2024-09-05T12:00:00Z",
+      "updatedAt": "2024-09-09T12:00:00Z"
+    },
+    {
+      "id": "resp-084",
+      "title": "Refund Delayed",
+      "category": "Payments & Billing",
+      "subcategory": "Refund Status",
+      "translations": {
+        "en": "Hi {customer_name}, your refund of ₹{amount} for order #{order_id} is taking longer than expected due to bank processing. New ETA: {new_eta}. Reference: {refund_ref}",
+        "hi": "नमस्ते {customer_name}, ऑर्डर #{order_id} के ₹{amount} रिफंड में बैंक प्रोसेसिंग से ज़्यादा समय लग रहा। नया ETA: {new_eta}। रेफरेंस: {refund_ref}",
+        "hng": "Refund ₹{amount} bank ki wajah se late ho raha. Naya ETA: {new_eta}.",
+        "bn": "রিফান্ড ব্যাংকে দেরি হচ্ছে। নতুন ETA: {new_eta}।"
+      },
+      "tags": [
+        "refund",
+        "delayed",
+        "status"
+      ],
+      "favorite": false,
+      "usageCount": 160,
+      "createdAt": "2024-07-22T12:00:00Z",
+      "updatedAt": "2024-07-25T12:00:00Z"
+    },
+    {
+      "id": "resp-085",
+      "title": "Refund to Wallet",
+      "category": "Payments & Billing",
+      "subcategory": "Refund Status",
+      "translations": {
+        "en": "Hi {customer_name}, your refund of ₹{amount} for order #{order_id} has been credited to your {store_name} wallet, usable immediately for new orders. Original payment method refund will follow in {refund_days} days.",
+        "hi": "नमस्ते {customer_name}, ₹{amount} रिफंड आपके {store_name} वॉलेट में आ गया, तुरंत उपयोग कर सकते हैं। मूल पेमेंट मेथड में रिफंड {refund_days} दिनों में आएगा।",
+        "hng": "Refund ₹{amount} wallet mein aaya, turant use karo. Original method mein {refund_days} din mein aayega.",
+        "bn": "রিফান্ড ₹{amount} ওয়ালেটে এসেছে, তাৎক্ষণিক ব্যবহার করুন।"
+      },
+      "tags": [
+        "refund",
+        "wallet",
+        "status"
+      ],
+      "favorite": false,
+      "usageCount": 242,
+      "createdAt": "2024-09-02T12:00:00Z",
+      "updatedAt": "2024-09-06T12:00:00Z"
+    },
+    {
+      "id": "resp-086",
+      "title": "Invoice Shared",
+      "category": "Payments & Billing",
+      "subcategory": "Invoice & GST",
+      "translations": {
+        "en": "Hi {customer_name}, here's the invoice for order #{order_id} (₹{amount}): {invoice_link}. Keep it for your records and warranty claims.",
+        "hi": "नमस्ते {customer_name}, ऑर्डर #{order_id} (₹{amount}) का इनवॉइस: {invoice_link}। रिकॉर्ड के लिए रखें।",
+        "hng": "Order #{order_id} (₹{amount}) ka invoice: {invoice_link}.",
+        "bn": "অর্ডার #{order_id} (₹{amount}) ইনভয়েস: {invoice_link}।"
+      },
+      "tags": [
+        "invoice",
+        "shared",
+        "billing"
+      ],
+      "favorite": false,
+      "usageCount": 191,
+      "createdAt": "2024-07-29T12:00:00Z",
+      "updatedAt": "2024-08-03T12:00:00Z"
+    },
+    {
+      "id": "resp-087",
+      "title": "GST Invoice Request",
+      "category": "Payments & Billing",
+      "subcategory": "Invoice & GST",
+      "translations": {
+        "en": "Hi {customer_name}, to generate a GST invoice for order #{order_id}, please share your GST number and business name. We'll share the GST invoice within 24 hours.",
+        "hi": "नमस्ते {customer_name}, ऑर्डर #{order_id} के लिए GST इनवॉइस बनाने के लिए GST नंबर और बिज़नेस नाम दें। 24 घंटे में भेज देंगे।",
+        "hng": "GST invoice ke liye GST number aur business name dein. 24 ghante mein bhej denge.",
+        "bn": "GST ইনভয়েসের জন্য GST নম্বর ও ব্যবসার নাম দিন।"
+      },
+      "tags": [
+        "invoice",
+        "gst",
+        "request"
+      ],
+      "favorite": false,
+      "usageCount": 187,
+      "createdAt": "2024-09-03T12:00:00Z",
+      "updatedAt": "2024-09-05T12:00:00Z"
+    },
+    {
+      "id": "resp-088",
+      "title": "GST Invoice Shared",
+      "category": "Payments & Billing",
+      "subcategory": "Invoice & GST",
+      "translations": {
+        "en": "Hi {customer_name}, your GST invoice for order #{order_id} is ready: {invoice_link}. GSTIN: {gstin}. Please verify and let us know of any discrepancy.",
+        "hi": "नमस्ते {customer_name}, ऑर्डर #{order_id} का GST इनवॉइस तैयार: {invoice_link}। GSTIN: {gstin}। कृपया जाँच लें।",
+        "hng": "GST invoice ready: {invoice_link}. GSTIN: {gstin}. Verify kar lein.",
+        "bn": "GST ইনভয়েস প্রস্তুত: {invoice_link}। GSTIN: {gstin}।"
+      },
+      "tags": [
+        "invoice",
+        "gst",
+        "shared"
+      ],
+      "favorite": false,
+      "usageCount": 176,
+      "createdAt": "2024-08-21T12:00:00Z",
+      "updatedAt": "2024-08-26T12:00:00Z"
+    },
+    {
+      "id": "resp-089",
+      "title": "Price Adjustment",
+      "category": "Payments & Billing",
+      "subcategory": "Invoice & GST",
+      "translations": {
+        "en": "Hi {customer_name}, I've adjusted the price of order #{order_id} by ₹{adjustment_amount} as per our discussion. New total: ₹{new_total}. The updated invoice has been emailed to you.",
+        "hi": "नमस्ते {customer_name}, बातचीत के अनुसार ऑर्डर #{order_id} की कीमत ₹{adjustment_amount} घटा दी। नया कुल: ₹{new_total}। अपडेटेड इनवॉइस ईमेल हो गया।",
+        "hng": "Order #{order_id} ki price ₹{adjustment_amount} kam kar di. Naya total: ₹{new_total}.",
+        "bn": "অর্ডার #{order_id} মূল্য ₹{adjustment_amount} কমানো হয়েছে।"
+      },
+      "tags": [
+        "invoice",
+        "adjustment",
+        "billing"
+      ],
+      "favorite": false,
+      "usageCount": 117,
+      "createdAt": "2024-08-23T12:00:00Z",
+      "updatedAt": "2024-08-27T12:00:00Z"
+    },
+    {
+      "id": "resp-090",
+      "title": "UPI Payment Link",
+      "category": "Payments & Billing",
+      "subcategory": "UPI & Wallets",
+      "translations": {
+        "en": "Hi {customer_name}, you can pay ₹{amount} for order #{order_id} via UPI using this link: {payment_link}. It accepts all major UPI apps.",
+        "hi": "नमस्ते {customer_name}, ऑर्डर #{order_id} के ₹{amount} UPI से चुकाएँ: {payment_link}। सभी UPI ऐप स्वीकार।",
+        "hng": "₹{amount} UPI se pay karo: {payment_link}. Saare UPI apps accept.",
+        "bn": "₹{amount} UPI দিয়ে পরিশোধ করুন: {payment_link}।"
+      },
+      "tags": [
+        "upi",
+        "payment",
+        "link"
+      ],
+      "favorite": false,
+      "usageCount": 35,
+      "createdAt": "2024-08-18T12:00:00Z",
+      "updatedAt": "2024-08-19T12:00:00Z"
+    },
+    {
+      "id": "resp-091",
+      "title": "Wallet Credit Confirmation",
+      "category": "Payments & Billing",
+      "subcategory": "UPI & Wallets",
+      "translations": {
+        "en": "Hi {customer_name}, ₹{amount} has been credited to your {store_name} wallet from {credit_reason}. Current balance: ₹{balance}. Use it on your next order.",
+        "hi": "नमस्ते {customer_name}, ₹{amount} आपके {store_name} वॉलेट में जमा हुआ ({credit_reason})। वर्तमान बैलेंस: ₹{balance}।",
+        "hng": "₹{amount} wallet mein add hua ({credit_reason}). Balance: ₹{balance}.",
+        "bn": "₹{amount} ওয়ালেটে যোগ হয়েছে। ব্যালেন্স: ₹{balance}।"
+      },
+      "tags": [
+        "wallet",
+        "credit",
+        "upi"
+      ],
+      "favorite": false,
+      "usageCount": 21,
+      "createdAt": "2024-09-01T12:00:00Z",
+      "updatedAt": "2024-09-03T12:00:00Z"
+    },
+    {
+      "id": "resp-092",
+      "title": "Wallet Low Balance",
+      "category": "Payments & Billing",
+      "subcategory": "UPI & Wallets",
+      "translations": {
+        "en": "Hi {customer_name}, your wallet balance is low (₹{balance}). Top up to use it for faster checkout on future orders: {topup_link}",
+        "hi": "नमस्ते {customer_name}, वॉलेट बैलेंस कम है (₹{balance})। रिचार्ज करें: {topup_link}",
+        "hng": "Wallet balance low (₹{balance}). Recharge karein: {topup_link}",
+        "bn": "ওয়ালেট ব্যালেন্স কম (₹{balance})। রিচার্জ করুন।"
+      },
+      "tags": [
+        "wallet",
+        "low",
+        "balance"
+      ],
+      "favorite": false,
+      "usageCount": 155,
+      "createdAt": "2024-09-14T12:00:00Z",
+      "updatedAt": "2024-09-15T12:00:00Z"
+    },
+    {
+      "id": "resp-093",
+      "title": "Coupon Applied",
+      "category": "Payments & Billing",
+      "subcategory": "Coupons & Discounts",
+      "translations": {
+        "en": "Hi {customer_name}, coupon code {coupon_code} has been applied to your order #{order_id}. You saved ₹{discount_amount}! New total: ₹{new_total}.",
+        "hi": "नमस्ते {customer_name}, कूपन कोड {coupon_code} ऑर्डर #{order_id} पर लागू हो गया। ₹{discount_amount} बचत! नया कुल: ₹{new_total}।",
+        "hng": "Coupon {coupon_code} apply ho gaya. ₹{discount_amount} bachat! Naya total: ₹{new_total}.",
+        "bn": "কুপন {coupon_code} প্রয়োগ হয়েছে। ₹{discount_amount} সাশ্রয়!"
+      },
+      "tags": [
+        "coupon",
+        "applied",
+        "discount"
+      ],
+      "favorite": false,
+      "usageCount": 155,
+      "createdAt": "2024-09-01T12:00:00Z",
+      "updatedAt": "2024-09-02T12:00:00Z"
+    },
+    {
+      "id": "resp-094",
+      "title": "Coupon Expired",
+      "category": "Payments & Billing",
+      "subcategory": "Coupons & Discounts",
+      "translations": {
+        "en": "Hi {customer_name}, the coupon code {coupon_code} has expired. But here's a fresh one just for you: {new_coupon} (valid till {validity}). Apply it at checkout.",
+        "hi": "नमस्ते {customer_name}, कूपन कोड {coupon_code} एक्स्पायर हो गया। लेकिन नया कोड: {new_coupon} ({validity} तक वैध)। चेकआउट पर लगाएँ।",
+        "hng": "Coupon {coupon_code} expire ho gaya. Naya code: {new_coupon} ({validity} tak valid).",
+        "bn": "কুপন {coupon_code} মেয়াদ শেষ। নতুন: {new_coupon} ({validity} পর্যন্ত)।"
+      },
+      "tags": [
+        "coupon",
+        "expired",
+        "discount"
+      ],
+      "favorite": false,
+      "usageCount": 23,
+      "createdAt": "2024-09-15T12:00:00Z",
+      "updatedAt": "2024-09-15T12:00:00Z"
+    },
+    {
+      "id": "resp-095",
+      "title": "Coupon Not Applicable",
+      "category": "Payments & Billing",
+      "subcategory": "Coupons & Discounts",
+      "translations": {
+        "en": "Hi {customer_name}, coupon {coupon_code} couldn't be applied because {reason}. Check the coupon terms or try a different code. Active codes: {active_codes}",
+        "hi": "नमस्ते {customer_name}, कूपन {coupon_code} लागू नहीं हो सका क्योंकि {reason}। शर्तें देखें या दूसरा आज़माएँ। एक्टिव कोड: {active_codes}",
+        "hng": "Coupon {coupon_code} apply nahi hua kyunki {reason}. Doosra try karo. Active: {active_codes}",
+        "bn": "কুপন {coupon_code} প্রয়োগ হয়নি কারণ {reason}।"
+      },
+      "tags": [
+        "coupon",
+        "not-applied",
+        "discount"
+      ],
+      "favorite": false,
+      "usageCount": 20,
+      "createdAt": "2024-08-06T12:00:00Z",
+      "updatedAt": "2024-08-07T12:00:00Z"
+    },
+    {
+      "id": "resp-096",
+      "title": "Escalation Acknowledgment",
+      "category": "Customer Support",
+      "subcategory": "Escalation",
+      "translations": {
+        "en": "Hi {customer_name}, I've escalated your case to our senior team. Ticket #{ticket_id} is now marked priority. A specialist will reach out within {response_time}.",
+        "hi": "नमस्ते {customer_name}, आपका केस सीनियर टीम को भेज दिया। टिकट #{ticket_id} प्राथमिकता पर है। विशेषज्ञ {response_time} में संपर्क करेगा।",
+        "hng": "Case senior team ko bhej diya. Ticket #{ticket_id} priority pe hai. Specialist {response_time} mein contact karega.",
+        "bn": "কেস সিনিয়র টিমে পাঠানো হয়েছে। টিকিট #{ticket_id} অগ্রাধিকার।"
+      },
+      "tags": [
+        "escalation",
+        "priority",
+        "ticket"
+      ],
+      "favorite": true,
+      "usageCount": 66,
+      "createdAt": "2024-09-11T12:00:00Z",
+      "updatedAt": "2024-09-13T12:00:00Z"
+    },
+    {
+      "id": "resp-097",
+      "title": "Manager Escalation",
+      "category": "Customer Support",
+      "subcategory": "Escalation",
+      "translations": {
+        "en": "Hi {customer_name}, I'm escalating your case to my manager {manager_name} given the urgency. They'll personally review and respond by {response_time}.",
+        "hi": "नमस्ते {customer_name}, ज़रूरी होने से आपका केस मैनेजर {manager_name} को भेज रहा। वे स्वयं जाँच कर {response_time} तक जवाब देंगे।",
+        "hng": "Case manager {manager_name} ko bhej raha. Wo personally review karke {response_time} tak reply denge.",
+        "bn": "কেস ম্যানেজার {manager_name}-কে পাঠানো হলো।"
+      },
+      "tags": [
+        "escalation",
+        "manager",
+        "priority"
+      ],
+      "favorite": false,
+      "usageCount": 136,
+      "createdAt": "2024-09-11T12:00:00Z",
+      "updatedAt": "2024-09-12T12:00:00Z"
+    },
+    {
+      "id": "resp-098",
+      "title": "Escalation Resolved",
+      "category": "Customer Support",
+      "subcategory": "Escalation",
+      "translations": {
+        "en": "Hi {customer_name}, I'm glad to share that your escalated ticket #{ticket_id} is now resolved. Please confirm if everything looks good. We value your patience throughout this.",
+        "hi": "नमस्ते {customer_name}, एस्कलेटेड टिकट #{ticket_id} हल हो गया। कृपया कन्फर्म करें कि सब ठीक है। धैर्य के लिए धन्यवाद।",
+        "hng": "Escalated ticket #{ticket_id} solve ho gaya. Confirm karein ki sab theek hai.",
+        "bn": "এসকেলেটেড টিকিট #{ticket_id} সমাধান হয়েছে। কনফার্ম করুন।"
+      },
+      "tags": [
+        "escalation",
+        "resolved",
+        "ticket"
+      ],
+      "favorite": false,
+      "usageCount": 176,
+      "createdAt": "2024-08-29T12:00:00Z",
+      "updatedAt": "2024-09-01T12:00:00Z"
+    },
+    {
+      "id": "resp-099",
+      "title": "Escalation - Compensation Offer",
+      "category": "Customer Support",
+      "subcategory": "Escalation",
+      "translations": {
+        "en": "Hi {customer_name}, given the inconvenience caused, I'd like to offer {compensation_offer} as a goodwill gesture, on top of resolving your issue. Let me know if that works for you.",
+        "hi": "नमस्ते {customer_name}, हुई असुविधा के लिए समस्या हल के साथ {compensation_offer} देना चाहता हूँ। ठीक है बताएँ।",
+        "hng": "Inconvenience ke liye issue solve ke saath {compensation_offer} dena chahta hoon. Theek hai?",
+        "bn": "অসুবিধার জন্য সমস্যা সমাধানের সাথে {compensation_offer} দিচ্ছি।"
+      },
+      "tags": [
+        "escalation",
+        "compensation",
+        "offer"
+      ],
+      "favorite": true,
+      "usageCount": 326,
+      "createdAt": "2024-09-02T12:00:00Z",
+      "updatedAt": "2024-09-03T12:00:00Z"
+    },
+    {
+      "id": "resp-100",
+      "title": "Complaint Acknowledgment",
+      "category": "Customer Support",
+      "subcategory": "Complaint Handling",
+      "translations": {
+        "en": "Hi {customer_name}, I'm sorry to hear about your experience. I've logged your complaint (#{ticket_id}) and will personally own it to resolution. You'll hear from me within {response_time}.",
+        "hi": "नमस्ते {customer_name}, आपके अनुभव के लिए खेद है। शिकायत (#{ticket_id}) दर्ज कर ली, स्वयं इसे समाधान तक ले जाऊँगा। {response_time} में जवाब दूँगा।",
+        "hng": "Complaint (#{ticket_id}) log kar li. Khud solve karunga, {response_time} mein reply dunga.",
+        "bn": "অভিযোগ (#{ticket_id}) লগ করেছি। নিজে সমাধান করব।"
+      },
+      "tags": [
+        "complaint",
+        "acknowledgment",
+        "ticket"
+      ],
+      "favorite": true,
+      "usageCount": 342,
+      "createdAt": "2024-07-31T12:00:00Z",
+      "updatedAt": "2024-08-04T12:00:00Z"
+    },
+    {
+      "id": "resp-101",
+      "title": "Complaint Resolution",
+      "category": "Customer Support",
+      "subcategory": "Complaint Handling",
+      "translations": {
+        "en": "Hi {customer_name}, I've resolved your complaint #{ticket_id}. Here's what we did: {resolution_summary}. Please confirm if this addresses your concern fully.",
+        "hi": "नमस्ते {customer_name}, शिकायत #{ticket_id} हल हो गई। किया गया: {resolution_summary}। कृपया कन्फर्म करें।",
+        "hng": "Complaint #{ticket_id} solve ho gaya. Kiya: {resolution_summary}. Confirm karein.",
+        "bn": "অভিযোগ #{ticket_id} সমাধান হয়েছে। করা হয়েছে: {resolution_summary}।"
+      },
+      "tags": [
+        "complaint",
+        "resolution",
+        "ticket"
+      ],
+      "favorite": false,
+      "usageCount": 67,
+      "createdAt": "2024-08-16T12:00:00Z",
+      "updatedAt": "2024-08-19T12:00:00Z"
+    },
+    {
+      "id": "resp-102",
+      "title": "Complaint Follow-up",
+      "category": "Customer Support",
+      "subcategory": "Complaint Handling",
+      "translations": {
+        "en": "Hi {customer_name}, following up on your complaint #{ticket_id}. Has the resolution worked for you, or is there anything else we can do? Your satisfaction matters.",
+        "hi": "नमस्ते {customer_name}, शिकायत #{ticket_id} पर फॉलोअप। समाधान काम कर गया या और कुछ कर सकें? आपकी संतुष्टि मायने रखती है।",
+        "hng": "Complaint #{ticket_id} followup. Solution kaam gaya ya kuch aur karein?",
+        "bn": "অভিযোগ #{ticket_id} ফলোআপ। সমাধান কাজ করেছে কি?"
+      },
+      "tags": [
+        "complaint",
+        "followup",
+        "satisfaction"
+      ],
+      "favorite": false,
+      "usageCount": 109,
+      "createdAt": "2024-07-26T12:00:00Z",
+      "updatedAt": "2024-07-27T12:00:00Z"
+    },
+    {
+      "id": "resp-103",
+      "title": "Service Recovery Offer",
+      "category": "Customer Support",
+      "subcategory": "Complaint Handling",
+      "translations": {
+        "en": "Hi {customer_name}, I'm sorry we fell short. As recovery, I'd like to offer: {recovery_offer}. I hope this helps restore your trust in {store_name}.",
+        "hi": "नमस्ते {customer_name}, कमी के लिए क्षमा। समाधान के लिए ऑफर: {recovery_offer}। आशा है {store_name} पर भरोसा वापस आएगा।",
+        "hng": "Sorry for the lapse. Recovery offer: {recovery_offer}.",
+        "bn": "অসুবিধার জন্য ক্ষমা। পুনরুদ্ধার: {recovery_offer}।"
+      },
+      "tags": [
+        "complaint",
+        "recovery",
+        "offer"
+      ],
+      "favorite": false,
+      "usageCount": 29,
+      "createdAt": "2024-09-09T12:00:00Z",
+      "updatedAt": "2024-09-14T12:00:00Z"
+    },
+    {
+      "id": "resp-104",
+      "title": "Satisfaction Survey",
+      "category": "Customer Support",
+      "subcategory": "Satisfaction Check",
+      "translations": {
+        "en": "Hi {customer_name}, we'd love to know how we did on ticket #{ticket_id}. Quick 1-minute survey: {survey_link}. Your feedback directly shapes how we improve.",
+        "hi": "नमस्ते {customer_name}, टिकट #{ticket_id} पर हम कैसे रहे, बताएँ। 1 मिनट का सर्वे: {survey_link}। आपकी फीडबैक से सुधार होता है।",
+        "hng": "Ticket #{ticket_id} pe hum kaise rahe, batao. 1 min survey: {survey_link}.",
+        "bn": "টিকিট #{ticket_id}-এ আমরা কেমন ছিলাম, জানান। সার্ভে: {survey_link}।"
+      },
+      "tags": [
+        "satisfaction",
+        "survey",
+        "feedback"
+      ],
+      "favorite": false,
+      "usageCount": 95,
+      "createdAt": "2024-08-19T12:00:00Z",
+      "updatedAt": "2024-08-22T12:00:00Z"
+    },
+    {
+      "id": "resp-105",
+      "title": "NPS Rating Request",
+      "category": "Customer Support",
+      "subcategory": "Satisfaction Check",
+      "translations": {
+        "en": "Hi {customer_name}, on a scale of 0-10, how likely are you to recommend {store_name} to a friend? Reply with a number and any feedback — we read every response.",
+        "hi": "नमस्ते {customer_name}, 0-10 के पैमाने पर, {store_name} को दोस्त को सुझाने की संभावना कितनी? नंबर और फीडबैक भेजें।",
+        "hng": "0-10 scale pe, {store_name} ko recommend karne ki possibility? Number reply karo.",
+        "bn": "0-10 স্কেলে, {store_name} সুপারিশ করার সম্ভাবনা?"
+      },
+      "tags": [
+        "satisfaction",
+        "nps",
+        "rating"
+      ],
+      "favorite": false,
+      "usageCount": 124,
+      "createdAt": "2024-08-20T12:00:00Z",
+      "updatedAt": "2024-08-25T12:00:00Z"
+    },
+    {
+      "id": "resp-106",
+      "title": "Negative Feedback Follow-up",
+      "category": "Customer Support",
+      "subcategory": "Satisfaction Check",
+      "translations": {
+        "en": "Hi {customer_name}, I noticed you rated us {rating}/10. I'd love to understand what went wrong and make it right. Could we schedule a quick call at your convenience?",
+        "hi": "नमस्ते {customer_name}, आपने हमें {rating}/10 दिया। क्या गलत हुआ, समझकर ठीक करना चाहूँगा। कॉल शेड्यूल करें?",
+        "hng": "Aapne {rating}/10 diya. Kya galat hua samajh ke theek karunga. Call schedule karein?",
+        "bn": "আপনি {rating}/10 দিয়েছেন। কী ভুল হলো জানান।"
+      },
+      "tags": [
+        "satisfaction",
+        "negative",
+        "feedback"
+      ],
+      "favorite": false,
+      "usageCount": 177,
+      "createdAt": "2024-09-12T12:00:00Z",
+      "updatedAt": "2024-09-15T12:00:00Z"
+    },
+    {
+      "id": "resp-107",
+      "title": "Proactive Follow-up",
+      "category": "Customer Support",
+      "subcategory": "Follow-up",
+      "translations": {
+        "en": "Hi {customer_name}, just checking in on your recent order #{order_id}. Is everything to your satisfaction? If anything isn't right, please let me know — I'm here to help.",
+        "hi": "नमस्ते {customer_name}, हाल के ऑर्डर #{order_id} पर चेक-इन। सब कुछ ठीक है? कुछ गलत हो तो बताएँ, मैं मदद करूँगा।",
+        "hng": "Recent order #{order_id} pe check-in. Sab theek hai? Kuch galat ho toh batao.",
+        "bn": "সাম্প্রতিক অর্ডার #{order_id}। সব ঠিক আছে?"
+      },
+      "tags": [
+        "followup",
+        "proactive",
+        "order"
+      ],
+      "favorite": false,
+      "usageCount": 30,
+      "createdAt": "2024-08-05T12:00:00Z",
+      "updatedAt": "2024-08-05T12:00:00Z"
+    },
+    {
+      "id": "resp-108",
+      "title": "Issue Resolution Follow-up",
+      "category": "Customer Support",
+      "subcategory": "Follow-up",
+      "translations": {
+        "en": "Hi {customer_name}, following up on ticket #{ticket_id} — is everything working as expected now? If you're still facing issues, I'll reopen the case right away.",
+        "hi": "नमस्ते {customer_name}, टिकट #{ticket_id} पर फॉलोअप — सब ठीक चल रहा है? अगर अब भी समस्या हो तो तुरंत रीओपन करूँगा।",
+        "hng": "Ticket #{ticket_id} followup. Sab theek? Problem ho toh reopen karu.",
+        "bn": "টিকিট #{ticket_id} ফলোআপ। সব ঠিক?"
+      },
+      "tags": [
+        "followup",
+        "resolution",
+        "ticket"
+      ],
+      "favorite": false,
+      "usageCount": 191,
+      "createdAt": "2024-08-21T12:00:00Z",
+      "updatedAt": "2024-08-23T12:00:00Z"
+    },
+    {
+      "id": "resp-109",
+      "title": "Re-engagement",
+      "category": "Customer Support",
+      "subcategory": "Follow-up",
+      "translations": {
+        "en": "Hi {customer_name}, it's been a while since your last order with {store_name}. We've added new products and offers you might love. Use code COMEBACK15 for 15% off your next order.",
+        "hi": "नमस्ते {customer_name}, {store_name} से पिछला ऑर्डर काफ़ी पुराना हो गया। नए प्रोडक्ट और ऑफर आए। कोड COMEBACK15 से 15% छूट पाएँ।",
+        "hng": "Pichla order kaafi purana ho gaya. Naye products aur offers aaye. COMEBACK15 se 15% off.",
+        "bn": "শেষ অর্ডার অনেক পুরনো। COMEBACK15 কোডে ১৫% ছাড়।"
+      },
+      "tags": [
+        "followup",
+        "reengagement",
+        "offer"
+      ],
+      "favorite": false,
+      "usageCount": 225,
+      "createdAt": "2024-07-26T12:00:00Z",
+      "updatedAt": "2024-07-26T12:00:00Z"
+    },
+    {
+      "id": "resp-110",
+      "title": "FAQ - Shipping Cost",
+      "category": "Customer Support",
+      "subcategory": "FAQ Answers",
+      "translations": {
+        "en": "Hi {customer_name}, shipping cost depends on your location and order value. Orders above ₹{free_ship_threshold} ship free; below that, a flat ₹{shipping_cost} applies. Use pincode check at checkout for exact cost.",
+        "hi": "नमस्ते {customer_name}, शिपिंग लोकेशन और ऑर्डर मूल्य पर निर्भर। ₹{free_ship_threshold} से ऊपर फ्री; नीचे पर ₹{shipping_cost}। चेकआउट पर पिनकोड चेक करें।",
+        "hng": "Shipping location aur order value pe depend. ₹{free_ship_threshold} se upar free; niche ₹{shipping_cost}.",
+        "bn": "শিপিং লোকেশন ও অর্ডার মূল্যের উপর নির্ভর। ₹{free_ship_threshold}-এর উপর ফ্রি।"
+      },
+      "tags": [
+        "faq",
+        "shipping",
+        "cost"
+      ],
+      "favorite": false,
+      "usageCount": 54,
+      "createdAt": "2024-08-31T12:00:00Z",
+      "updatedAt": "2024-09-01T12:00:00Z"
+    },
+    {
+      "id": "resp-111",
+      "title": "FAQ - Delivery Time",
+      "category": "Customer Support",
+      "subcategory": "FAQ Answers",
+      "translations": {
+        "en": "Hi {customer_name}, standard delivery takes {standard_days} business days. Metro cities usually get next-day delivery. Remote pincodes may take {remote_days} days. You'll see exact ETA at checkout.",
+        "hi": "नमस्ते {customer_name}, स्टैंडर्ड डिलीवरी {standard_days} दिन। मेट्रो में अक्सर अगले दिन। दूरस्थ पिनकोड में {remote_days} दिन। सटीक ETA चेकआउट पर।",
+        "hng": "Standard delivery {standard_days} din. Metro mein next day. Remote mein {remote_days} din.",
+        "bn": "স্ট্যান্ডার্ড ডেলিভারি {standard_days} দিন। মেট্রোতে পরের দিন।"
+      },
+      "tags": [
+        "faq",
+        "delivery",
+        "time"
+      ],
+      "favorite": false,
+      "usageCount": 119,
+      "createdAt": "2024-08-12T12:00:00Z",
+      "updatedAt": "2024-08-13T12:00:00Z"
+    },
+    {
+      "id": "resp-112",
+      "title": "FAQ - Returns Policy",
+      "category": "Customer Support",
+      "subcategory": "FAQ Answers",
+      "translations": {
+        "en": "Hi {customer_name}, we offer 7-day easy returns. Items must be unused with original tags. Initiate return from your account, and we'll arrange pickup within 48 hours.",
+        "hi": "नमस्ते {customer_name}, 7-दिन की आसान रिटर्न। आइटम अप्रयुक्त, मूल टैग के साथ। अकाउंट से रिटर्न शुरू करें, 48 घंटे में पिकअप।",
+        "hng": "7-din ki easy return. Item unused, original tags. Account se return start karo, 48 ghante mein pickup.",
+        "bn": "৭-দিনের সহজ রিটার্ন। আইটেম অব্যবহৃত, অরিজিনাল ট্যাগ।"
+      },
+      "tags": [
+        "faq",
+        "returns",
+        "policy"
+      ],
+      "favorite": true,
+      "usageCount": 143,
+      "createdAt": "2024-08-19T12:00:00Z",
+      "updatedAt": "2024-08-21T12:00:00Z"
+    },
+    {
+      "id": "resp-113",
+      "title": "FAQ - COD Availability",
+      "category": "Customer Support",
+      "subcategory": "FAQ Answers",
+      "translations": {
+        "en": "Hi {customer_name}, Cash on Delivery is available in most pincodes across India. Some remote areas may not have COD — you'll see the option at checkout based on your pincode.",
+        "hi": "नमस्ते {customer_name}, भारत भर के ज़्यादातर पिनकोड में COD उपलब्ध। कुछ दूरस्थ क्षेत्रों में नहीं — चेकआउट पर पिनकोड डालकर देखें।",
+        "hng": "COD zyada tar pincodes mein hai. Kuch remote mein nahi — checkout pe pincode daal ke dekho.",
+        "bn": "ভারতের বেশিরভাগ পিনকোডে COD আছে।"
+      },
+      "tags": [
+        "faq",
+        "cod",
+        "availability"
+      ],
+      "favorite": false,
+      "usageCount": 68,
+      "createdAt": "2024-08-17T12:00:00Z",
+      "updatedAt": "2024-08-17T12:00:00Z"
+    },
+    {
+      "id": "resp-114",
+      "title": "FAQ - Custom Domain",
+      "category": "Customer Support",
+      "subcategory": "FAQ Answers",
+      "translations": {
+        "en": "Hi {customer_name}, yes, you can use your own domain with {store_name}! Connect it from Settings → Domain. Our team will help with DNS setup if needed.",
+        "hi": "नमस्ते {customer_name}, हाँ, अपना डोमेन {store_name} से जोड़ सकते हैं! Settings → Domain से कनेक्ट करें। DNS में मदद करेंगे।",
+        "hng": "Haan, apna domain {store_name} se jod sakte ho! Settings → Domain. DNS mein madad karenge.",
+        "bn": "হ্যাঁ, নিজের ডোমেন যুক্ত করা যায়! Settings → Domain।"
+      },
+      "tags": [
+        "faq",
+        "domain",
+        "setup"
+      ],
+      "favorite": false,
+      "usageCount": 211,
+      "createdAt": "2024-08-18T12:00:00Z",
+      "updatedAt": "2024-08-22T12:00:00Z"
+    },
+    {
+      "id": "resp-115",
+      "title": "Flash Sale Announcement",
+      "category": "Marketing & Promotions",
+      "subcategory": "Offers & Sales",
+      "translations": {
+        "en": "🔥 FLASH SALE! {discount}% off everything at {store_name} for the next {duration} hours only. Use code {code} at checkout. Stock is limited — shop now!",
+        "hi": "🔥 फ्लैश सेल! {store_name} में सब पर {discount}% छूट, सिर्फ़ अगले {duration} घंटों के लिए। कोड {code} लगाएँ। स्टॉक सीमित!",
+        "hng": "🔥 Flash sale! {discount}% off everything, next {duration} hours. Code: {code}. Limited stock!",
+        "bn": "🔥 ফ্ল্যাশ সেল! {discount}% ছাড়, পরবর্তী {duration} ঘণ্টা। কোড: {code}।"
+      },
+      "tags": [
+        "marketing",
+        "flash-sale",
+        "offer"
+      ],
+      "favorite": true,
+      "usageCount": 75,
+      "createdAt": "2024-09-09T12:00:00Z",
+      "updatedAt": "2024-09-14T12:00:00Z"
+    },
+    {
+      "id": "resp-116",
+      "title": "Seasonal Sale",
+      "category": "Marketing & Promotions",
+      "subcategory": "Offers & Sales",
+      "translations": {
+        "en": "Hi {customer_name}, our {season} sale is live! Up to {max_discount}% off on {categories}. Plus, free shipping on orders above ₹{threshold}. Shop before it ends {end_date}.",
+        "hi": "नमस्ते {customer_name}, {season} सेल लाइव! {categories} पर {max_discount}% तक छूट। ₹{threshold} से ऊपर फ्री शिपिंग। {end_date} तक।",
+        "hng": "{season} sale live! {categories} pe {max_discount}% off. ₹{threshold} se upar free shipping. {end_date} tak.",
+        "bn": "{season} সেল লাইভ! {categories}-এ {max_discount}% ছাড়।"
+      },
+      "tags": [
+        "marketing",
+        "seasonal",
+        "sale"
+      ],
+      "favorite": false,
+      "usageCount": 219,
+      "createdAt": "2024-08-12T12:00:00Z",
+      "updatedAt": "2024-08-12T12:00:00Z"
+    },
+    {
+      "id": "resp-117",
+      "title": "BOGO Offer",
+      "category": "Marketing & Promotions",
+      "subcategory": "Offers & Sales",
+      "translations": {
+        "en": "Hi {customer_name}, Buy 1 Get 1 FREE on {product_category} this week only at {store_name}! Add 2 to cart and discount applies automatically. Limited stock.",
+        "hi": "नमस्ते {customer_name}, {product_category} पर इस हफ़्ते Buy 1 Get 1 FREE! कार्ट में 2 डालें, छूट अपने आप लगेगी। स्टॉक सीमित।",
+        "hng": "Buy 1 Get 1 FREE on {product_category} this week! 2 cart mein daalo, discount auto lagega.",
+        "bn": "{product_category}-এ Buy 1 Get 1 FREE! কার্টে ২ যোগ করুন।"
+      },
+      "tags": [
+        "marketing",
+        "bogo",
+        "offer"
+      ],
+      "favorite": true,
+      "usageCount": 171,
+      "createdAt": "2024-09-10T12:00:00Z",
+      "updatedAt": "2024-09-11T12:00:00Z"
+    },
+    {
+      "id": "resp-118",
+      "title": "Clearance Sale",
+      "category": "Marketing & Promotions",
+      "subcategory": "Offers & Sales",
+      "translations": {
+        "en": "Hi {customer_name}, our clearance sale is on — up to {discount}% off on last-stock items. Once they're gone, they're gone! Shop now: {sale_link}",
+        "hi": "नमस्ते {customer_name}, क्लीयरेंस सेल लाइव — आख़िरी स्टॉक पर {discount}% तक छूट। ख़त्म होने पर दोबारा नहीं! शॉप: {sale_link}",
+        "hng": "Clearance sale — up to {discount}% off last-stock. Gone means gone! Shop: {sale_link}",
+        "bn": "ক্লিয়ারেন্স সেল — {discount}% পর্যন্ত ছাড়।"
+      },
+      "tags": [
+        "marketing",
+        "clearance",
+        "sale"
+      ],
+      "favorite": false,
+      "usageCount": 129,
+      "createdAt": "2024-08-20T12:00:00Z",
+      "updatedAt": "2024-08-23T12:00:00Z"
+    },
+    {
+      "id": "resp-119",
+      "title": "Member Exclusive Offer",
+      "category": "Marketing & Promotions",
+      "subcategory": "Offers & Sales",
+      "translations": {
+        "en": "Hi {customer_name}, as a valued {store_name} member, here's an exclusive {discount}% off your next order. Code: {code} (valid {validity}). Not advertised publicly — enjoy!",
+        "hi": "नमस्ते {customer_name}, मूल्यवान सदस्य के रूप में अगले ऑर्डर पर विशेष {discount}% छूट। कोड: {code} ({validity} तक)। सार्वजनिक नहीं — ज़रूर लागू करें!",
+        "hng": "Valued member ke liye {discount}% off. Code: {code} ({validity} tak). Public nahi — apply zaroor!",
+        "bn": "মূল্যবান সদস্যের জন্য {discount}% ছাড়। কোড: {code}।"
+      },
+      "tags": [
+        "marketing",
+        "member",
+        "exclusive"
+      ],
+      "favorite": false,
+      "usageCount": 226,
+      "createdAt": "2024-09-02T12:00:00Z",
+      "updatedAt": "2024-09-05T12:00:00Z"
+    },
+    {
+      "id": "resp-120",
+      "title": "Product Launch Teaser",
+      "category": "Marketing & Promotions",
+      "subcategory": "Product Launch",
+      "translations": {
+        "en": "Something big is coming... 👀 In just {days} days, we're unveiling {product_name} at {store_name}. Sign up for early access: {signup_link}",
+        "hi": "कुछ बड़ा आ रहा है... 👀 {days} दिनों में {product_name} लॉन्च। प्रारंभिक पहुँच के लिए साइन अप: {signup_link}",
+        "hng": "Kuch bada aa raha hai... {days} din mein {product_name} launch. Early access: {signup_link}",
+        "bn": "কিছু বড় আসছে... {days} দিনে {product_name} লঞ্চ।"
+      },
+      "tags": [
+        "marketing",
+        "launch",
+        "teaser"
+      ],
+      "favorite": false,
+      "usageCount": 20,
+      "createdAt": "2024-07-20T12:00:00Z",
+      "updatedAt": "2024-07-21T12:00:00Z"
+    },
+    {
+      "id": "resp-121",
+      "title": "Product Launch Live",
+      "category": "Marketing & Promotions",
+      "subcategory": "Product Launch",
+      "translations": {
+        "en": "🚀 It's live! {product_name} is now available at {store_name}. Order in the first 24 hours to get {earlybird_offer}! Shop now: {product_link}",
+        "hi": "🚀 लाइव! {product_name} अब {store_name} पर उपलब्ध। पहले 24 घंटे में ऑर्डर करें, {earlybird_offer} पाएँ! शॉप: {product_link}",
+        "hng": "🚀 Live! {product_name} available. First 24 ghante mein order karo, {earlybird_offer} pao! Shop: {product_link}",
+        "bn": "🚀 লাইভ! {product_name} এসেছে। প্রথম ২৪ ঘণ্টায় {earlybird_offer}!"
+      },
+      "tags": [
+        "marketing",
+        "launch",
+        "live"
+      ],
+      "favorite": true,
+      "usageCount": 51,
+      "createdAt": "2024-08-22T12:00:00Z",
+      "updatedAt": "2024-08-25T12:00:00Z"
+    },
+    {
+      "id": "resp-122",
+      "title": "Launch Reminder",
+      "category": "Marketing & Promotions",
+      "subcategory": "Product Launch",
+      "translations": {
+        "en": "Hi {customer_name}, reminder — {product_name} launches tomorrow at {launch_time}. Set your alarm! Early shoppers get {earlybird_offer}.",
+        "hi": "नमस्ते {customer_name}, रिमाइंडर — {product_name} कल {launch_time} पर लॉन्च। अलार्म लगाएँ! शुरुआती खरीदारों को {earlybird_offer}।",
+        "hng": "Reminder — {product_name} kal {launch_time} pe launch. Alarm lagao! Early shoppers ko {earlybird_offer}.",
+        "bn": "রিমাইন্ডার — {product_name} কাল {launch_time}-এ লঞ্চ।"
+      },
+      "tags": [
+        "marketing",
+        "launch",
+        "reminder"
+      ],
+      "favorite": false,
+      "usageCount": 242,
+      "createdAt": "2024-08-30T12:00:00Z",
+      "updatedAt": "2024-09-02T12:00:00Z"
+    },
+    {
+      "id": "resp-123",
+      "title": "Festive Mega Sale",
+      "category": "Marketing & Promotions",
+      "subcategory": "Festive Campaigns",
+      "translations": {
+        "en": "🎉 {festival} Mega Sale at {store_name}! Up to {discount}% off + free shipping + extra {coupon_discount}% with code {code}. Shop the festive collection: {link}",
+        "hi": "🎉 {festival} मेगा सेल {store_name} में! {discount}% तक छूट + फ्री शिपिंग + कोड {code} से अतिरिक्त {coupon_discount}%। शॉप: {link}",
+        "hng": "🎉 {festival} mega sale! {discount}% off + free shipping + {code} se extra {coupon_discount}%. Shop: {link}",
+        "bn": "🎉 {festival} মেগা সেল! {discount}% ছাড় + ফ্রি শিপিং।"
+      },
+      "tags": [
+        "marketing",
+        "festive",
+        "sale"
+      ],
+      "favorite": true,
+      "usageCount": 266,
+      "createdAt": "2024-08-28T12:00:00Z",
+      "updatedAt": "2024-09-02T12:00:00Z"
+    },
+    {
+      "id": "resp-124",
+      "title": "Festive Gift Guide",
+      "category": "Marketing & Promotions",
+      "subcategory": "Festive Campaigns",
+      "translations": {
+        "en": "Hi {customer_name}, celebrating {festival}? We've curated a gift guide for every budget: {gift_link}. Free gift-wrap and card included on orders above ₹{threshold}.",
+        "hi": "नमस्ते {customer_name}, {festival} मना रहे हैं? हमने हर बजट के लिए गिफ्ट गाइड बनाया: {gift_link}। ₹{threshold} से ऊपर मुफ़्त रैप और कार्ड।",
+        "hng": "{festival} mana rahe ho? Gift guide: {gift_link}. ₹{threshold} se upar free wrap aur card.",
+        "bn": "{festival} উদযাপন? গিফট গাইড: {gift_link}।"
+      },
+      "tags": [
+        "marketing",
+        "festive",
+        "gift"
+      ],
+      "favorite": false,
+      "usageCount": 205,
+      "createdAt": "2024-07-31T12:00:00Z",
+      "updatedAt": "2024-08-04T12:00:00Z"
+    },
+    {
+      "id": "resp-125",
+      "title": "Festive Pre-order",
+      "category": "Marketing & Promotions",
+      "subcategory": "Festive Campaigns",
+      "translations": {
+        "en": "Hi {customer_name}, pre-order festive essentials now and save {discount}%. Delivery guaranteed before {festival}. Pre-order link: {preorder_link}",
+        "hi": "नमस्ते {customer_name}, फेस्टिव ज़रूरी चीज़ें अभी प्री-ऑर्डर करें, {discount}% बचत। {festival} से पहले डिलीवरी गारंटी। लिंक: {preorder_link}",
+        "hng": "Festive essentials pre-order karo, {discount}% bachat. {festival} se pehle delivery guaranteed.",
+        "bn": "ফেস্টিভ প্রি-অর্ডার, {discount}% ছাড়।"
+      },
+      "tags": [
+        "marketing",
+        "festive",
+        "preorder"
+      ],
+      "favorite": false,
+      "usageCount": 188,
+      "createdAt": "2024-08-04T12:00:00Z",
+      "updatedAt": "2024-08-07T12:00:00Z"
+    },
+    {
+      "id": "resp-126",
+      "title": "Festive Last Chance",
+      "category": "Marketing & Promotions",
+      "subcategory": "Festive Campaigns",
+      "translations": {
+        "en": "Last chance for {festival} delivery! 🕒 Order in the next {hours} hours to receive before {festival}. Use code {code} for {discount}% off. Don't miss out!",
+        "hi": "{festival} डिलीवरी के लिए आख़िरी मौक़ा! 🕒 अगले {hours} घंटों में ऑर्डर करें। कोड {code} से {discount}% छूट। मत चूकें!",
+        "hng": "Last chance for {festival} delivery! Next {hours} ghante mein order. {code} se {discount}% off.",
+        "bn": "{festival} ডেলিভারির শেষ সুযোগ! পরবর্তী {hours} ঘণ্টা।"
+      },
+      "tags": [
+        "marketing",
+        "festive",
+        "last-chance"
+      ],
+      "favorite": false,
+      "usageCount": 53,
+      "createdAt": "2024-09-06T12:00:00Z",
+      "updatedAt": "2024-09-08T12:00:00Z"
+    },
+    {
+      "id": "resp-127",
+      "title": "Loyalty Points Earned",
+      "category": "Marketing & Promotions",
+      "subcategory": "Loyalty & Rewards",
+      "translations": {
+        "en": "Hi {customer_name}, you've earned {points} loyalty points from your recent order #{order_id}! Total balance: {total_points} points (worth ₹{points_value}). Redeem at checkout.",
+        "hi": "नमस्ते {customer_name}, ऑर्डर #{order_id} से {points} लॉयल्टी पॉइंट मिले! कुल बैलेंस: {total_points} (₹{points_value} मूल्य)। चेकआउट पर रिडीम करें।",
+        "hng": "{points} loyalty points mile! Total: {total_points} (₹{points_value}). Checkout pe redeem karo.",
+        "bn": "অর্ডার #{order_id} থেকে {points} পয়েন্ট! মোট: {total_points} (₹{points_value})।"
+      },
+      "tags": [
+        "loyalty",
+        "points",
+        "rewards"
+      ],
+      "favorite": true,
+      "usageCount": 79,
+      "createdAt": "2024-09-02T12:00:00Z",
+      "updatedAt": "2024-09-06T12:00:00Z"
+    },
+    {
+      "id": "resp-128",
+      "title": "Reward Tier Upgrade",
+      "category": "Marketing & Promotions",
+      "subcategory": "Loyalty & Rewards",
+      "translations": {
+        "en": "🎉 Congratulations, {customer_name}! You've been upgraded to our {tier_name} tier. Enjoy {tier_benefits} from now on. Keep shopping to unlock more perks!",
+        "hi": "🎉 बधाई, {customer_name}! आपको {tier_name} टियर पर अपग्रेड किया गया। अब से {tier_benefits} का लाभ। और परks के लिए खरीदारी जारी रखें!",
+        "hng": "Badhai, {customer_name}! {tier_name} tier upgrade. Ab se {tier_benefits}.",
+        "bn": "অভিনন্দন, {customer_name}! {tier_name} টিয়ার আপগ্রেড।"
+      },
+      "tags": [
+        "loyalty",
+        "tier",
+        "upgrade"
+      ],
+      "favorite": false,
+      "usageCount": 143,
+      "createdAt": "2024-07-30T12:00:00Z",
+      "updatedAt": "2024-07-30T12:00:00Z"
+    },
+    {
+      "id": "resp-129",
+      "title": "Refer and Earn",
+      "category": "Marketing & Promotions",
+      "subcategory": "Loyalty & Rewards",
+      "translations": {
+        "en": "Hi {customer_name}, refer a friend to {store_name} and you both get {reward_amount} in your wallets! Share your link: {referral_link}",
+        "hi": "नमस्ते {customer_name}, दोस्त को {store_name} रेफर करें, दोनों को {reward_amount} मिलेंगे! लिंक शेयर करें: {referral_link}",
+        "hng": "Dost ko refer karo, dono ko {reward_amount} milenge! Link: {referral_link}",
+        "bn": "বন্ধুকে রেফার করুন, দুজনেই {reward_amount} পাবেন! লিংক: {referral_link}"
+      },
+      "tags": [
+        "loyalty",
+        "referral",
+        "earn"
+      ],
+      "favorite": true,
+      "usageCount": 210,
+      "createdAt": "2024-07-30T12:00:00Z",
+      "updatedAt": "2024-07-30T12:00:00Z"
+    },
+    {
+      "id": "resp-130",
+      "title": "Login OTP Sent",
+      "category": "Account & Technical",
+      "subcategory": "Login Issues",
+      "translations": {
+        "en": "Hi {customer_name}, your OTP for {store_name} login is {otp}. Valid for 5 minutes. Don't share it with anyone — not even us.",
+        "hi": "नमस्ते {customer_name}, {store_name} लॉगिन के लिए OTP: {otp}। 5 मिनट वैध। किसी के साथ शेयर न करें — हमसे भी नहीं।",
+        "hng": "Login OTP: {otp}. 5 min valid. Kisi ke saath share na karein.",
+        "bn": "লগইন OTP: {otp}। ৫ মিনিট বৈধ। কারো সাথে শেয়ার করবেন না।"
+      },
+      "tags": [
+        "login",
+        "otp",
+        "security"
+      ],
+      "favorite": false,
+      "usageCount": 154,
+      "createdAt": "2024-09-12T12:00:00Z",
+      "updatedAt": "2024-09-15T12:00:00Z"
+    },
+    {
+      "id": "resp-131",
+      "title": "Login Failed",
+      "category": "Account & Technical",
+      "subcategory": "Login Issues",
+      "translations": {
+        "en": "Hi {customer_name}, your login attempt failed. Please double-check your mobile number and OTP. If issue persists, try resetting your account or contact us.",
+        "hi": "नमस्ते {customer_name}, लॉगिन प्रयास असफल। मोबाइल नंबर और OTP जाँचें। समस्या बनी रहे तो अकाउंट रीसेट करें या संपर्क करें।",
+        "hng": "Login fail. Mobile aur OTP check karo. Problem ho toh reset karo ya contact karo.",
+        "bn": "লগইন ব্যর্থ। মোবাইল ও OTP চেক করুন।"
+      },
+      "tags": [
+        "login",
+        "failed",
+        "issue"
+      ],
+      "favorite": false,
+      "usageCount": 240,
+      "createdAt": "2024-08-14T12:00:00Z",
+      "updatedAt": "2024-08-18T12:00:00Z"
+    },
+    {
+      "id": "resp-132",
+      "title": "Account Locked",
+      "category": "Account & Technical",
+      "subcategory": "Login Issues",
+      "translations": {
+        "en": "Hi {customer_name}, your account was locked after multiple failed login attempts. Please reset your password or contact support to unlock: {support_link}",
+        "hi": "नमस्ते {customer_name}, कई असफल लॉगिन के बाद अकाउंट लॉक हो गया। पासवर्ड रीसेट करें या सपोर्ट से अनलॉक कराएँ: {support_link}",
+        "hng": "Account lock ho gaya. Password reset ya support se unlock: {support_link}",
+        "bn": "অ্যাকাউন্ট লক হয়েছে। পাসওয়ার্ড রিসেট করুন: {support_link}"
+      },
+      "tags": [
+        "login",
+        "locked",
+        "security"
+      ],
+      "favorite": false,
+      "usageCount": 19,
+      "createdAt": "2024-09-05T12:00:00Z",
+      "updatedAt": "2024-09-09T12:00:00Z"
+    },
+    {
+      "id": "resp-133",
+      "title": "New Device Login",
+      "category": "Account & Technical",
+      "subcategory": "Login Issues",
+      "translations": {
+        "en": "Hi {customer_name}, we detected a login from a new device ({device_info}) at {login_time}. If this was you, ignore this message. If not, please change your password immediately.",
+        "hi": "नमस्ते {customer_name}, नए डिवाइस ({device_info}) से लॉगिन देखा गया, समय: {login_time}। आप ही थे तो नज़रअंदाज़ करें। नहीं तो पासवर्ड बदलें।",
+        "hng": "New device ({device_info}) pe login detect. {login_time}. Aap the toh ignore, nahi toh password change karo.",
+        "bn": "নতুন ডিভাইস থেকে লগইন। আপনি না হলে পাসওয়ার্ড বদলান।"
+      },
+      "tags": [
+        "login",
+        "new-device",
+        "security"
+      ],
+      "favorite": true,
+      "usageCount": 145,
+      "createdAt": "2024-09-10T12:00:00Z",
+      "updatedAt": "2024-09-10T12:00:00Z"
+    },
+    {
+      "id": "resp-134",
+      "title": "Password Reset Link",
+      "category": "Account & Technical",
+      "subcategory": "Password Reset",
+      "translations": {
+        "en": "Hi {customer_name}, here's your password reset link: {reset_link}. Valid for 30 minutes. If you didn't request this, please ignore this message.",
+        "hi": "नमस्ते {customer_name}, पासवर्ड रीसेट लिंक: {reset_link}। 30 मिनट वैध। अनुरोध नहीं किया तो नज़रअंदाज़ करें।",
+        "hng": "Password reset link: {reset_link}. 30 min valid. Request nahi kiya toh ignore.",
+        "bn": "পাসওয়ার্ড রিসেট লিংক: {reset_link}। ৩০ মিনিট বৈধ।"
+      },
+      "tags": [
+        "password",
+        "reset",
+        "link"
+      ],
+      "favorite": false,
+      "usageCount": 22,
+      "createdAt": "2024-08-08T12:00:00Z",
+      "updatedAt": "2024-08-13T12:00:00Z"
+    },
+    {
+      "id": "resp-135",
+      "title": "Password Changed",
+      "category": "Account & Technical",
+      "subcategory": "Password Reset",
+      "translations": {
+        "en": "Hi {customer_name}, your password was successfully changed at {change_time}. If this wasn't you, please contact support immediately.",
+        "hi": "नमस्ते {customer_name}, पासवर्ड {change_time} पर सफलतापूर्वक बदला गया। अगर आप नहीं थे तो तुरंत सपोर्ट से संपर्क करें।",
+        "hng": "Password {change_time} pe change hua. Aap nahi the toh turant support ko contact karo.",
+        "bn": "পাসওয়ার্ড পরিবর্তিত হয়েছে। আপনি না হলে সাপোর্টে যোগাযোগ করুন।"
+      },
+      "tags": [
+        "password",
+        "changed",
+        "security"
+      ],
+      "favorite": false,
+      "usageCount": 65,
+      "createdAt": "2024-07-22T12:00:00Z",
+      "updatedAt": "2024-07-25T12:00:00Z"
+    },
+    {
+      "id": "resp-136",
+      "title": "Password Reset Reminder",
+      "category": "Account & Technical",
+      "subcategory": "Password Reset",
+      "translations": {
+        "en": "Hi {customer_name}, it's been {days} days since you last changed your password. For your account's safety, please consider updating it: {reset_link}",
+        "hi": "नमस्ते {customer_name}, पासवर्ड बदले {days} दिन हो गए। सुरक्षा के लिए अपडेट करें: {reset_link}",
+        "hng": "Password {days} din se update nahi. Security ke liye update karo: {reset_link}",
+        "bn": "পাসওয়ার্ড {days} দিন আপডেট হয়নি। আপডেট করুন।"
+      },
+      "tags": [
+        "password",
+        "reminder",
+        "security"
+      ],
+      "favorite": false,
+      "usageCount": 246,
+      "createdAt": "2024-09-08T12:00:00Z",
+      "updatedAt": "2024-09-12T12:00:00Z"
+    },
+    {
+      "id": "resp-137",
+      "title": "Store Setup Welcome",
+      "category": "Account & Technical",
+      "subcategory": "Store Setup",
+      "translations": {
+        "en": "Hi {vendor_name}, welcome to {store_name}! Your store dashboard is ready. Let's get you set up: 1) Add your logo, 2) Add products, 3) Configure payment, 4) Launch!",
+        "hi": "नमस्ते {vendor_name}, {store_name} में स्वागत! डैशबोर्ड तैयार। सेटअप: 1) लोगो, 2) प्रोडक्ट, 3) पेमेंट, 4) लॉन्च!",
+        "hng": "Welcome {vendor_name}! Dashboard ready. Setup: 1) Logo, 2) Products, 3) Payment, 4) Launch!",
+        "bn": "স্বাগতম {vendor_name}! ড্যাশবোর্ড প্রস্তুত।"
+      },
+      "tags": [
+        "setup",
+        "store",
+        "vendor"
+      ],
+      "favorite": false,
+      "usageCount": 153,
+      "createdAt": "2024-08-31T12:00:00Z",
+      "updatedAt": "2024-09-04T12:00:00Z"
+    },
+    {
+      "id": "resp-138",
+      "title": "Store Setup Help",
+      "category": "Account & Technical",
+      "subcategory": "Store Setup",
+      "translations": {
+        "en": "Hi {vendor_name}, need help setting up your store? I'd recommend starting with our quick setup guide: {guide_link}. Or I can walk you through it — just let me know a convenient time.",
+        "hi": "नमस्ते {vendor_name}, स्टोर सेटअप में मदद चाहिए? क्विक सेटअप गाइड: {guide_link}। या मैं चलते-चलते समझा सकता हूँ, समय बताएँ।",
+        "hng": "Setup help chahiye? Quick guide: {guide_link}. Ya main samjha sakta hoon.",
+        "bn": "স্টোর সেটআপে সাহায্য? গাইড: {guide_link}।"
+      },
+      "tags": [
+        "setup",
+        "help",
+        "vendor"
+      ],
+      "favorite": false,
+      "usageCount": 163,
+      "createdAt": "2024-09-13T12:00:00Z",
+      "updatedAt": "2024-09-13T12:00:00Z"
+    },
+    {
+      "id": "resp-139",
+      "title": "First Product Help",
+      "category": "Account & Technical",
+      "subcategory": "Store Setup",
+      "translations": {
+        "en": "Hi {vendor_name}, ready to add your first product? Just go to Products → Add New, upload photos, set price, and you're live! Watch this 2-min video: {video_link}",
+        "hi": "नमस्ते {vendor_name}, पहला प्रोडक्ट जोड़ने के लिए तैयार? Products → Add New में जाएँ, फोटो अपलोड करें, कीमत लगाएँ, लाइव! वीडियो: {video_link}",
+        "hng": "Pehla product add karo: Products → Add New. Photos, price, live! Video: {video_link}",
+        "bn": "প্রথম প্রোডাক্ট যোগ করুন: Products → Add New।"
+      },
+      "tags": [
+        "setup",
+        "product",
+        "vendor"
+      ],
+      "favorite": false,
+      "usageCount": 173,
+      "createdAt": "2024-08-20T12:00:00Z",
+      "updatedAt": "2024-08-24T12:00:00Z"
+    },
+    {
+      "id": "resp-140",
+      "title": "Payment Setup Help",
+      "category": "Account & Technical",
+      "subcategory": "Store Setup",
+      "translations": {
+        "en": "Hi {vendor_name}, to accept online payments, link your bank account in Settings → Payment. We support UPI, cards, wallets, and COD. Activation takes 24 hours.",
+        "hi": "नमस्ते {vendor_name}, ऑनलाइन पेमेंट के लिए Settings → Payment में बैंक अकाउंट जोड़ें। UPI, कार्ड, वॉलेट, COD सपोर्ट। 24 घंटे में एक्टिव।",
+        "hng": "Online payment ke liye Settings → Payment mein bank add karo. UPI, cards, COD. 24 ghante mein active.",
+        "bn": "অনলাইন পেমেন্টের জন্য Settings → Payment-এ ব্যাংক যোগ করুন।"
+      },
+      "tags": [
+        "setup",
+        "payment",
+        "vendor"
+      ],
+      "favorite": false,
+      "usageCount": 138,
+      "createdAt": "2024-08-10T12:00:00Z",
+      "updatedAt": "2024-08-12T12:00:00Z"
+    },
+    {
+      "id": "resp-141",
+      "title": "Plugin Recommendation",
+      "category": "Account & Technical",
+      "subcategory": "Plugin Help",
+      "translations": {
+        "en": "Hi {vendor_name}, based on your store type, I'd recommend these plugins:\n→ {plugin_1}: {plugin_1_benefit}\n→ {plugin_2}: {plugin_2_benefit}\nInstall from Settings → Plugins.",
+        "hi": "नमस्ते {vendor_name}, स्टोर के अनुसार प्लगइन:\n→ {plugin_1}: {plugin_1_benefit}\n→ {plugin_2}: {plugin_2_benefit}\nSettings → Plugins से इंस्टॉल करें।",
+        "hng": "Plugin recommendations:\n→ {plugin_1}: {plugin_1_benefit}\n→ {plugin_2}: {plugin_2_benefit}\nSettings → Plugins se install karo.",
+        "bn": "প্লাগইন সুপারিশ:\n→ {plugin_1}: {plugin_1_benefit}"
+      },
+      "tags": [
+        "plugin",
+        "recommendation",
+        "help"
+      ],
+      "favorite": false,
+      "usageCount": 71,
+      "createdAt": "2024-07-18T12:00:00Z",
+      "updatedAt": "2024-07-19T12:00:00Z"
+    },
+    {
+      "id": "resp-142",
+      "title": "Plugin Installation",
+      "category": "Account & Technical",
+      "subcategory": "Plugin Help",
+      "translations": {
+        "en": "Hi {vendor_name}, to install {plugin_name} plugin, go to Settings → Plugins → {plugin_name} → Install. Setup takes 2 minutes. Need help? Watch: {video_link}",
+        "hi": "नमस्ते {vendor_name}, {plugin_name} प्लगइन के लिए Settings → Plugins → {plugin_name} → Install। 2 मिनट में। वीडियो: {video_link}",
+        "hng": "{plugin_name} install: Settings → Plugins → {plugin_name} → Install. 2 min. Video: {video_link}",
+        "bn": "{plugin_name} প্লাগইন ইনস্টল: Settings → Plugins।"
+      },
+      "tags": [
+        "plugin",
+        "install",
+        "help"
+      ],
+      "favorite": false,
+      "usageCount": 188,
+      "createdAt": "2024-08-04T12:00:00Z",
+      "updatedAt": "2024-08-06T12:00:00Z"
+    },
+    {
+      "id": "resp-143",
+      "title": "Plugin Conflict",
+      "category": "Account & Technical",
+      "subcategory": "Plugin Help",
+      "translations": {
+        "en": "Hi {vendor_name}, I see a conflict between {plugin_a} and {plugin_b}. Try disabling {plugin_b} temporarily and check if the issue resolves. If not, share screenshots.",
+        "hi": "नमस्ते {vendor_name}, {plugin_a} और {plugin_b} में टकराव। {plugin_b} अस्थायी रूप से बंद कर जाँचें। नहीं तो स्क्रीनशॉट भेजें।",
+        "hng": "{plugin_a} aur {plugin_b} mein conflict. {plugin_b} disable karke check karo.",
+        "bn": "{plugin_a} ও {plugin_b}-তে কনফ্লিক্ট। {plugin_b} ডিসেবল করুন।"
+      },
+      "tags": [
+        "plugin",
+        "conflict",
+        "help"
+      ],
+      "favorite": false,
+      "usageCount": 72,
+      "createdAt": "2024-08-31T12:00:00Z",
+      "updatedAt": "2024-09-03T12:00:00Z"
+    },
+    {
+      "id": "resp-144",
+      "title": "Domain Connect Help",
+      "category": "Account & Technical",
+      "subcategory": "Domain & DNS",
+      "translations": {
+        "en": "Hi {vendor_name}, to connect your custom domain {domain_name} to {store_name}, please add these DNS records:\n→ A record: {a_record}\n→ CNAME: {cname_record}\nDNS propagation: 24-48 hours.",
+        "hi": "नमस्ते {vendor_name}, {domain_name} को {store_name} से जोड़ने के लिए DNS रिकॉर्ड:\n→ A record: {a_record}\n→ CNAME: {cname_record}\nDNS: 24-48 घंटे।",
+        "hng": "{domain_name} connect karne ke liye DNS:\n→ A record: {a_record}\n→ CNAME: {cname_record}\n24-48 ghante.",
+        "bn": "{domain_name} কনেক্ট করতে DNS রেকর্ড যোগ করুন।"
+      },
+      "tags": [
+        "domain",
+        "dns",
+        "connect"
+      ],
+      "favorite": false,
+      "usageCount": 176,
+      "createdAt": "2024-09-07T12:00:00Z",
+      "updatedAt": "2024-09-12T12:00:00Z"
+    },
+    {
+      "id": "resp-145",
+      "title": "Domain SSL Active",
+      "category": "Account & Technical",
+      "subcategory": "Domain & DNS",
+      "translations": {
+        "en": "Hi {vendor_name}, SSL certificate is now active for your domain {domain_name}. Your store is accessible at https://{domain_name}. Padlock icon confirms security.",
+        "hi": "नमस्ते {vendor_name}, डोमेन {domain_name} के लिए SSL एक्टिव। स्टोर https://{domain_name} पर। पैडलॉक सुरक्षा की पुष्टि करता है।",
+        "hng": "SSL active for {domain_name}. Store at https://{domain_name}.",
+        "bn": "{domain_name}-এর জন্য SSL অ্যাকটিভ।"
+      },
+      "tags": [
+        "domain",
+        "ssl",
+        "active"
+      ],
+      "favorite": false,
+      "usageCount": 122,
+      "createdAt": "2024-08-27T12:00:00Z",
+      "updatedAt": "2024-08-29T12:00:00Z"
+    },
+    {
+      "id": "resp-146",
+      "title": "Domain Propagation",
+      "category": "Account & Technical",
+      "subcategory": "Domain & DNS",
+      "translations": {
+        "en": "Hi {vendor_name}, your domain {domain_name} is propagating. This usually takes 24-48 hours. We'll notify you when it's fully live.",
+        "hi": "नमस्ते {vendor_name}, डोमेन {domain_name} प्रोपेगेट हो रहा। 24-48 घंटे लगते हैं। पूरी तरह लाइव होने पर सूचित करेंगे।",
+        "hng": "Domain {domain_name} propagate ho raha. 24-48 ghante. Live hone pe notify karenge.",
+        "bn": "ডোমেইন প্রপাগেট হচ্ছে। ২৪-৪৮ ঘণ্টা।"
+      },
+      "tags": [
+        "domain",
+        "propagation",
+        "dns"
+      ],
+      "favorite": false,
+      "usageCount": 197,
+      "createdAt": "2024-07-18T12:00:00Z",
+      "updatedAt": "2024-07-18T12:00:00Z"
+    },
+    {
+      "id": "resp-147",
+      "title": "Abandoned Cart Reminder",
+      "category": "Cart Recovery",
+      "subcategory": "Abandoned Cart",
+      "translations": {
+        "en": "Hi {customer_name}, we noticed you left some items in your cart at {store_name}. Your selection is saved — complete your order now: {cart_link}",
+        "hi": "नमस्ते {customer_name}, आपने {store_name} में कुछ आइटम कार्ट में छोड़े। सेलेक्शन सेव है — ऑर्डर पूरा करें: {cart_link}",
+        "hng": "Cart mein items chhode the. Save hai — order complete karo: {cart_link}",
+        "bn": "কার্টে কিছু আইটেম রেখেছেন। অর্ডার সম্পূর্ণ করুন: {cart_link}"
+      },
+      "tags": [
+        "abandoned",
+        "cart",
+        "reminder"
+      ],
+      "favorite": true,
+      "usageCount": 284,
+      "createdAt": "2024-09-15T12:00:00Z",
+      "updatedAt": "2024-09-15T12:00:00Z"
+    },
+    {
+      "id": "resp-148",
+      "title": "Abandoned Cart with Discount",
+      "category": "Cart Recovery",
+      "subcategory": "Abandoned Cart",
+      "translations": {
+        "en": "Hi {customer_name}, your cart at {store_name} is waiting! Here's {discount}% off to help you complete the order. Code: {code} (valid {validity}). Cart: {cart_link}",
+        "hi": "नमस्ते {customer_name}, {store_name} का कार्ट इंतज़ार कर रहा! ऑर्डर पूरा करने के लिए {discount}% छूट। कोड: {code} ({validity} तक)। कार्ट: {cart_link}",
+        "hng": "Cart wait kar raha! {discount}% off. Code: {code} ({validity} tak). Cart: {cart_link}",
+        "bn": "কার্টে {discount}% ছাড়। কোড: {code}।"
+      },
+      "tags": [
+        "abandoned",
+        "cart",
+        "discount"
+      ],
+      "favorite": true,
+      "usageCount": 101,
+      "createdAt": "2024-08-10T12:00:00Z",
+      "updatedAt": "2024-08-10T12:00:00Z"
+    },
+    {
+      "id": "resp-149",
+      "title": "Abandoned Cart Final Reminder",
+      "category": "Cart Recovery",
+      "subcategory": "Abandoned Cart",
+      "translations": {
+        "en": "Hi {customer_name}, this is your last reminder — your cart at {store_name} expires in {hours} hours. Items may go out of stock. Complete now: {cart_link}",
+        "hi": "नमस्ते {customer_name}, यह आख़िरी रिमाइंडर है — {store_name} का कार्ट {hours} घंटों में एक्सपायर। स्टॉक ख़त्म हो सकता। अभी: {cart_link}",
+        "hng": "Last reminder — cart {hours} ghanto mein expire. Stock khatam ho sakta. Abhi: {cart_link}",
+        "bn": "শেষ রিমাইন্ডার — কার্ট {hours} ঘণ্টায় মেয়াদ শেষ।"
+      },
+      "tags": [
+        "abandoned",
+        "cart",
+        "final"
+      ],
+      "favorite": false,
+      "usageCount": 59,
+      "createdAt": "2024-08-12T12:00:00Z",
+      "updatedAt": "2024-08-16T12:00:00Z"
+    },
+    {
+      "id": "resp-150",
+      "title": "Abandoned Cart - Stock Risk",
+      "category": "Cart Recovery",
+      "subcategory": "Abandoned Cart",
+      "translations": {
+        "en": "Hi {customer_name}, heads up — {product_name} in your cart is low in stock ({stock_count} left). Complete your order soon before it's gone: {cart_link}",
+        "hi": "नमस्ते {customer_name}, कार्ट में {product_name} स्टॉक कम है ({stock_count} बचे)। जल्दी ऑर्डर पूरा करें: {cart_link}",
+        "hng": "Cart mein {product_name} low stock ({stock_count} left). Jaldi order complete karo: {cart_link}",
+        "bn": "কার্টে {product_name} কম স্টক ({stock_count} বাকি)।"
+      },
+      "tags": [
+        "abandoned",
+        "cart",
+        "stock"
+      ],
+      "favorite": false,
+      "usageCount": 38,
+      "createdAt": "2024-08-30T12:00:00Z",
+      "updatedAt": "2024-09-01T12:00:00Z"
+    },
+    {
+      "id": "resp-151",
+      "title": "Wishlist Price Drop",
+      "category": "Cart Recovery",
+      "subcategory": "Reminder Nudge",
+      "translations": {
+        "en": "Hi {customer_name}, good news! {product_name} in your wishlist just dropped by {discount}%. New price: ₹{new_price}. Grab it now: {product_link}",
+        "hi": "नमस्ते {customer_name}, विशलिस्ट में {product_name} {discount}% सस्ता हुआ! नया मूल्य: ₹{new_price}। अभी लें: {product_link}",
+        "hng": "Wishlist {product_name} {discount}% sasta! Naya price: ₹{new_price}. Abhi lo: {product_link}",
+        "bn": "উইশলিস্টের {product_name} {discount}% কম!"
+      },
+      "tags": [
+        "wishlist",
+        "price-drop",
+        "reminder"
+      ],
+      "favorite": true,
+      "usageCount": 85,
+      "createdAt": "2024-07-21T12:00:00Z",
+      "updatedAt": "2024-07-22T12:00:00Z"
+    },
+    {
+      "id": "resp-152",
+      "title": "Wishlist Back in Stock",
+      "category": "Cart Recovery",
+      "subcategory": "Reminder Nudge",
+      "translations": {
+        "en": "Hi {customer_name}, {product_name} in your wishlist is back in stock! Order before it sells out again: {product_link}",
+        "hi": "नमस्ते {customer_name}, विशलिस्ट में {product_name} वापस स्टॉक में! ख़त्म होने से पहले ऑर्डर करें: {product_link}",
+        "hng": "Wishlist {product_name} wapas stock mein! Order before gone: {product_link}",
+        "bn": "উইশলিস্ট {product_name} ফিরে এসেছে!"
+      },
+      "tags": [
+        "wishlist",
+        "stock",
+        "reminder"
+      ],
+      "favorite": false,
+      "usageCount": 77,
+      "createdAt": "2024-08-23T12:00:00Z",
+      "updatedAt": "2024-08-24T12:00:00Z"
+    },
+    {
+      "id": "resp-153",
+      "title": "Wishlist Reminder",
+      "category": "Cart Recovery",
+      "subcategory": "Reminder Nudge",
+      "translations": {
+        "en": "Hi {customer_name}, you have {count} items in your wishlist. Want to revisit and see if any are on offer? View wishlist: {wishlist_link}",
+        "hi": "नमस्ते {customer_name}, विशलिस्ट में {count} आइटम। ऑफर देखें? विशलिस्ट: {wishlist_link}",
+        "hng": "Wishlist mein {count} items hain. Offer dekho? {wishlist_link}",
+        "bn": "উইশলিস্টে {count} আইটেম।"
+      },
+      "tags": [
+        "wishlist",
+        "reminder",
+        "view"
+      ],
+      "favorite": false,
+      "usageCount": 218,
+      "createdAt": "2024-08-18T12:00:00Z",
+      "updatedAt": "2024-08-22T12:00:00Z"
+    },
+    {
+      "id": "resp-154",
+      "title": "Cart Free Shipping Incentive",
+      "category": "Cart Recovery",
+      "subcategory": "Incentive Offer",
+      "translations": {
+        "en": "Hi {customer_name}, complete your cart now and get free shipping on your order! Just add code FREESHIP at checkout. Cart: {cart_link}",
+        "hi": "नमस्ते {customer_name}, कार्ट अभी पूरा करें, फ्री शिपिंग! कोड FREESHIP लगाएँ। कार्ट: {cart_link}",
+        "hng": "Cart abhi complete karo, free shipping! Code FREESHIP. Cart: {cart_link}",
+        "bn": "কার্ট সম্পূর্ণ করুন, ফ্রি শিপিং! FREESHIP কোড।"
+      },
+      "tags": [
+        "cart",
+        "incentive",
+        "shipping"
+      ],
+      "favorite": false,
+      "usageCount": 82,
+      "createdAt": "2024-08-01T12:00:00Z",
+      "updatedAt": "2024-08-05T12:00:00Z"
+    },
+    {
+      "id": "resp-155",
+      "title": "Cart Scratch Card Reward",
+      "category": "Cart Recovery",
+      "subcategory": "Incentive Offer",
+      "translations": {
+        "en": "Hi {customer_name}, complete your order now and unlock a surprise scratch card — win up to ₹{max_reward} in wallet rewards! Cart: {cart_link}",
+        "hi": "नमस्ते {customer_name}, ऑर्डर पूरा करें और स्क्रैच कार्ड खोलें — ₹{max_reward} तक वॉलेट रिवॉर्ड! कार्ट: {cart_link}",
+        "hng": "Order complete karo aur scratch card kholo — ₹{max_reward} tak reward! Cart: {cart_link}",
+        "bn": "অর্ডার সম্পূর্ণ করে স্ক্র্যাচ কার্ড খুলুন — ₹{max_reward} পর্যন্ত!"
+      },
+      "tags": [
+        "cart",
+        "scratch-card",
+        "reward"
+      ],
+      "favorite": true,
+      "usageCount": 320,
+      "createdAt": "2024-07-26T12:00:00Z",
+      "updatedAt": "2024-07-26T12:00:00Z"
+    },
+    {
+      "id": "resp-156",
+      "title": "Wishlist to Cart Conversion",
+      "category": "Cart Recovery",
+      "subcategory": "Wishlist Reminder",
+      "translations": {
+        "en": "Hi {customer_name}, your wishlist has been waiting! Move items to cart with one tap and checkout in seconds: {wishlist_link}",
+        "hi": "नमस्ते {customer_name}, विशलिस्ट इंतज़ार कर रही! एक टैप में कार्ट में ले जाएँ: {wishlist_link}",
+        "hng": "Wishlist intezaar kar rahi! One tap mein cart mein le jao: {wishlist_link}",
+        "bn": "উইশলিস্ট অপেক্ষা করছে! এক ট্যাপে কার্টে।"
+      },
+      "tags": [
+        "wishlist",
+        "cart",
+        "conversion"
+      ],
+      "favorite": false,
+      "usageCount": 214,
+      "createdAt": "2024-08-04T12:00:00Z",
+      "updatedAt": "2024-08-08T12:00:00Z"
+    },
+    {
+      "id": "resp-157",
+      "title": "Wishlist Expiring",
+      "category": "Cart Recovery",
+      "subcategory": "Wishlist Reminder",
+      "translations": {
+        "en": "Hi {customer_name}, some items in your wishlist are running low in stock. Don't miss out — move them to cart before they're gone: {wishlist_link}",
+        "hi": "नमस्ते {customer_name}, विशलिस्ट के कुछ आइटम स्टॉक कम हैं। मत चूकें — कार्ट में ले जाएँ: {wishlist_link}",
+        "hng": "Wishlist ke kuch items low stock. Cart mein le jao: {wishlist_link}",
+        "bn": "উইশলিস্টের কিছু আইটেম কম স্টক।"
+      },
+      "tags": [
+        "wishlist",
+        "expiring",
+        "reminder"
+      ],
+      "favorite": false,
+      "usageCount": 243,
+      "createdAt": "2024-08-27T12:00:00Z",
+      "updatedAt": "2024-09-01T12:00:00Z"
+    },
+    {
+      "id": "resp-158",
+      "title": "Review Request - Order Delivered",
+      "category": "Reviews & Feedback",
+      "subcategory": "Review Request",
+      "translations": {
+        "en": "Hi {customer_name}, your order #{order_id} was delivered recently. Would you mind leaving a quick review? It takes 30 seconds and helps other shoppers: {review_link}",
+        "hi": "नमस्ते {customer_name}, ऑर्डर #{order_id} हाल ही में डिलीवर हुआ। 30 सेकंड का रिव्यू देंगे? दूसरों को मदद मिलेगी: {review_link}",
+        "hng": "Order #{order_id} deliver hua. 30 sec ka review do? {review_link}",
+        "bn": "অর্ডার #{order_id} ডেলিভার। রিভিউ দিন: {review_link}"
+      },
+      "tags": [
+        "review",
+        "request",
+        "delivered"
+      ],
+      "favorite": true,
+      "usageCount": 118,
+      "createdAt": "2024-09-09T12:00:00Z",
+      "updatedAt": "2024-09-11T12:00:00Z"
+    },
+    {
+      "id": "resp-159",
+      "title": "Review with Photo",
+      "category": "Reviews & Feedback",
+      "subcategory": "Review Request",
+      "translations": {
+        "en": "Hi {customer_name}, loved your recent purchase from {store_name}? Share a photo with your review and get {reward} in your wallet! Review: {review_link}",
+        "hi": "नमस्ते {customer_name}, {store_name} से खरीद पसंद आई? फोटो के साथ रिव्यू शेयर करें, वॉलेट में {reward}! रिव्यू: {review_link}",
+        "hng": "Photo ke saath review share karo, wallet mein {reward}! {review_link}",
+        "bn": "ছবি সহ রিভিউ শেয়ার করুন, ওয়ালেটে {reward}!"
+      },
+      "tags": [
+        "review",
+        "photo",
+        "reward"
+      ],
+      "favorite": false,
+      "usageCount": 232,
+      "createdAt": "2024-09-08T12:00:00Z",
+      "updatedAt": "2024-09-08T12:00:00Z"
+    },
+    {
+      "id": "resp-160",
+      "title": "Review - Incentive Offer",
+      "category": "Reviews & Feedback",
+      "subcategory": "Review Request",
+      "translations": {
+        "en": "Hi {customer_name}, share your experience with {product_name} and get {discount}% off your next order! Review here: {review_link}",
+        "hi": "नमस्ते {customer_name}, {product_name} का अनुभव शेयर करें, अगले ऑर्डर पर {discount}% छूट! रिव्यू: {review_link}",
+        "hng": "Experience share karo, next order pe {discount}% off! {review_link}",
+        "bn": "অভিজ্ঞতা শেয়ার করুন, {discount}% ছাড়!"
+      },
+      "tags": [
+        "review",
+        "incentive",
+        "offer"
+      ],
+      "favorite": false,
+      "usageCount": 146,
+      "createdAt": "2024-07-30T12:00:00Z",
+      "updatedAt": "2024-07-31T12:00:00Z"
+    },
+    {
+      "id": "resp-161",
+      "title": "Reply to Positive Review",
+      "category": "Reviews & Feedback",
+      "subcategory": "Reply to Review",
+      "translations": {
+        "en": "Hi {customer_name}, thank you for the wonderful 5-star review! We're thrilled you loved {product_name}. Tag us on Instagram @{social_handle} — we'd love to feature you!",
+        "hi": "नमस्ते {customer_name}, बढ़िया 5-स्टार रिव्यू के लिए धन्यवाद! {product_name} पसंद आने की खुशी। Instagram @{social_handle} पर टैग करें!",
+        "hng": "5-star review ke liye dhanyawad! {product_name} pasand aane ki khushi. Instagram @{social_handle} tag karo!",
+        "bn": "৫-স্টার রিভিউয়ের জন্য ধন্যবাদ!"
+      },
+      "tags": [
+        "review",
+        "reply",
+        "positive"
+      ],
+      "favorite": false,
+      "usageCount": 77,
+      "createdAt": "2024-08-29T12:00:00Z",
+      "updatedAt": "2024-09-02T12:00:00Z"
+    },
+    {
+      "id": "resp-162",
+      "title": "Reply to Negative Review",
+      "category": "Reviews & Feedback",
+      "subcategory": "Reply to Review",
+      "translations": {
+        "en": "Hi {customer_name}, I'm sorry your experience fell short. We take your feedback seriously. Please share more details at {support_email} or DM us — I'd like to make this right.",
+        "hi": "नमस्ते {customer_name}, अनुभव खराब रहा, क्षमा। आपकी फीडबैक गंभीरता से लेते हैं। विवरण {support_email} पर या DM में भेजें — ठीक करना चाहूँगा।",
+        "hng": "Sorry experience kharab raha. Details {support_email} ya DM mein bhejo.",
+        "bn": "অভিজ্ঞতা খারাপ, ক্ষমা। বিস্তারিত {support_email}-এ পাঠান।"
+      },
+      "tags": [
+        "review",
+        "reply",
+        "negative"
+      ],
+      "favorite": true,
+      "usageCount": 225,
+      "createdAt": "2024-09-02T12:00:00Z",
+      "updatedAt": "2024-09-03T12:00:00Z"
+    },
+    {
+      "id": "resp-163",
+      "title": "Reply to Neutral Review",
+      "category": "Reviews & Feedback",
+      "subcategory": "Reply to Review",
+      "translations": {
+        "en": "Hi {customer_name}, thanks for taking time to review {product_name}. We're glad it mostly worked for you. Is there anything we can do to make it a 5-star experience next time?",
+        "hi": "नमस्ते {customer_name}, {product_name} रिव्यू के लिए धन्यवाद। ज़्यादातर ठीक रहा। 5-स्टार अनुभव के लिए कुछ कर सकें?",
+        "hng": "Review ke liye dhanyawad. 5-star experience ke liye kuch kar saken?",
+        "bn": "রিভিউয়ের জন্য ধন্যবাদ। ৫-স্টার অভিজ্ঞতার জন্য?"
+      },
+      "tags": [
+        "review",
+        "reply",
+        "neutral"
+      ],
+      "favorite": false,
+      "usageCount": 167,
+      "createdAt": "2024-08-03T12:00:00Z",
+      "updatedAt": "2024-08-05T12:00:00Z"
+    },
+    {
+      "id": "resp-164",
+      "title": "Product Feedback Request",
+      "category": "Reviews & Feedback",
+      "subcategory": "Feedback Collection",
+      "translations": {
+        "en": "Hi {customer_name}, we'd love your input on {product_name}! What did you love? What could be better? Your feedback shapes future versions: {feedback_link}",
+        "hi": "नमस्ते {customer_name}, {product_name} पर आपकी राय चाहिए! क्या पसंद आया? क्या बेहतर हो? आपकी फीडबैक भविष्य संस्करण तय करती: {feedback_link}",
+        "hng": "{product_name} pe aapki ray chahiye! Feedback link: {feedback_link}",
+        "bn": "{product_name}-এ আপনার মতামত চাই! {feedback_link}"
+      },
+      "tags": [
+        "feedback",
+        "product",
+        "request"
+      ],
+      "favorite": false,
+      "usageCount": 130,
+      "createdAt": "2024-08-14T12:00:00Z",
+      "updatedAt": "2024-08-16T12:00:00Z"
+    },
+    {
+      "id": "resp-165",
+      "title": "Feature Suggestion",
+      "category": "Reviews & Feedback",
+      "subcategory": "Feedback Collection",
+      "translations": {
+        "en": "Hi {customer_name}, thanks for the feature suggestion! We've logged it for our product team. We can't promise timelines, but every request is reviewed weekly.",
+        "hi": "नमस्ते {customer_name}, फ़ीचर सुझाव के लिए धन्यवाद! प्रोडक्ट टीम के लिए लॉग कर दिया। समय देना नहीं दे सकते, लेकिन हर सुझाव हफ़्ते में जाँचा जाता।",
+        "hng": "Feature suggestion ke liye dhanyawad! Product team ne log kiya. Weekly review hota hai.",
+        "bn": "ফিচার সাজেশনের জন্য ধন্যবাদ!"
+      },
+      "tags": [
+        "feedback",
+        "feature",
+        "suggestion"
+      ],
+      "favorite": false,
+      "usageCount": 237,
+      "createdAt": "2024-07-20T12:00:00Z",
+      "updatedAt": "2024-07-20T12:00:00Z"
+    },
+    {
+      "id": "resp-166",
+      "title": "Return Initiated",
+      "category": "Returns & Refunds",
+      "subcategory": "Return Initiation",
+      "translations": {
+        "en": "Hi {customer_name}, your return for order #{order_id} has been initiated. Pickup is scheduled for {pickup_date}. Refund will be processed within {refund_days} of receiving the item.",
+        "hi": "नमस्ते {customer_name}, ऑर्डर #{order_id} का रिटर्न शुरू। पिकअप {pickup_date} को। आइटम मिलने के {refund_days} दिनों में रिफंड।",
+        "hng": "Return start. Pickup {pickup_date} ko. Item milne ke {refund_days} mein refund.",
+        "bn": "রিটার্ন শুরু। পিকআপ {pickup_date}।"
+      },
+      "tags": [
+        "return",
+        "initiated",
+        "pickup"
+      ],
+      "favorite": true,
+      "usageCount": 266,
+      "createdAt": "2024-09-10T12:00:00Z",
+      "updatedAt": "2024-09-12T12:00:00Z"
+    },
+    {
+      "id": "resp-167",
+      "title": "Return Pickup Scheduled",
+      "category": "Returns & Refunds",
+      "subcategory": "Return Initiation",
+      "translations": {
+        "en": "Hi {customer_name}, return pickup for order #{order_id} is confirmed for {pickup_date} between {pickup_window}. Please keep the item packed with original tags.",
+        "hi": "नमस्ते {customer_name}, ऑर्डर #{order_id} का रिटर्न पिकअप {pickup_date} को {pickup_window} के बीच। आइटम मूल टैग के साथ पैक रखें।",
+        "hng": "Return pickup {pickup_date} ko {pickup_window} ke beech. Original tags ke saath pack rakho.",
+        "bn": "রিটার্ন পিকআপ {pickup_date}, {pickup_window}।"
+      },
+      "tags": [
+        "return",
+        "pickup",
+        "scheduled"
+      ],
+      "favorite": false,
+      "usageCount": 5,
+      "createdAt": "2024-09-13T12:00:00Z",
+      "updatedAt": "2024-09-15T12:00:00Z"
+    },
+    {
+      "id": "resp-168",
+      "title": "Return Guidelines",
+      "category": "Returns & Refunds",
+      "subcategory": "Return Initiation",
+      "translations": {
+        "en": "Hi {customer_name}, to process your return smoothly:\n• Item must be unused with original tags\n• Pack in original packaging if possible\n• Keep invoice handy\n• Handover to pickup agent",
+        "hi": "नमस्ते {customer_name}, सुचारू रिटर्न के लिए:\n• आइटम अप्रयुक्त, मूल टैग\n• मूल पैकेजिंग में पैक\n• इनवॉइस पास रखें\n• एजेंट को सौंपें",
+        "hng": "Smooth return ke liye:\n• Unused, original tags\n• Original packaging\n• Invoice ready\n• Agent ko handover",
+        "bn": "রিটার্ন নিয়ম:\n• অব্যবহৃত, অরিজিনাল ট্যাগ"
+      },
+      "tags": [
+        "return",
+        "guidelines",
+        "info"
+      ],
+      "favorite": false,
+      "usageCount": 38,
+      "createdAt": "2024-07-28T12:00:00Z",
+      "updatedAt": "2024-08-02T12:00:00Z"
+    },
+    {
+      "id": "resp-169",
+      "title": "Return Picked Up",
+      "category": "Returns & Refunds",
+      "subcategory": "Return Status",
+      "translations": {
+        "en": "Hi {customer_name}, your return for order #{order_id} has been picked up successfully. It's on the way to our warehouse — we'll inspect and process your refund within {refund_days} of receipt.",
+        "hi": "नमस्ते {customer_name}, ऑर्डर #{order_id} का रिटर्न पिकअप हो गया। वेयरहाउस के रास्ते — जाँच के बाद {refund_days} दिनों में रिफंड।",
+        "hng": "Return pickup ho gaya. Warehouse on the way — inspect ke {refund_days} din mein refund.",
+        "bn": "রিটার্ন পিকআপ হয়েছে। {refund_days} দিনে রিফান্ড।"
+      },
+      "tags": [
+        "return",
+        "picked-up",
+        "status"
+      ],
+      "favorite": false,
+      "usageCount": 46,
+      "createdAt": "2024-08-30T12:00:00Z",
+      "updatedAt": "2024-09-04T12:00:00Z"
+    },
+    {
+      "id": "resp-170",
+      "title": "Return Approved",
+      "category": "Returns & Refunds",
+      "subcategory": "Return Status",
+      "translations": {
+        "en": "Hi {customer_name}, your return for order #{order_id} has been approved after inspection. Refund of ₹{amount} will be processed within {refund_days} business days.",
+        "hi": "नमस्ते {customer_name}, जाँच के बाद ऑर्डर #{order_id} का रिटर्न मंज़ूर। ₹{amount} रिफंड {refund_days} दिनों में।",
+        "hng": "Return approved. ₹{amount} refund {refund_days} din mein.",
+        "bn": "রিটার্ন অনুমোদিত। ₹{amount} রিফান্ড {refund_days} দিনে।"
+      },
+      "tags": [
+        "return",
+        "approved",
+        "status"
+      ],
+      "favorite": false,
+      "usageCount": 146,
+      "createdAt": "2024-08-18T12:00:00Z",
+      "updatedAt": "2024-08-23T12:00:00Z"
+    },
+    {
+      "id": "resp-171",
+      "title": "Return Rejected",
+      "category": "Returns & Refunds",
+      "subcategory": "Return Status",
+      "translations": {
+        "en": "Hi {customer_name}, unfortunately your return for order #{order_id} couldn't be approved because {rejection_reason}. Please check our return policy or contact us with questions.",
+        "hi": "नमस्ते {customer_name}, ऑर्डर #{order_id} का रिटर्न मंज़ूर नहीं, कारण: {rejection_reason}। रिटर्न पॉलिसी देखें या संपर्क करें।",
+        "hng": "Return reject, reason: {rejection_reason}. Policy dekho ya contact karo.",
+        "bn": "রিটার্ন প্রত্যাখ্যাত, কারণ: {rejection_reason}।"
+      },
+      "tags": [
+        "return",
+        "rejected",
+        "status"
+      ],
+      "favorite": false,
+      "usageCount": 148,
+      "createdAt": "2024-08-19T12:00:00Z",
+      "updatedAt": "2024-08-19T12:00:00Z"
+    },
+    {
+      "id": "resp-172",
+      "title": "Damaged Product Report",
+      "category": "Returns & Refunds",
+      "subcategory": "Damaged Product",
+      "translations": {
+        "en": "Hi {customer_name}, sorry to hear your order #{order_id} arrived damaged. Please share photos of the damage and packaging at {damage_link}. We'll arrange a replacement or refund ASAP.",
+        "hi": "नमस्ते {customer_name}, ऑर्डर #{order_id} क्षतिग्रस्त पहुँचा, क्षमा। क्षति और पैकेजिंग के फोटो {damage_link} पर भेजें। जल्दी रिप्लेसमेंट या रिफंड।",
+        "hng": "Order #{order_id} damaged. Photos bhejo {damage_link} pe. Replacement ya refund ASAP.",
+        "bn": "অর্ডার #{order_id} ক্ষতিগ্রস্ত। ছবি পাঠান {damage_link}।"
+      },
+      "tags": [
+        "damage",
+        "report",
+        "return"
+      ],
+      "favorite": true,
+      "usageCount": 88,
+      "createdAt": "2024-09-08T12:00:00Z",
+      "updatedAt": "2024-09-13T12:00:00Z"
+    },
+    {
+      "id": "resp-173",
+      "title": "Damaged Product Replacement",
+      "category": "Returns & Refunds",
+      "subcategory": "Damaged Product",
+      "translations": {
+        "en": "Hi {customer_name}, we're shipping a replacement for the damaged item in order #{order_id}. Tracking will be shared soon. No need to return the damaged piece — please dispose of it.",
+        "hi": "नमस्ते {customer_name}, ऑर्डर #{order_id} के क्षतिग्रस्त आइटम का रिप्लेसमेंट भेज रहे। ट्रैकिंग जल्दी। क्षतिग्रस्त आइटम वापस न दें, डिस्पोज़ करें।",
+        "hng": "Replacement bhej rahe. Tracking soon. Damaged item wapas na dein.",
+        "bn": "ক্ষতিগ্রস্ত আইটেমের রিপ্লেসমেন্ট পাঠাচ্ছি।"
+      },
+      "tags": [
+        "damage",
+        "replacement",
+        "return"
+      ],
+      "favorite": false,
+      "usageCount": 43,
+      "createdAt": "2024-07-20T12:00:00Z",
+      "updatedAt": "2024-07-24T12:00:00Z"
+    },
+    {
+      "id": "resp-174",
+      "title": "Damaged Product Refund",
+      "category": "Returns & Refunds",
+      "subcategory": "Damaged Product",
+      "translations": {
+        "en": "Hi {customer_name}, we've processed a full refund of ₹{amount} for the damaged item in order #{order_id}. It will reflect in your source account within {refund_days} business days.",
+        "hi": "नमस्ते {customer_name}, ऑर्डर #{order_id} के क्षतिग्रस्त आइटम का पूरा ₹{amount} रिफंड किया। {refund_days} दिनों में खाते में।",
+        "hng": "Full ₹{amount} refund for damaged item. {refund_days} din mein account.",
+        "bn": "ক্ষতিগ্রস্ত আইটেমের ₹{amount} রিফান্ড।"
+      },
+      "tags": [
+        "damage",
+        "refund",
+        "return"
+      ],
+      "favorite": false,
+      "usageCount": 218,
+      "createdAt": "2024-09-13T12:00:00Z",
+      "updatedAt": "2024-09-15T12:00:00Z"
+    },
+    {
+      "id": "resp-175",
+      "title": "Wrong Item Received",
+      "category": "Returns & Refunds",
+      "subcategory": "Wrong Item Received",
+      "translations": {
+        "en": "Hi {customer_name}, I'm sorry you received the wrong item in order #{order_id}. Please share a photo of what you received at {support_link}. We'll arrange the correct item ASAP.",
+        "hi": "नमस्ते {customer_name}, ऑर्डर #{order_id} में ग़लत आइटम मिला, क्षमा। जो मिला उसका फोटो {support_link} पर भेजें। सही आइटम जल्दी भेजेंगे।",
+        "hng": "Wrong item mila, sorry. Photo bhejo {support_link} pe. Sahi item jaldi bhejenge.",
+        "bn": "ভুল আইটেম এসেছে, ক্ষমা। ছবি পাঠান {support_link}।"
+      },
+      "tags": [
+        "wrong-item",
+        "report",
+        "return"
+      ],
+      "favorite": true,
+      "usageCount": 332,
+      "createdAt": "2024-08-09T12:00:00Z",
+      "updatedAt": "2024-08-10T12:00:00Z"
+    },
+    {
+      "id": "resp-176",
+      "title": "Wrong Item Replacement",
+      "category": "Returns & Refunds",
+      "subcategory": "Wrong Item Received",
+      "translations": {
+        "en": "Hi {customer_name}, the correct item for order #{order_id} is on its way. Tracking: {tracking_link}. Please keep the wrong item ready for pickup — our agent will collect it during delivery.",
+        "hi": "नमस्ते {customer_name}, ऑर्डर #{order_id} का सही आइटम रास्ते में। ट्रैकिंग: {tracking_link}। ग़लत आइटम पिकअप के लिए तैयार रखें।",
+        "hng": "Sahi item on the way. Tracking: {tracking_link}. Wrong item pickup ke liye ready rakho.",
+        "bn": "সঠিক আইটেম পাঠাচ্ছি। ভুল আইटেম পিকআপে দিন।"
+      },
+      "tags": [
+        "wrong-item",
+        "replacement",
+        "return"
+      ],
+      "favorite": false,
+      "usageCount": 37,
+      "createdAt": "2024-08-19T12:00:00Z",
+      "updatedAt": "2024-08-19T12:00:00Z"
+    },
+    {
+      "id": "resp-177",
+      "title": "Wrong Item Return Pickup",
+      "category": "Returns & Refunds",
+      "subcategory": "Wrong Item Received",
+      "translations": {
+        "en": "Hi {customer_name}, pickup for the wrong item from order #{order_id} is scheduled for {pickup_date} between {pickup_window}. Please keep it packed and ready.",
+        "hi": "नमस्ते {customer_name}, ऑर्डर #{order_id} के ग़लत आइटम का पिकअप {pickup_date} को {pickup_window}। पैक और तैयार रखें।",
+        "hng": "Wrong item pickup {pickup_date} ko {pickup_window}. Pack aur ready rakho.",
+        "bn": "ভুল আইটেম পিকআপ {pickup_date}, {pickup_window}।"
+      },
+      "tags": [
+        "wrong-item",
+        "pickup",
+        "return"
+      ],
+      "favorite": false,
+      "usageCount": 98,
+      "createdAt": "2024-08-27T12:00:00Z",
+      "updatedAt": "2024-08-27T12:00:00Z"
+    },
+    {
+      "id": "resp-178",
+      "title": "WhatsApp Welcome",
+      "category": "WhatsApp & Chat",
+      "subcategory": "WhatsApp Welcome",
+      "translations": {
+        "en": "Hi {customer_name}! 👋 Thanks for reaching out to {store_name} on WhatsApp. I'm here to help with orders, products, returns, and anything else. How can I assist today?",
+        "hi": "नमस्ते {customer_name}! 👋 {store_name} WhatsApp पर संपर्क के लिए धन्यवाद। ऑर्डर, प्रोडक्ट, रिटर्न में मदद करूँगा। बताइए?",
+        "hng": "Hi {customer_name}! 👋 {store_name} WhatsApp pe help karunga. Batao?",
+        "bn": "নমস্কার {customer_name}! 👋 {store_name} WhatsApp-এ সাহায্য করব।"
+      },
+      "tags": [
+        "whatsapp",
+        "welcome",
+        "chat"
+      ],
+      "favorite": true,
+      "usageCount": 233,
+      "createdAt": "2024-07-20T12:00:00Z",
+      "updatedAt": "2024-07-21T12:00:00Z"
+    },
+    {
+      "id": "resp-179",
+      "title": "WhatsApp Auto-Reply",
+      "category": "WhatsApp & Chat",
+      "subcategory": "WhatsApp Welcome",
+      "translations": {
+        "en": "Hi! Thanks for messaging {store_name}. We typically reply within {response_time}. For urgent help, call {phone_number}. Meanwhile, share your order ID for faster service.",
+        "hi": "नमस्ते! {store_name} को संदेश के लिए धन्यवाद। आमतौर पर {response_time} में जवाब। ज़रूरी हो तो कॉल: {phone_number}। ऑर्डर ID दें, तेज़ सेवा।",
+        "hng": "Hi! {store_name} ko message ke liye dhanyawad. {response_time} mein reply. Urgent: {phone_number}. Order ID do.",
+        "bn": "নমস্কার! {store_name} বার্তার জন্য ধন্যবাদ। উত্তর {response_time}।"
+      },
+      "tags": [
+        "whatsapp",
+        "auto-reply",
+        "chat"
+      ],
+      "favorite": false,
+      "usageCount": 68,
+      "createdAt": "2024-08-03T12:00:00Z",
+      "updatedAt": "2024-08-08T12:00:00Z"
+    },
+    {
+      "id": "resp-180",
+      "title": "WhatsApp Off-Hours",
+      "category": "WhatsApp & Chat",
+      "subcategory": "WhatsApp Welcome",
+      "translations": {
+        "en": "Hi {customer_name}, thanks for your message! Our team is offline right now. We'll respond when we're back at {return_time}. For urgent order queries, please use the app.",
+        "hi": "नमस्ते {customer_name}, संदेश के लिए धन्यवाद! टीम अभी ऑफलाइन। वापसी {return_time} पर जवाब देंगे। ज़रूरी ऑर्डर सवाल के लिए ऐप इस्तेमाल करें।",
+        "hng": "Message ke liye dhanyawad! Team offline. {return_time} pe reply. Urgent ke liye app.",
+        "bn": "টিম অফলাইন। {return_time}-এ উত্তর দেব।"
+      },
+      "tags": [
+        "whatsapp",
+        "off-hours",
+        "chat"
+      ],
+      "favorite": false,
+      "usageCount": 95,
+      "createdAt": "2024-09-09T12:00:00Z",
+      "updatedAt": "2024-09-13T12:00:00Z"
+    },
+    {
+      "id": "resp-181",
+      "title": "WhatsApp Order Confirmation",
+      "category": "WhatsApp & Chat",
+      "subcategory": "WhatsApp Order Update",
+      "translations": {
+        "en": "Hi {customer_name}, your order #{order_id} (₹{amount}) is confirmed! We'll keep you updated on WhatsApp. Track: {tracking_link}",
+        "hi": "नमस्ते {customer_name}, ऑर्डर #{order_id} (₹{amount}) कन्फर्म! WhatsApp पर अपडेट देंगे। ट्रैक: {tracking_link}",
+        "hng": "Order #{order_id} (₹{amount}) confirm! WhatsApp pe update. Track: {tracking_link}",
+        "bn": "অর্ডার #{order_id} (₹{amount}) কনফার্ম!"
+      },
+      "tags": [
+        "whatsapp",
+        "order",
+        "confirmation"
+      ],
+      "favorite": false,
+      "usageCount": 228,
+      "createdAt": "2024-07-21T12:00:00Z",
+      "updatedAt": "2024-07-24T12:00:00Z"
+    },
+    {
+      "id": "resp-182",
+      "title": "WhatsApp Delivery Alert",
+      "category": "WhatsApp & Chat",
+      "subcategory": "WhatsApp Order Update",
+      "translations": {
+        "en": "Hi {customer_name}, your order #{order_id} is out for delivery! Agent will arrive by {delivery_time}. Keep ₹{amount} ready if COD. Tracking: {tracking_link}",
+        "hi": "नमस्ते {customer_name}, ऑर्डर #{order_id} डिलीवरी के लिए! एजेंट {delivery_time} तक। COD हो तो ₹{amount} तैयार। ट्रैक: {tracking_link}",
+        "hng": "Order #{order_id} delivery! Agent {delivery_time} tak. COD: ₹{amount}. Track: {tracking_link}",
+        "bn": "অর্ডার #{order_id} ডেলিভারি! COD: ₹{amount}।"
+      },
+      "tags": [
+        "whatsapp",
+        "delivery",
+        "alert"
+      ],
+      "favorite": true,
+      "usageCount": 129,
+      "createdAt": "2024-08-07T12:00:00Z",
+      "updatedAt": "2024-08-08T12:00:00Z"
+    },
+    {
+      "id": "resp-183",
+      "title": "WhatsApp Delivered",
+      "category": "WhatsApp & Chat",
+      "subcategory": "WhatsApp Order Update",
+      "translations": {
+        "en": "Hi {customer_name}, your order #{order_id} has been delivered! ✅ Hope you love it. Any issues, just message here. Would you mind sharing a quick review? {review_link}",
+        "hi": "नमस्ते {customer_name}, ऑर्डर #{order_id} डिलीवर हो गया! ✅ पसंद आए तो बताएँ। समस्या हो तो यहीं संदेश दें। रिव्यू? {review_link}",
+        "hng": "Order #{order_id} deliver hua! ✅ Issue ho toh message. Review? {review_link}",
+        "bn": "অর্ডার #{order_id} ডেলিভার! ✅ সমস্যা হলে জানান।"
+      },
+      "tags": [
+        "whatsapp",
+        "delivered",
+        "update"
+      ],
+      "favorite": false,
+      "usageCount": 46,
+      "createdAt": "2024-07-22T12:00:00Z",
+      "updatedAt": "2024-07-23T12:00:00Z"
+    },
+    {
+      "id": "resp-184",
+      "title": "WhatsApp Support Handover",
+      "category": "WhatsApp & Chat",
+      "subcategory": "WhatsApp Support",
+      "translations": {
+        "en": "Hi {customer_name}, I've shared your query with our support team. They'll revert on this chat within {response_time}. Your reference: #{ticket_id}. Anything else in the meantime?",
+        "hi": "नमस्ते {customer_name}, आपका सवाल सपोर्ट टीम को दिया। इसी चैट पर {response_time} में जवाब। रेफरेंस: #{ticket_id}। और कुछ?",
+        "hng": "Query support team ko diya. Isi chat pe {response_time} mein reply. Ref: #{ticket_id}.",
+        "bn": "সাপোর্ট টিমে দিয়েছি। {response_time}-এ উত্তর। রেফ: #{ticket_id}।"
+      },
+      "tags": [
+        "whatsapp",
+        "support",
+        "handover"
+      ],
+      "favorite": false,
+      "usageCount": 110,
+      "createdAt": "2024-07-21T12:00:00Z",
+      "updatedAt": "2024-07-21T12:00:00Z"
+    },
+    {
+      "id": "resp-185",
+      "title": "WhatsApp Quick Reply",
+      "category": "WhatsApp & Chat",
+      "subcategory": "WhatsApp Support",
+      "translations": {
+        "en": "Hi {customer_name}, thanks for your message! Here's a quick answer to common questions:\n• Order status: Check app or share order ID\n• Returns: Within 7 days, unused\n• Payment: UPI, cards, COD accepted\nAnything specific I can help with?",
+        "hi": "नमस्ते {customer_name}, संदेश के लिए धन्यवाद! आम सवालों के जवाब:\n• ऑर्डर: ऐप या ID दें\n• रिटर्न: 7 दिन, अप्रयुक्त\n• पेमेंट: UPI, कार्ड, COD\nविशेष मदद चाहिए?",
+        "hng": "Common answers:\n• Order: App ya ID do\n• Returns: 7 din, unused\n• Payment: UPI, cards, COD\nSpecific help?",
+        "bn": "সাধারণ প্রশ্ন:\n• অর্ডার: অ্যাপ বা ID\n• রিটার্ন: ৭ দিন\n• পেমেন্ট: UPI, কার্ড, COD"
+      },
+      "tags": [
+        "whatsapp",
+        "quick-reply",
+        "chat"
+      ],
+      "favorite": false,
+      "usageCount": 193,
+      "createdAt": "2024-09-04T12:00:00Z",
+      "updatedAt": "2024-09-06T12:00:00Z"
+    },
+    {
+      "id": "resp-186",
+      "title": "WhatsApp Order ID Request",
+      "category": "WhatsApp & Chat",
+      "subcategory": "WhatsApp Support",
+      "translations": {
+        "en": "Hi {customer_name}, to help you faster, please share your order ID (starts with #). You'll find it in your order confirmation SMS or email. Once I have it, I can pull up your details right away.",
+        "hi": "नमस्ते {customer_name}, तेज़ मदद के लिए ऑर्डर ID (# से शुरू) दें। SMS या ईमेल में मिलेगा। मिलते ही विवरण देख लूँगा।",
+        "hng": "Order ID (# se shuru) do. SMS ya email mein milega.",
+        "bn": "অর্ডার ID (# দিয়ে শুরু) দিন। SMS/ইমেলে আছে।"
+      },
+      "tags": [
+        "whatsapp",
+        "order-id",
+        "request"
+      ],
+      "favorite": false,
+      "usageCount": 243,
+      "createdAt": "2024-07-27T12:00:00Z",
+      "updatedAt": "2024-07-30T12:00:00Z"
+    },
+    {
+      "id": "resp-187",
+      "title": "Vendor Onboarding Welcome",
+      "category": "Vendor & Multi-branch",
+      "subcategory": "Vendor Onboarding",
+      "translations": {
+        "en": "Hi {vendor_name}, welcome to {store_name} as a vendor partner! Your onboarding is complete. Add your first product and start selling. Our team is here if you need help.",
+        "hi": "नमस्ते {vendor_name}, {store_name} वेंडर पार्टनर के रूप में स्वागत! ऑनबोर्डिंग पूरी। पहला प्रोडक्ट जोड़कर बिक्री शुरू करें। मदद चाहिए तो बताएँ।",
+        "hng": "Vendor partner ke roop mein swagat! Onboarding done. Pehla product add karke selling start karo.",
+        "bn": "ভেন্ডর পার্টনার হিসেবে স্বাগত! অনবোর্ডিং সম্পূর্ণ।"
+      },
+      "tags": [
+        "vendor",
+        "onboarding",
+        "welcome"
+      ],
+      "favorite": false,
+      "usageCount": 176,
+      "createdAt": "2024-07-26T12:00:00Z",
+      "updatedAt": "2024-07-31T12:00:00Z"
+    },
+    {
+      "id": "resp-188",
+      "title": "Vendor KYC Required",
+      "category": "Vendor & Multi-branch",
+      "subcategory": "Vendor Onboarding",
+      "translations": {
+        "en": "Hi {vendor_name}, to activate payouts, please complete KYC:\n• GST certificate\n• Bank account details\n• PAN card\nUpload at: {kyc_link}. Activation within 48 hours of submission.",
+        "hi": "नमस्ते {vendor_name}, पेआउट एक्टिवेट करने के लिए KYC:\n• GST प्रमाणपत्र\n• बैंक खाता\n• PAN कार्ड\nअपलोड: {kyc_link}। 48 घंटों में एक्टिव।",
+        "hng": "Payout activate ke liye KYC: GST, bank, PAN. Upload: {kyc_link}. 48 ghante mein active.",
+        "bn": "পেআউটের জন্য KYC: GST, ব্যাংক, PAN। আপলোড: {kyc_link}।"
+      },
+      "tags": [
+        "vendor",
+        "kyc",
+        "required"
+      ],
+      "favorite": true,
+      "usageCount": 177,
+      "createdAt": "2024-07-26T12:00:00Z",
+      "updatedAt": "2024-07-28T12:00:00Z"
+    },
+    {
+      "id": "resp-189",
+      "title": "Vendor KYC Approved",
+      "category": "Vendor & Multi-branch",
+      "subcategory": "Vendor Onboarding",
+      "translations": {
+        "en": "Hi {vendor_name}, your KYC is approved! ✅ Payouts are now active. First payout for your sales will be processed on {payout_date}. Happy selling!",
+        "hi": "नमस्ते {vendor_name}, KYC मंज़ूर! ✅ पेआउट एक्टिव। पहला पेआउट {payout_date} को। बिक्री शुभकामना!",
+        "hng": "KYC approved! ✅ Payouts active. First payout {payout_date} ko.",
+        "bn": "KYC অনুমোদিত! ✅ পেআউট অ্যাকটিভ।"
+      },
+      "tags": [
+        "vendor",
+        "kyc",
+        "approved"
+      ],
+      "favorite": false,
+      "usageCount": 206,
+      "createdAt": "2024-09-05T12:00:00Z",
+      "updatedAt": "2024-09-10T12:00:00Z"
+    },
+    {
+      "id": "resp-190",
+      "title": "New Branch Setup",
+      "category": "Vendor & Multi-branch",
+      "subcategory": "Branch Management",
+      "translations": {
+        "en": "Hi {vendor_name}, to add a new branch, go to Settings → Branches → Add New. Enter branch name, address, and inventory. Each branch manages its own orders and stock separately.",
+        "hi": "नमस्ते {vendor_name}, नई ब्रांच के लिए Settings → Branches → Add New। नाम, पता, इन्वेंटरी डालें। हर ब्रांच अपने ऑर्डर और स्टॉक स्वतंत्र रूप से संभालती।",
+        "hng": "New branch: Settings → Branches → Add New. Name, address, inventory. Har branch alag.",
+        "bn": "নতুন ব্রাঞ্চ: Settings → Branches → Add New।"
+      },
+      "tags": [
+        "vendor",
+        "branch",
+        "setup"
+      ],
+      "favorite": false,
+      "usageCount": 102,
+      "createdAt": "2024-09-09T12:00:00Z",
+      "updatedAt": "2024-09-09T12:00:00Z"
+    },
+    {
+      "id": "resp-191",
+      "title": "Branch Order Rerouted",
+      "category": "Vendor & Multi-branch",
+      "subcategory": "Branch Management",
+      "translations": {
+        "en": "Hi {customer_name}, due to stock availability, your order #{order_id} is being fulfilled by our {branch_name} branch instead. Delivery timeline remains the same. Tracking: {tracking_link}",
+        "hi": "नमस्ते {customer_name}, स्टॉक के कारण ऑर्डर #{order_id} हमारी {branch_name} ब्रांच से जा रहा। डिलीवरी समय वही। ट्रैक: {tracking_link}",
+        "hng": "Order #{order_id} {branch_name} branch se. Delivery same. Track: {tracking_link}",
+        "bn": "অর্ডার #{order_id} {branch_name} ব্রাঞ্চ থেকে।"
+      },
+      "tags": [
+        "vendor",
+        "branch",
+        "rerouted"
+      ],
+      "favorite": false,
+      "usageCount": 125,
+      "createdAt": "2024-07-23T12:00:00Z",
+      "updatedAt": "2024-07-24T12:00:00Z"
+    },
+    {
+      "id": "resp-192",
+      "title": "Branch Inventory Sync",
+      "category": "Vendor & Multi-branch",
+      "subcategory": "Branch Management",
+      "translations": {
+        "en": "Hi {vendor_name}, your branch {branch_name} inventory is now synced with the main dashboard. Stock updates will reflect in real time across all branches.",
+        "hi": "नमस्ते {vendor_name}, ब्रांच {branch_name} की इन्वेंटरी मुख्य डैशबोर्ड से सिंक हो गई। स्टॉक अपडेट रियल-टाइम में सभी ब्रांच में दिखेंगे।",
+        "hng": "Branch {branch_name} inventory synced. Real-time stock updates.",
+        "bn": "ব্রাঞ্চ {branch_name} ইনভেন্টরি সিঙ্কড।"
+      },
+      "tags": [
+        "vendor",
+        "branch",
+        "sync"
+      ],
+      "favorite": false,
+      "usageCount": 214,
+      "createdAt": "2024-09-03T12:00:00Z",
+      "updatedAt": "2024-09-06T12:00:00Z"
+    },
+    {
+      "id": "resp-193",
+      "title": "Payout Processed",
+      "category": "Vendor & Multi-branch",
+      "subcategory": "Payout & Settlement",
+      "translations": {
+        "en": "Hi {vendor_name}, your payout of ₹{amount} for sales between {period_start} and {period_end} has been processed to your bank account {bank_last_4}. Expected credit: {credit_date}.",
+        "hi": "नमस्ते {vendor_name}, {period_start}–{period_end} की बिक्री का ₹{amount} पेआउट बैंक {bank_last_4} में प्रोसेस। क्रेडिट: {credit_date}।",
+        "hng": "Payout ₹{amount} process hua bank {bank_last_4} mein. Credit: {credit_date}.",
+        "bn": "পেআউট ₹{amount} ব্যাংকে প্রসেস। ক্রেডিট: {credit_date}।"
+      },
+      "tags": [
+        "vendor",
+        "payout",
+        "processed"
+      ],
+      "favorite": true,
+      "usageCount": 206,
+      "createdAt": "2024-08-24T12:00:00Z",
+      "updatedAt": "2024-08-25T12:00:00Z"
+    },
+    {
+      "id": "resp-194",
+      "title": "Payout Delayed",
+      "category": "Vendor & Multi-branch",
+      "subcategory": "Payout & Settlement",
+      "translations": {
+        "en": "Hi {vendor_name}, your payout of ₹{amount} is delayed due to {delay_reason}. New expected date: {new_date}. We apologize for the inconvenience.",
+        "hi": "नमस्ते {vendor_name}, ₹{amount} पेआउट {delay_reason} के कारण देरी से। नया दिन: {new_date}। असुविधा के लिए क्षमा।",
+        "hng": "Payout ₹{amount} delay, reason: {delay_reason}. New date: {new_date}.",
+        "bn": "পেআউট দেরি, কারণ: {delay_reason}।"
+      },
+      "tags": [
+        "vendor",
+        "payout",
+        "delayed"
+      ],
+      "favorite": false,
+      "usageCount": 11,
+      "createdAt": "2024-09-01T12:00:00Z",
+      "updatedAt": "2024-09-06T12:00:00Z"
+    },
+    {
+      "id": "resp-195",
+      "title": "Payout Statement",
+      "category": "Vendor & Multi-branch",
+      "subcategory": "Payout & Settlement",
+      "translations": {
+        "en": "Hi {vendor_name}, your payout statement for {month} is ready. Total sales: ₹{total_sales}. Commission: ₹{commission}. Net payout: ₹{net_payout}. Download: {statement_link}",
+        "hi": "नमस्ते {vendor_name}, {month} का पेआउट स्टेटमेंट तैयार। कुल बिक्री: ₹{total_sales}। कमीशन: ₹{commission}। नेट पेआउट: ₹{net_payout}। डाउनलोड: {statement_link}",
+        "hng": "{month} payout statement ready. Sales ₹{total_sales}, commission ₹{commission}, net ₹{net_payout}.",
+        "bn": "{month} পেআউট স্টেটমেন্ট। মোট বিক্রি ₹{total_sales}।"
+      },
+      "tags": [
+        "vendor",
+        "payout",
+        "statement"
+      ],
+      "favorite": false,
+      "usageCount": 107,
+      "createdAt": "2024-09-03T12:00:00Z",
+      "updatedAt": "2024-09-05T12:00:00Z"
+    },
+    {
+      "id": "resp-196",
+      "title": "Order Modification Request",
+      "category": "Orders & Delivery",
+      "subcategory": "Order Status",
+      "translations": {
+        "en": "Hi {customer_name}, I can help modify order #{order_id}. Please share what you'd like to change (address, items, quantity). Note: modifications are only possible before dispatch.",
+        "hi": "नमस्ते {customer_name}, ऑर्डर #{order_id} में बदलाव मदद करूँगा। बताएँ क्या बदलना है (पता, आइटम, क्वांटिटी)। डिस्पैच से पहले ही संभव।",
+        "hng": "Order #{order_id} mein change madad karunga. Kya badalna hai batao. Dispatch se pehle hi possible.",
+        "bn": "অর্ডার #{order_id} পরিবর্তন। ডিসপ্যাচের আগেই সম্ভব।"
+      },
+      "tags": [
+        "order",
+        "modification",
+        "request"
+      ],
+      "favorite": false,
+      "usageCount": 226,
+      "createdAt": "2024-08-29T12:00:00Z",
+      "updatedAt": "2024-08-29T12:00:00Z"
+    },
+    {
+      "id": "resp-197",
+      "title": "Order Cancellation Confirmation",
+      "category": "Orders & Delivery",
+      "subcategory": "Order Status",
+      "translations": {
+        "en": "Hi {customer_name}, order #{order_id} has been successfully cancelled. Refund of ₹{amount} (if prepaid) will be processed within {refund_days} business days to your original payment method.",
+        "hi": "नमस्ते {customer_name}, ऑर्डर #{order_id} कैंसिल हो गया। रिफंड ₹{amount} (प्रीपेड हो तो) {refund_days} दिनों में।",
+        "hng": "Order #{order_id} cancel ho gaya. Refund ₹{amount} {refund_days} din mein.",
+        "bn": "অর্ডার #{order_id} বাতিল। রিফান্ড {refund_days} দিনে।"
+      },
+      "tags": [
+        "order",
+        "cancellation",
+        "confirmation"
+      ],
+      "favorite": false,
+      "usageCount": 76,
+      "createdAt": "2024-07-28T12:00:00Z",
+      "updatedAt": "2024-07-30T12:00:00Z"
+    },
+    {
+      "id": "resp-198",
+      "title": "Delivery Agent Contact",
+      "category": "Orders & Delivery",
+      "subcategory": "Out for Delivery",
+      "translations": {
+        "en": "Hi {customer_name}, your delivery agent for order #{order_id} is {agent_name}. Phone: {agent_phone}. You can call them directly if you need to coordinate the delivery.",
+        "hi": "नमस्ते {customer_name}, ऑर्डर #{order_id} का डिलीवरी एजेंट {agent_name}। फोन: {agent_phone}। सीधे संपर्क कर सकते हैं।",
+        "hng": "Delivery agent {agent_name}. Phone: {agent_phone}. Directly call kar sakte ho.",
+        "bn": "ডেলিভারি এজেন্ট {agent_name}। ফোন: {agent_phone}।"
+      },
+      "tags": [
+        "delivery",
+        "agent",
+        "contact"
+      ],
+      "favorite": false,
+      "usageCount": 135,
+      "createdAt": "2024-08-05T12:00:00Z",
+      "updatedAt": "2024-08-08T12:00:00Z"
+    },
+    {
+      "id": "resp-199",
+      "title": "Payment Confirmation",
+      "category": "Payments & Billing",
+      "subcategory": "Payment Failed",
+      "translations": {
+        "en": "Hi {customer_name}, we've received ₹{amount} for order #{order_id} via {payment_method}. Transaction ID: {txn_id}. Thank you for your payment!",
+        "hi": "नमस्ते {customer_name}, ऑर्डर #{order_id} के लिए ₹{amount} प्राप्त ({payment_method})। ट्रांज़ैक्शन ID: {txn_id}। धन्यवाद!",
+        "hng": "₹{amount} mil gaya order #{order_id} ke liye ({payment_method}). Txn ID: {txn_id}.",
+        "bn": "₹{amount} পেয়েছি অর্ডার #{order_id}-এর জন্য। Txn ID: {txn_id}।"
+      },
+      "tags": [
+        "payment",
+        "confirmation",
+        "received"
+      ],
+      "favorite": false,
+      "usageCount": 220,
+      "createdAt": "2024-08-03T12:00:00Z",
+      "updatedAt": "2024-08-07T12:00:00Z"
+    },
+    {
+      "id": "resp-200",
+      "title": "Customer Appreciation",
+      "category": "Customer Support",
+      "subcategory": "Satisfaction Check",
+      "translations": {
+        "en": "Hi {customer_name}, we just wanted to take a moment to thank you for being a loyal {store_name} customer. Customers like you make our work meaningful. Here's a small token of gratitude: {appreciation_offer}",
+        "hi": "नमस्ते {customer_name}, {store_name} के वफ़ादार ग्राहक होने के लिए धन्यवाद। आप जैसे ग्राहक हमें प्रेरित करते हैं। छोटा तोहफ़ा: {appreciation_offer}",
+        "hng": "Loyal customer hone ke liye dhanyawad. Aap jaise customer inspire karte hain. Tohfa: {appreciation_offer}",
+        "bn": "বিশ্বস্ত গ্রাহক হওয়ার জন্য ধন্যবাদ। উপহার: {appreciation_offer}"
+      },
+      "tags": [
+        "appreciation",
+        "loyalty",
+        "customer"
+      ],
+      "favorite": false,
+      "usageCount": 245,
+      "createdAt": "2024-08-25T12:00:00Z",
+      "updatedAt": "2024-08-25T12:00:00Z"
+    },
+    {
+      "id": "resp-201",
+      "title": "Service Outage Notice",
+      "category": "Customer Support",
+      "subcategory": "FAQ Answers",
+      "translations": {
+        "en": "Hi {customer_name}, we're experiencing a temporary service disruption affecting {affected_service}. Our team is working on it and we expect to be back by {restore_time}. Sorry for the inconvenience!",
+        "hi": "नमस्ते {customer_name}, {affected_service} में अस्थायी बाधा। टीम काम कर रही, {restore_time} तक ठीक। असुविधा के लिए क्षमा!",
+        "hng": "{affected_service} mein temporary issue. Team kaam kar rahi, {restore_time} tak theek.",
+        "bn": "{affected_service}-এ সাময়িক সমস্যা। {restore_time}-এ ঠিক হবে।"
+      },
+      "tags": [
+        "service",
+        "outage",
+        "notice"
+      ],
+      "favorite": false,
+      "usageCount": 229,
+      "createdAt": "2024-09-08T12:00:00Z",
+      "updatedAt": "2024-09-10T12:00:00Z"
+    }
+  ]
+}
